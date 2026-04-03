@@ -2139,6 +2139,16 @@ categories:
         description: |
           Open-source self-hosted VPN and firewall built on WireGuard®.
 
+      - name: amneziawg-installer
+        url: https://github.com/bivlked/amneziawg-installer
+        github: bivlked/amneziawg-installer
+        icon: https://avatars.githubusercontent.com/u/50226185
+        openSource: true
+        description: |
+          One-command installer for self-hosted AmneziaWG 2.0 VPN on Ubuntu and Debian servers.
+          Uses protocol mimicry to bypass DPI censorship. Includes client management, QR codes,
+          and resume-after-reboot. CLI-only, requires a dedicated server.
+
     ####################################
     ###### Anonymity/Mix networks ######
     ####################################
