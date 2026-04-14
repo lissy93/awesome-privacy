@@ -4311,6 +4311,16 @@ categories:
         description: |
           Kernel-level, OS-level, and client-level security for macOS. With a Firewall, Blackhole, and Privatizing Proxy for Trackers, Attackers, Malware, Adware, and Spammers; with On-Demand and On-Access Anti-Virus Scanning.
 
+      - name: MirrorMask
+        url: https://mirrormask.app
+        icon: https://mirrormask.app/favicon.ico
+        openSource: false
+        description: |
+          macOS app that reshapes your algorithmic profile across Google, YouTube,
+          Facebook and Reddit by automating realistic browsing under configurable
+          personas. Makes ad-targeting data less accurate without blocking.
+          Closed-source.
+
 
     ##########################
     ###### Anti-Malware ######
