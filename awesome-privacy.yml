@@ -5045,6 +5045,14 @@ categories:
           video. It's the industry standard multimedia framework, handling a vast range
           of formats. As a command-line tool, it guarantees that all processing is done
           locally on your machine.
+      - name: Convert.rocks
+        url: https://www.convert.rocks
+        icon: https://www.convert.rocks/assets/apple-touch-icon.png
+        description: |
+          A privacy-first online file converter that processes everything directly in
+          the browser using WebAssembly and Canvas API. No files are ever uploaded to
+          any server — all conversion happens locally on your device. Supports HEIC,
+          WebP, AVIF, and PNG image formats. No signup, no tracking, no ads.
 
   - name: Creativity
     sections:
