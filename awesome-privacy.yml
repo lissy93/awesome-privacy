@@ -4742,6 +4742,18 @@ categories:
         github: actualbudget/actual
         openSource: true
 
+      - name: FreeFile ITR
+        url: https://github.com/rohitthink/freefile
+        description: |
+          Free, privacy-first income tax return filing app for Indian freelancers.
+          Imports bank statements from major Indian banks (HDFC, SBI, ICICI, Axis, Kotak),
+          computes tax under both old and new regimes, supports ITR-3 and ITR-4 (44ADA),
+          and can file directly on incometax.gov.in. All financial data stays on the
+          user's device — no accounts, no telemetry, no tracking.
+        github: rohitthink/freefile
+        openSource: true
+        license: AGPL-3.0
+
       notableMentions: |
         Spreadsheets remain a popular choice for managing budgets and financial planning.
         [Collabora](https://nextcloud.com/collaboraonline) or
