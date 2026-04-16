@@ -4477,7 +4477,7 @@ TikTok, and more.*
 	- <details>
 		<summary>Stats</summary>
 
-		[![GitHub: kdenlive/kdenlive](https://img.shields.io/github/stars/kdenlive/kdenlive?style=flat&logo=github&label=kdenlive&color=%235f53f4&cacheSeconds=3600)](https://github.com/kdenlive/kdenlive) [![Kdenlive on Awesome Privacy](https://img.shields.io/badge/View%20Report-FC60A8?style=flat&logo=awesomelists&label=Kdenlive)](https://awesome-privacy.xyz/creativity/video-editors/kdenlive) [![Open Source](https://img.shields.io/badge/-Open_Source-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/kdenlive/kdenlive)ㅤ 
+		[![GitHub: kdenlive/kdenlive](https://img.shields.io/github/stars/KDE/kdenlive?style=flat&logo=github&label=kdenlive&color=%235f53f4&cacheSeconds=3600)](https://github.com/KDE/kdenlive) [![Kdenlive on Awesome Privacy](https://img.shields.io/badge/View%20Report-FC60A8?style=flat&logo=awesomelists&label=Kdenlive)](https://awesome-privacy.xyz/creativity/video-editors/kdenlive) [![Open Source](https://img.shields.io/badge/-Open_Source-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/KDE/kdenlive)ㅤ 
 
 		</details>
 - **[<img src='https://i.ibb.co/WkBKN6r/flowblade.png' width='16' height='16' alt='icon' /> FlowBlade](https://jliljebl.github.io/flowblade)** - A multitrack non-linear video editor with a simple interface 
