@@ -1195,6 +1195,16 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: VirtualSMS
+        url: https://virtualsms.io
+        icon: https://virtualsms.io/favicon.svg
+        github: virtualsms-io
+        acceptsCrypto: true
+        description: |
+          SMS verification using real physical SIM cards from carriers in 100+ countries.
+          One-time activations and number rentals. No account data required, accepts
+          cryptocurrency (BTC, ETH, USDT, XMR). API available for developers.
+
     ################################
     ###### Team Collaboration ######
     ################################
