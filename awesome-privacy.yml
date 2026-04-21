@@ -1924,6 +1924,40 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: SnitchTest
+          url: https://snitchtest.com
+          icon: https://snitchtest.com/favicon.svg
+          description: |
+            Forensic browser audit that runs 18 client-side tests for WebRTC local-IP leaks, canvas/audio/WebGL fingerprint
+            hashes, TLS JA3/JA4 signature, installed fonts, timezone/language mismatch, and hardware fingerprint details.
+            Results are color-coded (red/amber/green) with a plain-English gloss of each leak. Nothing is logged server-side.
+
+        - name: Pi-Hole Killer
+          url: https://piholekiller.com
+          icon: https://piholekiller.com/favicon.svg
+          description: |
+            Adversarial ad-blocker test. Fires 103 real ad-network, tracker, fingerprinter, pop-under, DoH-bypass, and
+            malware-domain requests across 3 difficulty tiers and scores which ones your Pi-Hole, uBlock, AdGuard, NextDNS,
+            or VPN actually caught. Scored across 6 pillars; runs entirely in-browser and nothing is logged server-side.
+
+        - name: AdBloat
+          url: https://adbloat.com
+          icon: https://adbloat.com/favicon.svg
+          description: |
+            Ad-tech overhead benchmark. Loads 46 real tracker endpoints in a sandboxed iframe and measures bytes
+            transferred, unique hostnames contacted, and TLS handshakes completed despite whatever defenses you have.
+            Composite A-F letter grade is computed against a naked-Chromium baseline (60% bytes + 25% handshakes +
+            15% payload). Client-side only.
+
+        - name: Y2KDASH
+          url: https://y2kdash.com
+          icon: https://y2kdash.com/favicon.svg
+          description: |
+            Ambient continuous-monitoring speed test. Samples download, upload, idle latency, loaded latency, jitter,
+            packet loss, bufferbloat, and protocol efficiency against Cloudflare's public endpoints every 60 seconds
+            and plots results on rolling time-series charts. Designed to run on a second monitor as an always-on
+            network dashboard rather than a triggered one-shot test.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
