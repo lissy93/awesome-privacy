@@ -649,6 +649,17 @@ categories:
           to integrates with existing 3rd party IDs to authenticate and discover users, as
           well as to build apps on top of it.
 
+      - name: Voidly Messenger
+        url: https://msg.voidly.ai
+        icon: https://msg.voidly.ai/icon-192.png
+        openSource: true
+        github: voidly-ai/voidly-messenger
+        description: |
+          Browser-based E2E encrypted messaging PWA (no install). Signal Protocol
+          (Double Ratchet + X3DH) with ML-KEM-768 post-quantum hybrid key exchange,
+          deniable auth, sealed sender, padding and a metadata-stripping relay. All
+          crypto is client-side. Smaller user base and no third-party audit yet.
+
       notableMentions:
         - name: Chat Secure
           url: https://chatsecure.org
