@@ -1924,6 +1924,14 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: HackMyIP
+          url: https://hackmyip.com
+          icon: https://hackmyip.com/favicon.ico
+          description: |
+            Free online privacy and network security toolkit. Includes IP lookup, DNS/WebRTC leak tests,
+            browser fingerprinting, port scanning, email breach detection, password strength checker, and more.
+            No registration required.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
