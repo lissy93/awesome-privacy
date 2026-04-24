@@ -1924,6 +1924,19 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+         - name: Threat Model Builder
+        url: https://predaxia.com/threat-model-builder/
+        icon: https://predaxia.com/wp-content/uploads/2026/04/cropped-android-chrome-512x512-1-32x32.png
+        github: Predaxia/threat-model-builder
+        openSource: true
+        description: |
+          Interactive threat model assessment for civilians. 7 profiles (journalist,
+          lawyer, NGO, military family, divorce, travel, anyone), personalized scoring,
+          and actionable recommendations. Runs entirely in the browser with zero data
+          collection. Single HTML file, no dependencies.
+
+
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
