@@ -1035,6 +1035,15 @@ categories:
           If you already have ProtonMail's Professional (€8/month) or Visionary (€30/month) package,
           then an implementation of this feature is available via the Catch-All Email feature.
 
+      - name: Maskmail
+        url: https://maskmail.io
+        icon: https://maskmail.io/favicon/apple-touch-icon.png
+        openSource: false
+        description: |
+          Privacy-first email mask service. Create a unique mask per signup, forward what matters
+          to your real inbox, and disable any abused mask instantly. Supports custom domains,
+          anonymous replies, and a browser extension. Hosted only (closed source).
+
     ##################################
     ###### Mail Security Tools ######
     #################################
