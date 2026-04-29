@@ -1924,6 +1924,15 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: qrbake
+          url: https://qrbake.com
+          icon: https://qrbake.com/favicon.svg
+          description: |
+            Free QR code generator that runs entirely in your browser. Codes for URLs, Wi-Fi credentials,
+            vCards, email, SMS, locations, and social profiles are generated client-side, so the encoded
+            data never leaves your device — unlike many QR generators that upload the content to a remote
+            server. Includes visual customization, a CSV-to-ZIP bulk generator, and an image reader.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
