@@ -58,13 +58,13 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Router Firmware](#router-firmware) (2)
 	- [Network Analysis](#network-analysis) (3)
 	- [Intrusion Detection](#intrusion-detection) (5)
-	- [Cloud Hosting](#cloud-hosting) (3)
+	- [Cloud Hosting](#cloud-hosting) (4)
 	- [Domain Registrars](#domain-registrars) (2)
 	- [DNS Hosting](#dns-hosting) (1)
 	- [Mail Servers](#mail-servers) (3)
 - **Productivity**
-	- [Digital Notes](#digital-notes) (9)
-	- [Calendar](#calendar) (2)
+	- [Digital Notes](#digital-notes) (8)
+	- [Calendar](#calendar) (3)
 	- [Task Management](#task-management) (1)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
@@ -964,6 +964,7 @@ important.
 - **[<img src='https://njal.la/favicon.ico' width='14' alt='' /> Njalla](https://njal.la)** - Njalla is a privacy and security-focused domain registrar and VPN hosting provider. They own and manage all their own servers, which are based in Sweden. They accept crypto, for anonymous payments, an[…](https://awesome-privacy.xyz/networking/cloud-hosting/njalla "View full Njalla report") 
 - **[<img src='https://icon.horse/icon/www.privatelayer.com' width='14' alt='' /> Private Layer](https://www.privatelayer.com)** - Offers enterprise-grade, high-speed offshore dedicated servers, they own their own data centres, have a solid privacy policy and accept anonymous payment. 
 - **[<img src='https://icon.horse/icon/servers.guru' width='14' alt='' /> Servers Guru](https://servers.guru)** - Servers Guru provides affordable and anonymous VPS and cloud servers with dedicated cpu resources. They accept crypto-currencies (Bitcoin, Monero, Ethereum etc..) and don't require any personal inform[…](https://awesome-privacy.xyz/networking/cloud-hosting/servers-guru "View full Servers Guru report") 
+- **[<img src='https://getbunker.net/images/en/svg/logo.svg' width='14' alt='' /> Bunker](https://getbunker.net)** - Sovereign open-source cloud platform (SSPL-1.0) hosted entirely in France. Offers managed hosting of open-source apps (Grafana, Matomo, Vaultwarden, etc.) and S3-compatible object storage. GDPR-native[…](https://awesome-privacy.xyz/networking/cloud-hosting/bunker "View full Bunker report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -1038,7 +1039,6 @@ be time consuming to setup and maintain and securing it correctly is critical
 - **[<img src='https://joplinapp.org/images/favicon.png' width='14' alt='' /> Joplin](https://joplinapp.org)** - Cross-platform desktop and mobile note-taking and todo app. Easy organisation into notebooks and sections, revision history and a simple UI. Allows for easy import and export of notes to or from other[…](https://awesome-privacy.xyz/productivity/digital-notes/joplin "View full Joplin report") 
 - **[<img src='https://logseq.com/logo-with-border.a30e7bd0.png' width='14' alt='' /> Logseq](https://logseq.com/)** - Privacy-first, open-source knowledge base that works on top of local plain-text Markdown and Org-mode files. Supports lots of different note modes, including task management, PDF annotation, flashcard[…](https://awesome-privacy.xyz/productivity/digital-notes/logseq "View full Logseq report") 
 - **[<img src='https://obsidian.md/favicon.svg' width='14' alt='' /> Obsidian](https://obsidian.md/)** - A powerful knowledge base that works on top of local plain-text Markdown files. It has a strong community, and a lot of plugins and themes. Generally privacy-respecting, but no encryption out of the b[…](https://awesome-privacy.xyz/productivity/digital-notes/obsidian "View full Obsidian report") 
-- **[<img src='https://icon.horse/icon/affine.pro' width='14' alt='' /> AFFiNE](https://affine.pro)** - Privacy first, open-source alternative to Notion, monday.com and Miro. It is a knowledge management tool that allows you to create, organize and share your knowledge. 
 - **[<img src='https://raw.githubusercontent.com/cryptee/web-client/v3/source/assets/logo-b.svg' width='14' alt='' /> Cryptee](https://crypt.ee/)** - Private & encrypted rich-text documents. Cryptee has encryption and anonymity at its core, it also has a beautiful and minimalistic UI. You can use Cryptee from the browser, or download native apps. C[…](https://awesome-privacy.xyz/productivity/digital-notes/cryptee "View full Cryptee report") 
 - **[<img src='https://icon.horse/icon/app.vnote.fun' width='14' alt='' /> VNote](https://app.vnote.fun/en_us/)** - A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown editing experience. It manages notes directly as plain text files on your local system. 
 
@@ -1069,6 +1069,7 @@ be time consuming to setup and maintain and securing it correctly is critical
 
 - **[<img src='https://calendar.proton.me/assets/android-chrome-256x256.png' width='14' alt='' /> Proton Calendar](https://proton.me/calendar)** - The calendar app from the Proton suite. End-to-end encrypted. Supports ICS (not encrypted), colours, recurring events, mail integration, notifications and multiple time zones. 
 - **[<img src='https://raw.githubusercontent.com/nextcloud/calendar/refs/heads/main/img/favicon.png' width='14' alt='' /> Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar)** - Calendar app for the self-hosted Nextcloud platform. Uses CalDAV for sync across devices. No E2E encryption support. 
+- **[<img src='https://raw.githubusercontent.com/FossifyOrg/Calendar/refs/heads/main/graphics/icon.webp' width='14' alt='' /> Fossify Calendar](https://www.fossify.org/)** - Fossify Calendar from the family of forked FOSS apps from the discontinued SimpleMobileTools. Simple, customizable, includes widgets. Note that CalDAV support is currently limited (see [#921](https://github.com/FossifyOrg/Calendar/issues/921)[…](https://awesome-privacy.xyz/productivity/calendar/fossify-calendar "View full Fossify Calendar report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
