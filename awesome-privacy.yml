@@ -3409,6 +3409,15 @@ categories:
           hosted on an interim server. The host needs to remain connected for the duration of the transfer, but once it is complete,
           the process will be terminated.
 
+
+      - name: FastDDL
+        url: https://fastddl.com
+        description: |
+          Temporary encrypted file sharing with radical transparency. Files are AES-256-GCM encrypted before storage on Cloudflare R2
+          and auto-deleted after 24 hours. No registration required. Unique feature: publicly displays the full browser fingerprint
+          and connection metadata of uploaders and downloaders — 62 data points including IP, ISP, GPU, audio fingerprint, and
+          VPN detection — promoting user awareness of digital exposure.
+
       notableMentions: |
         [Instant.io](https://github.com/webtorrent/instant.io), is another peer-to-peer based solution,
         using [Web Torrent](https://webtorrent.io).
