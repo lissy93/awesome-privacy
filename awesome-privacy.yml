@@ -4915,6 +4915,15 @@ categories:
         url: https://github.com/redlib-org/redlib
         followWith: Reddit
 
+      - name: InstaPV
+        description: |
+          An anonymous, no-login front-end for browsing public Instagram content - including stories,
+          posts, reels, highlights and recent-followed timelines - without exposing your own Meta
+          identity to the target profile. No password or account is required, and viewing leaves
+          no trace on the watched account.
+        url: https://www.instapv.ai/
+        followWith: Instagram
+
       notableMentions:
       - name: NewPipe
         url: https://newpipe.schabi.org
