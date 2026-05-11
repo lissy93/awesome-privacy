@@ -4715,6 +4715,14 @@ categories:
         should be able to choose with whom you share what, and that is what the
         following sites aim to do.
       services:
+      - name: A/SIDE
+        url: https://a-side.social
+        openSource: false
+        description: >-
+          Invitation-only private social network with end-to-end encryption using the
+          Signal Protocol. Strictly chronological feed — no algorithm, no ads, and no
+          AI training on user content. iOS and Android.
+    
       - name: Discourse
         description: |
           A fully open-source, self-hostable discussion platform usable as a mailing list,
