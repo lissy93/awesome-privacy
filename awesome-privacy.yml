@@ -385,6 +385,15 @@ categories:
           Windows-only, open source, file and volume encryption solution,
           that makes a good alternative to BitLocker.
 
+      - name: UltraLocked
+        url: https://ultralocked.com
+        openSource: false
+        description: >-
+          iPhone file vault with Secure Enclave-backed encryption and per-file Perfect
+          Forward Secrecy. Includes duress mode with decoy vault, dead man's switch,
+          and self-destruct timers. Fully offline — no account, no cloud sync, no
+          telemetry. Published security whitepaper.
+
     ######################
     ###### Browsers ######
     ######################
