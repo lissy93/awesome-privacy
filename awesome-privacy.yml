@@ -3058,6 +3058,17 @@ categories:
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
 
+      - name: Dakera
+        url: https://dakera.ai
+        github: dakera-ai/dakera
+        openSource: true
+        followWith: Docker, Linux, MacOS
+        description: |
+          A self-hosted, privacy-preserving agent memory server for AI workflows. All data is stored
+          locally using RocksDB — no data is sent to the cloud. Provides hybrid semantic search,
+          persistent long-term memory for LLM agents, and an MCP-compatible API. Deploy via
+          Docker Compose with zero external dependencies.
+
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
