@@ -657,9 +657,10 @@ categories:
   iosApp: https://apps.apple.com/us/app/bchat-messenger/id1626066143
   androidApp: https://play.google.com/store/apps/details?id=io.beldex.bchat&hl=en_AU
   description: |
-       BChat is a privacy messaging app built on the Beldex blockchain that does not require personal identifiers, such as phone numbers or email addresses. 
-       It leverages onion routing and end-to-end encryption to ensure that user communications remain secure, private, and anonymous. 
-       By using a decentralised masternode architecture, it eliminates the need for a central authority, giving users full control over their data.
+       BChat is a privacy messaging app built on the Beldex blockchain that does not require personal identifiers,
+       such as phone numbers or email addresses. It leverages onion routing and end-to-end encryption to ensure that
+       user communications remain secure, private, and anonymous. By using a decentralised masternode architecture, it 
+       eliminates the need for a central authority, giving users full control over their data.
        
       notableMentions:
         - name: Chat Secure
