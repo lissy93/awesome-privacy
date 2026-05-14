@@ -3719,6 +3719,15 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: ConvertUnlimited
+        url: https://convertunlimited.com
+        github: dunkin-novice/convertunlimited.com
+        icon: https://www.convertunlimited.com/favicon.svg
+        description: |
+          Privacy-first browser-native file conversion and metadata removal tools. Files are processed entirely locally
+          using your browser's APIs (Canvas, WASM), meaning nothing is ever uploaded to a server.
+
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
