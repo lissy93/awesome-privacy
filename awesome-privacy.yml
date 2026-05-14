@@ -1923,6 +1923,14 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
+        - name: InspectFiles
+          url: https://inspectfiles.com/
+          icon: https://inspectfiles.com/favicon.svg
+          description: |
+            A browser-based toolbox for inspecting and cleaning files locally
+            without uploads. Computes hashes (MD5/SHA-256/etc.), strips EXIF
+            and other metadata, identifies real file types by magic bytes,
+            finds duplicates and sanitizes filenames.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
