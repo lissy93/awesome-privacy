@@ -574,6 +574,7 @@ A selection of free online tools and utilities, to check, test and protect your 
 - **[<img src='https://10minemail.com/blog/content/images/size/w256h256/2021/05/10min_mobile_icon@2x.png' width='14' alt='' /> 10 Minute Mail](https://10minemail.com/)** - Generates temporary disposable email address, to avoid giving your real details. 
 - **[<img src='https://mxtoolbox.com/favicon.ico' width='14' alt='' /> MXToolBox Mail Headers](https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx)** - Tool for analyzing email headers, useful for checking the authenticity of messages, as well as knowing what info you are revealing in your outbound messages. 
 - **[<img src='https://static.netcraft.com/images/favicon.ico' width='14' alt='' /> Site Report](https://sitereport.netcraft.com/)** - A tool from Netcraft, for analysing what any given website is running, where it's located and information about its host, registrar, IP and SSL certificates. 
+- **[<img src='https://inspectfiles.com/favicon.svg' width='14' alt='' /> InspectFiles](https://inspectfiles.com/)** - A browser-based toolbox for inspecting and cleaning files locally without uploads, with tools to compute hashes (MD5/SHA-256/etc.), strip EXIF and other metadata, identify real file types by magic bytes, find duplicates and sanitize filenames.
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
