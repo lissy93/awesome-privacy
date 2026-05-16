@@ -404,6 +404,19 @@ categories:
           defaults are guided by research like the
           [Arkenfox project](https://github.com/arkenfox/user.js/).
 
+      - name: firefox-stealth
+        url: https://github.com/feder-cr/firefox-stealth
+        icon: https://www.mozilla.org/media/protocol/img/logos/firefox/logo.fedb52c912d6.svg
+        github: feder-cr/firefox-stealth
+        openSource: true
+        description: |
+          C++ source patches against mozilla-central that harden Firefox against
+          browser fingerprinting at the source level (Canvas, WebGL, AudioContext,
+          Fonts, WebRTC, Timezone, DevTools detection). MPL-2.0. Distributed as
+          patches you apply with `git am`, or as a pre-built binary on the release
+          page. Different angle from LibreWolf, which ships a configured Firefox
+          fork - firefox-stealth changes the engine itself.
+
       - name: Brave Browser
         url: https://brave.com
         icon: https://brave.com/static-assets/images/brave-logo-sans-text.svg
