@@ -1308,6 +1308,18 @@ categories:
           Slack alternative, with native desktop, mobile and web apps and a wide variety of
           integrations.
 
+      - name: Koaich
+        url: https://koaich.com
+        github: heysteamer/workspace-exposure-scorecard
+        description: |
+          End-to-end encrypted workspace where the vendor cannot read user
+          content. Messages, documents, files, and AI all encrypted on the user's
+          device with keys the server never sees. Group rooms use MLS (IETF RFC 9420)
+          for forward secrecy and post-compromise security on member churn. Recovery
+          uses Shamir's Secret Sharing across the user's own devices; no
+          vendor-held master key, no password-recovery backdoor. Pre-launch as of
+          May 2026; the cryptographic methodology behind the workspace-exposure
+          scoring is open-source.
       notableMentions: >
         Some chat platforms allow for cross-platform group chats, voice and video
         conferencing, but without the additional collaboration features.
