@@ -1225,6 +1225,15 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: NumberOTP
+        url: https://numberotp.com
+        icon: https://numberotp.com/favicon.ico
+        description: |
+          Real non-VoIP temporary phone numbers from 150+ countries for private SMS and
+          OTP verification. Pay-as-you-go, private dedicated inbox (not shared), instant
+          delivery, auto-refund on failed activation, and a full REST API for developers.
+          Accepted by Google, WhatsApp, Telegram, Amazon and 800+ services.
+
     ################################
     ###### Team Collaboration ######
     ################################
