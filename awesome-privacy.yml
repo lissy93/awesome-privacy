@@ -682,6 +682,15 @@ categories:
           to integrates with existing 3rd party IDs to authenticate and discover users, as
           well as to build apps on top of it.
 
+      - name: 3233.io
+        url: https://3233.io
+        openSource: true
+        github: 253153/3233.io
+        description: |
+          A private, end-to-end encrypted chat relay with no accounts or emails,
+          where cryptographic keys live only in the browser. It allows for fast, secure
+          and ephemeral messaging with zero metadata collection.
+
       notableMentions:
         - name: Chat Secure
           url: https://chatsecure.org
