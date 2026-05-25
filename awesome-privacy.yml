@@ -4578,6 +4578,15 @@ categories:
           invoices to minimize custody and trust requirements.
           The deterministically generated avatars help users stick to best privacy practices.
 
+      - name: MoneroSwapper
+        url: https://moneroswapper.io
+        github: moneroswapper/api-spec
+        description: |
+          Anonymous no-KYC cryptocurrency swap aggregator focused on Monero (XMR).
+          Routes transactions through multiple exchange providers, supporting 1700+
+          coins. Available via clearnet and Tor onion service. No registration required,
+          14-day transactional data retention. Multilingual interface in 20 languages.
+
       notableMentions: |
         For traders, [BaseFEX](https://www.basefex.com/) doesn't require ID and has a good privacy policy.
 
