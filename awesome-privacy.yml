@@ -1321,18 +1321,6 @@ categories:
         is able to be loaded and executed while your browsing.<br>
         Before installing anything, you should read the Word of Warning section below.
       services:
-      - name: Privacy Badger
-        url: https://privacybadger.org/
-        icon: https://i.ibb.co/8Y1ds5X/privacy-badger.png
-        github: EFForg/privacybadger
-        tosdrId: 682
-        openSource: true
-        description: |
-          Blocks invisible trackers, in order to stop advertisers and other third-parties
-          from secretly tracking where you go and what pages you look at. **Download**:
-          [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) -
-          [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)
-
       - name: uBlock Origin
         url: https://ublockorigin.com
         tosdrId: 682
