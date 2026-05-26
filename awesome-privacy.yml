@@ -1403,14 +1403,6 @@ categories:
           Exfil attacks **Download**: [Chrome](https://chrome.google.com/webstore/detail/css-exfil-protection/ibeemfhcbbikonfajhamlkdgedmekifo) -
           [Firefox](https://addons.mozilla.org/en-US/firefox/addon/css-exfil-protection/) - [Source](https://github.com/mlgualtieri/CSS-Exfil-Protection)
 
-      - name: First Party Isolation
-        url: https://github.com/mozfreddyb/webext-firstpartyisolation
-        github: mozfreddyb/webext-firstpartyisolation
-        icon: https://addons.mozilla.org/user-media/addon_icons/865/865865-64.png?modified=1520892249
-        description: |
-          Enables the First Party isolation preference (Clicking the Fishbowl icon temporarily disables it)
-          **Download**: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/)
-
       - name: Privacy-Oriented Origin Policy
         url: https://claustromaniac.github.io/poop
         github: claustromaniac/poop
