@@ -4353,6 +4353,17 @@ categories:
         human voice interface while also protecting your privacy and security
       services: []
 
+
+      - name: Off Grid
+        description: |
+          A fully offline, privacy-focused AI suite for iOS and Android. Runs LLM chat,
+          vision models, and Stable Diffusion image generation entirely on-device via
+          llama.cpp and Core ML — no API keys, no accounts, no telemetry. Your data
+          never leaves your phone.
+        url: https://github.com/alichherawalla/off-grid-mobile
+        github: alichherawalla/off-grid-mobile
+        icon: https://avatars.githubusercontent.com/u/4958010?v=4
+
       notableMentions: |
         [Mycroft](https://github.com/MycroftAI/mycroft-core) and [Kalliope](https://github.com/kalliope-project/kalliope) removed, as no longer active.
 
