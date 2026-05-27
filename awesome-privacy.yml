@@ -1265,16 +1265,16 @@ categories:
           bit more complex to use than some alternatives, and the UI is quite *retro*,
           so may not be appropriate for a non-technical team.
 
-      - name: Element
+      - name: Element X
         url: https://element.io/
-        github: element-hq/element-web
+        github: element-hq/element-x-ios
         tosdrId: 2498
-        icon: https://element.io/images/favicon.png
-        iosApp: https://apps.apple.com/us/app/element-messenger/id1083446067
-        androidApp: im.vector.app
+        icon: https://avatars.githubusercontent.com/u/13446337
+        iosApp: https://apps.apple.com/us/app/element-x/id1631335820
+        androidApp: io.element.android.x
         description: |
-          Privacy-focused messenger using the Matrix protocol. The Element client allows
-          for group chat rooms, media sharing voice and video group calls.
+          Privacy-focused messenger using the Matrix protocol. Element X is the next-generation
+          Element client, offering group chat rooms, media sharing, and voice and video group calls.
 
       - name: Internet Relay Chat
         icon: https://www.dlf.pt/dfpng/middlepng/60-606143_internet-relay-chat-irc-logo-hd-png-download.png
