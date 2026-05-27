@@ -2506,6 +2506,17 @@ categories:
           An open source firewall tool for Linux that builds upon the Netfilter system built into the Linux kernel,
           making it easier to manage more complex configuration schemes with iptables.
 
+      - name: BunkerWeb
+        url: https://www.bunkerweb.io
+        followWith: Self-Hosted
+        github: bunkerity/bunkerweb
+        icon: https://docs.bunkerweb.io/latest/assets/favicon.png
+        openSource: true
+        description: |
+          BunkerWeb is an open-source Next-Generation Web Application Firewall (WAF).
+          It provides easy protection for your web services and is designed to remain secure by default.
+          It integrates seamlessly with modern environments (Docker, Kubernetes, Linux, etc.).
+
       - name: OPNSense
         url: https://opnsense.org
         followWith: Hardware
