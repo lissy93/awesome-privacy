@@ -2164,6 +2164,16 @@ categories:
           publishing content anonymously. It's quite large in size, and very slow so not the best choice
           for casual browsing.
 
+      - name: Hidden Lake
+        url: https://github.com/number571/hidden-lake
+        icon: https://raw.githubusercontent.com/number571/hidden-lake/refs/heads/master/images/favicon.ico
+        github: number571/hidden-lake
+        openSource: true
+        description: |
+          Hidden Lake is a network with theoretically provable security against a global observer based
+          on the QB-problem. Due to its abstraction from the communication environment, the Hidden Lake
+          network can operate on the Internet, radio systems, and centralized communication services.
+
       notableMentions:
       - name: GNUnet
         url: https://gnunet.org/en
@@ -2193,7 +2203,7 @@ categories:
         consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)
 
       furtherInfo: |
-        Tor, I2P and Freenet are all anonymity networks - but they work very differently and each is good for specific purposes.
+        Tor, I2P, Freenet and Hidden Lake are all anonymity networks - but they work very differently and each is good for specific purposes.
         So a good and viable solution would be to use all of them, for different tasks.
         *You can read more about how I2P compares to Tor, [here](https://blokt.com/guides/what-is-i2p-vs-tor-browser)*
 
