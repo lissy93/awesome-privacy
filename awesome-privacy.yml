@@ -1911,6 +1911,16 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
+            
+        - name: MyIPNow
+          url: https://myipnow.net
+          github: bodiana/myipnow
+          icon: https://myipnow.net/favicon.ico
+          openSource: true
+          androidApp: https://play.google.com/store/apps/details?id=net.myipnow.app
+          iosApp: https://apps.apple.com/us/app/myipnow-ip-network-tools/id6763992136
+          description: |
+            Free online toolkit for IP lookup with geolocation, DNS lookup, WHOIS, IP blacklist check, ASN lookup, subnet calculator, ping test and speed test. No account required.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
