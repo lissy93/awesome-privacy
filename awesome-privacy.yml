@@ -1911,11 +1911,16 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
-
+           
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
-
+       - name: MyIPNow
+         url: https://myipnow.net/
+         icon: https://myipnow.net/favicon.ico 
+         description: |
+           Free online toolkit providing IP lookup with geolocation, DNS lookup, WHOIS, IP blacklist check, ASN lookup, subnet calculator, ping test and speed test. No account required.
+          
   - name: Networking
     sections:
     ######################################
