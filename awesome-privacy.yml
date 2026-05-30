@@ -2732,6 +2732,37 @@ categories:
         description: |
           You can quickly check if a given IP is using a proxy, this can also be done through the command line.
 
+      - name: dnsleak (DNS Leak Detector CLI)
+        url: https://github.com/ricco020/dns-leak-detector-cli
+        github: ricco020/dns-leak-detector-cli
+        openSource: true
+        followWith: CLI, Python
+        description: |
+          Command-line DNS leak detector for VPN users. Probes the OS-level resolver via getaddrinfo plus an external probe domain,
+          then compares each detected resolver's ASN to your expected VPN provider. Detects Windows SMHNR leaks, IPv6 leaks, and
+          ISP-resolver fallback that web testers often miss. Zero dependencies, Python 3.8+, MIT licensed. Methodology documented at
+          [anonymflow.com/dns-leak-test](https://www.anonymflow.com/en/blog/dns-leak-test).
+
+      - name: WebRTC Leak Detector
+        url: https://github.com/ricco020/webrtc-leak-detector
+        github: ricco020/webrtc-leak-detector
+        openSource: true
+        followWith: Web, Browser
+        description: |
+          Single-HTML-file WebRTC leak detector. Runs entirely in the browser via RTCPeerConnection probing, classifies each ICE
+          candidate as loopback/local/mDNS/public, then cross-checks with an HTTP-egress IP to flag leaks. No tracking, no analytics,
+          12 KB total, MIT licensed.
+
+      - name: vpnspeed (VPN Overhead Benchmark)
+        url: https://github.com/ricco020/vpn-speed-tester
+        github: ricco020/vpn-speed-tester
+        openSource: true
+        followWith: CLI, Python
+        description: |
+          CLI that measures VPN overhead on download / upload / latency / jitter. Baseline-vs-VPN comparison with exit-code thresholds
+          for cron monitoring. Zero dependencies, Python 3.8+. MIT licensed. Companion to the [VPN streaming methodology](https://www.anonymflow.com/en/blog/real-world-vpn-speed-test).
+
+
 
     #################################
     ###### Intrusion Detection ######
