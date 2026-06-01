@@ -682,6 +682,20 @@ categories:
           to integrates with existing 3rd party IDs to authenticate and discover users, as
           well as to build apps on top of it.
 
+      - name: NoChat
+        url: https://nochat.io
+        openSource: true
+        github: kindlyrobotics/nochat
+        iosApp: https://apps.apple.com/app/id6756893559
+        icon: https://nochat.io/favicon.ico
+        description: |
+          NoChat is a private messaging and video-calling app that requires no phone number
+          to sign up. Messages are end-to-end encrypted with P-256 ECDH + AES-256-GCM, and
+          direct messages additionally use a hybrid post-quantum key-encapsulation scheme
+          (X25519 + ML-KEM-1024). The client code is open-source (MIT), the service is free
+          with no ads, and no personal identifiers are required to create an account.
+          Note: the implementation has not yet received an independent third-party audit.
+
       notableMentions:
         - name: Chat Secure
           url: https://chatsecure.org
