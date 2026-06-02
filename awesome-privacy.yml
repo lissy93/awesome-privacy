@@ -107,6 +107,20 @@ categories:
           and email addresses for every website you use. Use the cloud version, or self-host and
           deploy within minutes via Docker.
 
+      - name: VaultKeepR
+        url: https://vaultkeepr.xyz
+        icon: https://vaultkeepr.xyz/icon.svg
+        openSource: true
+        github: VaultKeepR/vaultkeepr-core
+        iosApp: https://apps.apple.com/app/vaultkeepr/id6738030829
+        description: |
+          Decentralized zero-knowledge password manager with client-side encryption
+          (XChaCha20-Poly1305 + Argon2id). Vault data is stored on IPFS with CRDT-based
+          cross-device sync. Features on-chain digital inheritance via ERC-4337 on Base L2,
+          built-in TOTP authenticator, breach monitoring (HIBP k-anonymity), Shamir Secret
+          Sharing recovery (3-of-5), and encrypted document storage. Available as browser
+          extension (Chrome, Firefox) and iOS app. Zero telemetry.
+
       notableMentions:
       - name: Password Safe
         url: https://www.pwsafe.org
