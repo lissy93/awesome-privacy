@@ -4407,8 +4407,7 @@ categories:
           An open source, end-to-end encrypted, privacy-focused DIY home security camera
           solution for the Raspberry Pi (open hardware). Easy to setup with GUI deploy tool.
           It offers fully E2EE remote access (live streaming, smart motion alerts and playback) 
-          via Secluso's mobile app. Supports notifications via UnifiedPush.
-          Uses an untrusted relay server to route data (relay only sees encrypted blobs).
+          via Secluso's mobile app and an untrusted (self-hostable) relay. Supports notifications via UnifiedPush.
         url: https://secluso.com
         icon: https://avatars.githubusercontent.com/u/271067237?s=400&u=183f42b70679974bfd5b7e0ad0bd12aee0b45d98&v=4
         github: secluso/core
