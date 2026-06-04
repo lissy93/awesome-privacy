@@ -5179,6 +5179,16 @@ categories:
         openSource: true
         tosdrId: 4227
 
+      - name: Screenpipe
+        followWith: Windows, Mac OS, Linux
+        description: |
+          A 24/7 local screen and microphone recorder that indexes OCR and audio transcripts for local AI search.
+          Offers complete offline privacy, but requires significant disk space and CPU/GPU resources for continuous recording.
+        url: https://screenpi.pe
+        github: screenpipe/screenpipe
+        icon: https://screenpi.pe/favicon.ico
+        openSource: true
+
     - name: Screenshot Tools
       alternativeTo: ['snagit', 'greenshot', 'lightshot', 'gyazo', 'sharex']
       services: []

@@ -109,7 +109,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Image Editors](#image-editors) (8)
 	- [Video Editors](#video-editors) (7)
 	- [Audio Editors & Recorders](#audio-editors--recorders) (1)
-	- [Casting & Streaming](#casting--streaming) (1)
+	- [Casting & Streaming](#casting--streaming) (2)
 	- [3D Graphics](#3d-graphics) (2)
 	- [Animation](#animation) (1)
 </details></blockquote>
@@ -2247,6 +2247,7 @@ TikTok, and more.*
 ### Casting & Streaming
 
 - **[<img src='https://obsproject.com/assets/images/new_icon_small-r.png' width='14' alt='' /> OBS Studio](https://obsproject.com)** - Powerful desktop software for live streaming and screen recording. Free and open source software for video recording and live streaming. Features real-time video/audio capturing, scene composition, en[…](https://awesome-privacy.xyz/creativity/casting-and-streaming/obs-studio "View full OBS Studio report") 
+- **[<img src='https://screenpi.pe/favicon.ico' width='14' alt='' /> Screenpipe](https://screenpi.pe)** - A 24/7 local screen and microphone recorder that indexes OCR and audio transcripts for local AI search. Offers complete offline privacy, but requires significant disk space and CPU/GPU resources for c[…](https://awesome-privacy.xyz/creativity/casting-and-streaming/screenpipe "View full Screenpipe report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
