@@ -1849,6 +1849,16 @@ categories:
           description: |
             Displays, and removes Meta and EXIF data from an uploaded photo or document.
 
+        - name: SwapFile.io
+          url: https://swapfile.io
+          icon: https://swapfile.io/favicon.ico
+          description: |
+            Privacy-first online image and PDF converter (HEIC, AVIF, WebP, JPG, PNG, BMP, TIFF, PDF
+            input). Anonymous files are auto-deleted within 1 hour. Uses Plausible analytics only
+            (cookieless, 1 KB) — no Google Analytics, no Facebook Pixel, no third-party trackers.
+            No required signup for files under 5 MB. Closed-source, server-side processing using
+            ImageMagick + Ghostscript.
+
         - name: Redirect Detective
           url: https://redirectdetective.com
           icon: https://redirectdetective.com/redirect-detective.png
