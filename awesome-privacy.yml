@@ -1224,14 +1224,15 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
         
-      - name: Cypher eSIM
-        url: https://cypheresim.com/
-        icon: https://cypheresim.com/favicon.ico
-        description: |
-          Anonymous travel eSIM offering mobile data in 180+ countries. No KYC, no
-          account and no email are required at sign-up. Payments are accepted in USDT,
-          USDC, BTC, ETH and SOL. Requires an eSIM-compatible device.
-        acceptsCrypto: true
+        - name: Cypher eSIM
+          url: https://cypheresim.com/
+          icon: https://cypheresim.com/logo.svg
+          description: |
+            Anonymous travel eSIM offering mobile data in 180+ countries. No KYC, no
+            account and no email are required at sign-up. Payments are accepted in USDT,
+            USDC, BTC, ETH and SOL. Requires an eSIM-compatible device.
+          acceptsCrypto: true
+
 
     ################################
     ###### Team Collaboration ######
