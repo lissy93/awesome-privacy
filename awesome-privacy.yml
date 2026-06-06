@@ -4373,8 +4373,19 @@ categories:
       alternativeTo: ['putty', 'iterm2', 'gnome terminal', 'hyper', 'powershell']
       services: []
 
-    - name: Developer Utilities
-      services: []
+  - name: Developer Utilities
+    sections:
+    - name: Developer Tools
+      services:
+      - name: DevToys
+        url: https://devtoys.app/
+        icon: https://devtoys.app/favicon.ico
+        github: DevToys-app/DevToys
+        openSource: true
+        description: |
+          Open-source offline toolbox for developers, with utilities for JSON, YAML,
+          hashes, JWTs, Base64, text comparison and more. Useful alternative to
+          pasting sensitive data into random online tools.
 
   - name: Smart Home & IoT
     sections:
