@@ -87,6 +87,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Anti-Malware](#anti-malware) (2)
 - **Development**
 	- [Code Hosting](#code-hosting) (5)
+	- [IDEs](#ides) (1)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
 - **Finance**
@@ -183,7 +184,6 @@ corporations, governments, and hackers from logging, storing or selling your per
 
 > Where possible, choose a cross-platform and well established encryption method, so that you are never faced with not being able to access your files using your current system.<br> Although well-established encryption methods are usually very secure, if the password is not strong, then an adversary may be able to gain access to your files, with a powerful enough GPU. If your system is compromised, then the password may also be able to be skimmed with a keylogger or other similar malware, so take care to follow good basic security practices
 
-
 </details>
 
 <details>
@@ -212,7 +212,6 @@ that makes a good alternative to BitLocker.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates.<br> Even privacy-respecting browsers, often do not have the best privacy options enabled by default. After installing, check the privacy & security settings, and update the configuration to something that you are comfortable with. 12Bytes maintains a comprehensive guide on [Firefox Configuration for Privacy and Performance](https://codeberg.org/12bytes/firefox-config-guide)
-
 
 </details>
 
@@ -266,7 +265,6 @@ that makes a good alternative to BitLocker.
 
 > Many messaging apps claim to be secure, but if they are not open source, then this cannot be verified - and they **should not be trusted**. This applies to [Telegram](https://telegram.org), [Threema](https://threema.ch), [Cypher](https://www.goldenfrog.com/cyphr), [Wickr](https://wickr.com/), [Silent Phone](https://www.silentcircle.com/products-and-solutions/silent-phone/) and [Viber](https://www.viber.com/), to name a few - these apps should not be used to communicate any sensitive data. [Wire](https://wire.com/) has also been removed, due to a [recent acquisition](https://blog.privacytools.io/delisting-wire/)
 
-
 </details>
 
 <details>
@@ -316,12 +314,11 @@ Email is not secure - your messages can be easily intercepted and read. Corporat
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - When using an end-to-end encryption technology like OpenPGP, some metadata
-in the email header will not be encrypted.
-- OpenPGP also does not support Forward secrecy, which means if either
-your or the recipient's private key is ever stolen, all previous messages
-encrypted with it will be exposed. You should take great care to keep your
-private keys safe.
-
+> in the email header will not be encrypted.
+> - OpenPGP also does not support Forward secrecy, which means if either
+> your or the recipient's private key is ever stolen, all previous messages
+> encrypted with it will be exposed. You should take great care to keep your
+> private keys safe.
 
 </details>
 
@@ -354,7 +351,6 @@ Email clients are the programs used to interact with the mail server. For hosted
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > One disadvantage of mail clients, is that many of them do not support 2FA, so it is important to keep your device secured and encrypted
-
 
 </details>
 
@@ -472,11 +468,10 @@ The following browser add-ons give you better control over what content is able 
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - Having many extensions installed raises entropy, causing your fingerprint to be more unique, hence making tracking easier.
-- Much of the functionality of the above addons can be applied without installing anything, by configuring browser settings yourself. For Firefox this is done in the user.js
-- Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. At the time of writing, the above list were all open source, verified and 'safe' extensions.
-- In most situations, only a few of the above extensions will be needed in combination.
-- See the [arkenfox wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) for more information on the obsolescence and purposelessness of many popular extensions, and why you may only need a very limited set.
-
+> - Much of the functionality of the above addons can be applied without installing anything, by configuring browser settings yourself. For Firefox this is done in the user.js
+> - Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. At the time of writing, the above list were all open source, verified and 'safe' extensions.
+> - In most situations, only a few of the above extensions will be needed in combination.
+> - See the [arkenfox wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) for more information on the obsolescence and purposelessness of many popular extensions, and why you may only need a very limited set.
 
 </details>
 
@@ -520,9 +515,8 @@ The following browser add-ons give you better control over what content is able 
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Too many installed apps will increase your attack surface - only install applications that you need.
-Be sure to check the permissions, and what data an app has access to prior to installation.
-Only install from official sources.
-
+> Be sure to check the permissions, and what data an app has access to prior to installation.
+> Only install from official sources.
 
 </details>
 
@@ -579,7 +573,6 @@ A selection of free online tools and utilities, to check, test and protect your 
 
 > Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
-
 </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -602,12 +595,11 @@ A selection of free online tools and utilities, to check, test and protect your 
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - *A VPN does not make you anonymous - it merely changes your public IP address to that of your VPN provider, instead of your ISP. Your browsing session can still be linked back to your real identity either through your system details (such as user agent, screen resolution even typing patterns), cookies / session storage, or by the identifiable data that you enter. [Read more about fingerprinting](https://pixelprivacy.com/resources/browser-fingerprinting/)*
-- *Logging - If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this ([VPN leaks](https://vpnleaks.com/)). See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
-- *IP Leaks - If configured incorrectly, your IP may be exposed through a DNS leak. This usually happens when your system is unknowingly accessing default DNS servers rather than the anonymous DNS servers assigned by an anonymity network or VPN. Read more: [What is a DNS leak](https://www.dnsleaktest.com/what-is-a-dns-leak.html), [DNS Leak Test](https://www.dnsleaktest.com), [How to Fix a DNS Leak](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html)*
-- *Stealth - It will be visible to your adversary that you are using a VPN (usually from the IP address), but other system and browser data, can still reveal information about you and your device (such as your local time-zone, indicating which region you are operating from)*
-- *Many reviews are sponsored, and hence biased. Do your own research, or go with one of the above options*
-- *Using [Tor](https://www.torproject.org) (or another [Mix Network](/5_Privacy_Respecting_Software.md#mix-networks)) may be a better option for anonimity*
-
+> - *Logging - If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this ([VPN leaks](https://vpnleaks.com/)). See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
+> - *IP Leaks - If configured incorrectly, your IP may be exposed through a DNS leak. This usually happens when your system is unknowingly accessing default DNS servers rather than the anonymous DNS servers assigned by an anonymity network or VPN. Read more: [What is a DNS leak](https://www.dnsleaktest.com/what-is-a-dns-leak.html), [DNS Leak Test](https://www.dnsleaktest.com), [How to Fix a DNS Leak](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html)*
+> - *Stealth - It will be visible to your adversary that you are using a VPN (usually from the IP address), but other system and browser data, can still reveal information about you and your device (such as your local time-zone, indicating which region you are operating from)*
+> - *Many reviews are sponsored, and hence biased. Do your own research, or go with one of the above options*
+> - *Using [Tor](https://www.torproject.org) (or another [Mix Network](/5_Privacy_Respecting_Software.md#mix-networks)) may be a better option for anonimity*
 
 </details>
 
@@ -659,21 +651,20 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > To provide low-latency browsing, Tor does not mix packets or generate cover traffic.
-If an adversary is powerful enough, theoretically they could either observe the entire network,
-or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP
-can not see what you are doing, they will be able determine that you are using a mix net,
-to hide this - a VPN could be used as well.
-If you are doing anything which could put you at risk, then good OpSec is essential,
-as the authorities have traced criminals through the Tor network before,
-and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market).
-Don't let Tor provide you a false sense of security - be aware of information leaks through DNS, other programs or human error.
-Tor-supported browsers may might lag behind their upstream forks, and include exploitable unpatched issues.
-See [#19](https://github.com/Lissy93/personal-security-checklist/issues/19)
-
-Note: The Tor network is run by the community.
-If you benefit from using it and would like to help sustain uncensored internet access for all,
-consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)
-
+> If an adversary is powerful enough, theoretically they could either observe the entire network,
+> or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP
+> can not see what you are doing, they will be able determine that you are using a mix net,
+> to hide this - a VPN could be used as well.
+> If you are doing anything which could put you at risk, then good OpSec is essential,
+> as the authorities have traced criminals through the Tor network before,
+> and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market).
+> Don't let Tor provide you a false sense of security - be aware of information leaks through DNS, other programs or human error.
+> Tor-supported browsers may might lag behind their upstream forks, and include exploitable unpatched issues.
+> See [#19](https://github.com/Lissy93/personal-security-checklist/issues/19)
+>
+> Note: The Tor network is run by the community.
+> If you benefit from using it and would like to help sustain uncensored internet access for all,
+> consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)
 
 </details>
 
@@ -713,10 +704,9 @@ provide shared network connections and cache data to speed up common requests.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > [Malicious Proxies](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-edward_zaborowski-doppelganger.pdf) are all too common.
-Always use open source software, host it yourself or pay for a reputable cloud service.
-Never use a free proxy; it can monitor your connection, steal cookies and contain malware.
-VPNs are a better option, better still - use the Tor network.
-
+> Always use open source software, host it yourself or pay for a reputable cloud service.
+> Never use a free proxy; it can monitor your connection, steal cookies and contain malware.
+> VPNs are a better option, better still - use the Tor network.
 
 </details>
 
@@ -746,10 +736,9 @@ a service that respects privacy and supports DNS-over-TLS, DNS-over-HTTPS or DNS
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Using an encrypted DNS resolver will not make you anonymous, it just makes
-it harder for third-partied to discover your domain history.
-If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/),
-to ensure that some requests are not being exposed.
-
+> it harder for third-partied to discover your domain history.
+> If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/),
+> to ensure that some requests are not being exposed.
 
 </details>
 
@@ -821,17 +810,16 @@ can access which IPs.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > There are different [types](https://www.networkstraining.com/different-types-of-firewalls)
-of firewalls, that are used in different circumstances.
-This does not omit the need to configure your operating systems defences.
-Follow these instructions to enable your firewall in
-[Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off),
-[Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
-and other [Linux distros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
-
-Even when properly configured, having a firewall enabled does not guarantee
-bad network traffic can not get through and especially during boot if you
-don't have root privileges.
-
+> of firewalls, that are used in different circumstances.
+> This does not omit the need to configure your operating systems defences.
+> Follow these instructions to enable your firewall in
+> [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off),
+> [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
+> and other [Linux distros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
+>
+> Even when properly configured, having a firewall enabled does not guarantee
+> bad network traffic can not get through and especially during boot if you
+> don't have root privileges.
 
 </details>
 
@@ -900,11 +888,10 @@ control over security, privacy and performance
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Flashing custom firmware may void your warranty.
-If power is interrupted mid-way through a firmware install/ upgrade it
-is possible for your device to become bricked. So long as you follow a
-guide, and use a well supported system, on a supported router, than it
-should be safe
-
+> If power is interrupted mid-way through a firmware install/ upgrade it
+> is possible for your device to become bricked. So long as you follow a
+> guide, and use a well supported system, on a supported router, than it
+> should be safe
 
 </details>
 
@@ -969,11 +956,10 @@ important.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > The country that your data is hosted in, will be subject to local laws and regulations.
-It is therefore important to avoid a jurisdiction that is part of the
-[5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK)
-and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives)
-who have legal right to view your data.
-
+> It is therefore important to avoid a jurisdiction that is part of the
+> [5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK)
+> and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives)
+> who have legal right to view your data.
 
 </details>
 
@@ -1019,8 +1005,7 @@ who have legal right to view your data.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Self-hosting your own mail server is not recommended for everyone, it can
-be time consuming to setup and maintain and securing it correctly is critical
-
+> be time consuming to setup and maintain and securing it correctly is critical
 
 </details>
 
@@ -1093,10 +1078,9 @@ be time consuming to setup and maintain and securing it correctly is critical
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > You should always ensure that any data stored in the cloud is encrypted.
-If you are hosting your own server, then take the necessary precautions
-to [secure the server](https://med.stanford.edu/irt/security/servers.html).
-For hosted solutions - use a strong password, keep your credentials safe and enable 2FA.
-
+> If you are hosting your own server, then take the necessary precautions
+> to [secure the server](https://med.stanford.edu/irt/security/servers.html).
+> For hosted solutions - use a strong password, keep your credentials safe and enable 2FA.
 
 </details>
 
@@ -1419,12 +1403,11 @@ is an open source, usually Google-free mobile OS that can be flashed to your dev
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > It is not recommended to root, or flash your device with a custom ROM if you are not an advanced user.
-There are risks involved
-- Although the above ROMs omit Google, they do open up other security issues: Without DM-verity on the system partition, the file system *could* be tampered with, and no verified boot stack, the kernel/initramfs also *could* be edited. You should understand the risks, before proceeding to flash a custom ROM to your device
-- You will need to rely on updates from the community, which could be slower to be released - this may be an issue for a time-urgent, security-critical patch
-- It is also possible to brick your device, through interrupted install or bad software
-- Finally, rooting and flashing your device, will void your warranty
-
+> There are risks involved
+> - Although the above ROMs omit Google, they do open up other security issues: Without DM-verity on the system partition, the file system *could* be tampered with, and no verified boot stack, the kernel/initramfs also *could* be edited. You should understand the risks, before proceeding to flash a custom ROM to your device
+> - You will need to rely on updates from the community, which could be slower to be released - this may be an issue for a time-urgent, security-critical patch
+> - It is also possible to brick your device, through interrupted install or bad software
+> - Finally, rooting and flashing your device, will void your warranty
 
 </details>
 
@@ -1611,16 +1594,15 @@ See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-secur
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > (The above software was last tested on 01/05/20).
-Many of the above tools are not necessary or suitable for beginners,
-and can cause your system to break - only use software that you need,
-according to your threat model. Take care to only download from an
-official/ legitimate source, verify the executable before proceeding,
-and check reviews/ forums.
-Create a system restore point, before making any significant changes to
-your OS (such as disabling core features).
-
-From a security and privacy perspective, Linux may be a better option.
-
+> Many of the above tools are not necessary or suitable for beginners,
+> and can cause your system to break - only use software that you need,
+> according to your threat model. Take care to only download from an
+> official/ legitimate source, verify the executable before proceeding,
+> and check reviews/ forums.
+> Create a system restore point, before making any significant changes to
+> your OS (such as disabling core features).
+>
+> From a security and privacy perspective, Linux may be a better option.
 
 </details>
 
@@ -1657,18 +1639,17 @@ Cross-platform, open source malware detection and virus prevention tools
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > For Microsoft Windows, Windows Defender provides totally adequate virus
-protection in most cases. These tools are intended for single-use in
-detecting/ removing threats on an infected machine, and are not recommended
-to be left running in the background, use portable editions where available.
-
-Many anti virus products have a history of introducing vulnerabilities themselves,
-and several of them seriously degrade the performance of your computer, as well as
-decrease your privacy. Never use a free anti-virus, and never trust the companies
-that offer free solutions, even if you pay for the premium package.
-This includes (but not limited to) Avast, AVG, McAfee and Kasperky.
-For AV to be effective, it needs intermate access to all areas of your PC,
-so it is important to go with a trusted vendor, and monitor its activity closely.
-
+> protection in most cases. These tools are intended for single-use in
+> detecting/ removing threats on an infected machine, and are not recommended
+> to be left running in the background, use portable editions where available.
+>
+> Many anti virus products have a history of introducing vulnerabilities themselves,
+> and several of them seriously degrade the performance of your computer, as well as
+> decrease your privacy. Never use a free anti-virus, and never trust the companies
+> that offer free solutions, even if you pay for the premium package.
+> This includes (but not limited to) Avast, AVG, McAfee and Kasperky.
+> For AV to be effective, it needs intermate access to all areas of your PC,
+> so it is important to go with a trusted vendor, and monitor its activity closely.
 
 </details>
 
@@ -1699,7 +1680,8 @@ so it is important to go with a trusted vendor, and monitor its activity closely
 
 ### IDEs
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/40327449?s=200&v=4' width='14' alt='' /> VSCodium](https://vscodium.com/)** - Free and open source binaries of VS Code, built without Microsoft branding and with community-driven defaults. Extension compatibility can differ from Microsoft's official VS Code build. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -1736,9 +1718,8 @@ human voice interface while also protecting your privacy and security
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > If you are building your own assistant, you may want to consider a hardware-switch
-for disabling the microphone. Keep tabs on issues and check the code, to ensure
-you are happy with how it works, from a privacy perspective.
-
+> for disabling the microphone. Keep tabs on issues and check the code, to ensure
+> you are happy with how it works, from a privacy perspective.
 
 </details>
 
@@ -1788,22 +1769,21 @@ you are happy with how it works, from a privacy perspective.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Not all cryptocurrencies are anonymous, and without using a privacy-focused coin,
-a record of your transaction will live on a publicly available distributed ledger, forever.
-If you send of receive multiple payments, ensure you switch up addresses or use a mixer,
-to make it harder for anyone trying to trace your transactions.
-Cryptocurrencies that allow private and public transactions may reveal meta
-data about your transactions and balances when funds are moving from
-private to public addresses which can compromise your privacy with methods
-similar to a knapsack problem.
-
-Always store private keys somewhere safe, but offline
-
-Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses.
-If you are new to digital currencies - do your research first, don't invest more than you can afford to loose,
-and be very weary crypto-related scams are very common. as is and cryptocurrency-related malware.
-
-**This is NOT financial advice**
-
+> a record of your transaction will live on a publicly available distributed ledger, forever.
+> If you send of receive multiple payments, ensure you switch up addresses or use a mixer,
+> to make it harder for anyone trying to trace your transactions.
+> Cryptocurrencies that allow private and public transactions may reveal meta
+> data about your transactions and balances when funds are moving from
+> private to public addresses which can compromise your privacy with methods
+> similar to a knapsack problem.
+>
+> Always store private keys somewhere safe, but offline
+>
+> Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses.
+> If you are new to digital currencies - do your research first, don't invest more than you can afford to loose,
+> and be very weary crypto-related scams are very common. as is and cryptocurrency-related malware.
+>
+> **This is NOT financial advice**
 
 </details>
 
@@ -1845,11 +1825,10 @@ be physically tracked (CCTV, phone location, card payments etc)
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Avoid using any online/ hot-wallet, as you will have no control over
-the security of your private keys.
-
-Offline paper wallets are very secure, but ensure you store it
-properly - to keep it safe from theft, loss or damage.
-
+> the security of your private keys.
+>
+> Offline paper wallets are very secure, but ensure you store it
+> properly - to keep it safe from theft, loss or damage.
 
 </details>
 
@@ -1922,11 +1901,10 @@ Not all services are available in all countries.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Note that credit card providers heavily track transaction metadata, which build
-up a detailed picture of each persons spending habits. This is done both to
-provide improved fraud alerts, but also because the data is extremely valuable
-and is often 'anonymized' and sold to 3rd parties. Hence your privacy is degraded
-if these cards are used for daily transactions
-
+> up a detailed picture of each persons spending habits. This is done both to
+> provide improved fraud alerts, but also because the data is extremely valuable
+> and is often 'anonymized' and sold to 3rd parties. Hence your privacy is degraded
+> if these cards are used for daily transactions
 
 </details>
 
@@ -2026,8 +2004,7 @@ so should be avoided, but if you choose to keep using them see
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Without moderation, some of these platforms accommodate video creators
-whose content may not be appropriate for all audiences
-
+> whose content may not be appropriate for all audiences
 
 </details>
 
@@ -2112,7 +2089,6 @@ or tracking (unless otherwise stated).
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > When proxies are involved - only use reputable services, and **never** enter any personal information
-
 
 </details>
 
