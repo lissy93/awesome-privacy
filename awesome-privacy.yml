@@ -3780,6 +3780,13 @@ categories:
           File, folder and drive portable eraser for Windows. Bundled with other tools to scan, analyze, and wipe, and other
           traces that were left behind. Includes context menu item, recycle bin integration.
 
+      - name : PII Blackout
+        url : https://piiblackout.com
+        icon: https://piiblackout.com/SCREENSHOT/icon48.png
+        followWith : Windows
+        description : |
+          100% offline, AI-powered desktop application to safely detect and permanently redact PII/PHI from PDF files and images with zero cloud uploads.
+
       - name: DBAN
         url: https://dban.org
         followWith: bootable
