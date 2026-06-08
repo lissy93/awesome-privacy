@@ -5117,16 +5117,11 @@ categories:
         followWith: Web
         url: https://idphotosnap.com
         icon: https://idphotosnap.com/icon-512.png
-        github: whitetirocket/passport-photo-specs
         openSource: true
         description: |
-          A free, browser-only passport and visa photo generator that runs the BRIA RMBG-1.4
-          segmentation model and MediaPipe face detection entirely on-device via WebAssembly,
-          so the photo never leaves the user device (verifiable in DevTools Network tab).
-          Covers 100+ countries and 248 document formats validated against 15+ official
-          government sources (US State Dept, UK HMPO, Bundesdruckerei, ICAO 9303). The
-          underlying specification dataset is MIT-licensed open data on GitHub with a
-          Zenodo DOI for academic citation. No signup, no watermark, no upload.
+          Free browser-only passport and visa photo generator. Runs BRIA RMBG-1.4 + MediaPipe
+          on-device via WebAssembly; the photo never leaves the device (verifiable in DevTools).
+          Covers 100+ countries. No signup, no watermark, no upload.
 
     - name: Video Editors
       alternativeTo: ['adobe premiere pro', 'final cut pro', 'davinci resolve', 'imovie', 'sony vegas pro']
