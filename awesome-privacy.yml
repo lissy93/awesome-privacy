@@ -4387,6 +4387,18 @@ categories:
           hashes, JWTs, Base64, text comparison and more. Useful alternative to
           pasting sensitive data into random online tools.
 
+      - name: Offsend
+        url: https://offsend.io
+        icon: https://raw.githubusercontent.com/Offsend/Offsend/main/App/Resources/Assets.xcassets/AppIcon.appiconset/256.png
+        github: Offsend/Offsend
+        openSource: true
+        followWith: MacOS
+        description: |
+          Local-first menu bar app that prepares projects, files, and clipboard text
+          for AI tools by detecting and masking sensitive data — API keys, tokens,
+          emails, and internal paths — entirely on your Mac. No cloud scanning or
+          account required.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
