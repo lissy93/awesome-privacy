@@ -1,0 +1,302 @@
+---
+import type { SecurityReportResponse } from '@utils/fetch-security-info';
+import { formatDate, timeAgo } from '@utils/dates-n-stuff';
+import FontAwesome from '@components/form/FontAwesome.svelte';
+
+interface Props {
+	security: SecurityReportResponse;
+}
+
+const { security } = Astro.props;
+const { scorecard, advisories, fuzzed } = security;
+
+const hasScorecard = scorecard.available && scorecard.checks.length > 0;
+const hasAdvisories = advisories.count > 0;
+
+// Map a 0–10 score to a rating colour, or grey when unknown (-1 / null)
+const scoreColor = (score: number | null): string => {
+	if (score === null || score < 0) return 'var(--rating-unknown)';
+	if (score >= 8) return 'var(--rating-a)';
+	if (score >= 6) return 'var(--rating-b)';
+	if (score >= 4) return 'var(--rating-d)';
+	if (score >= 2) return 'var(--rating-f)';
+	return 'var(--rating-g)';
+};
+
+const scoreLabel = (score: number | null): string =>
+	score === null || score < 0 ? 'N/A' : `${score}/10`;
+
+const severityColor = (severity: string): string => {
+	switch (severity.toLowerCase()) {
+		case 'critical':
+			return 'var(--rating-g)';
+		case 'high':
+			return 'var(--rating-f)';
+		case 'moderate':
+		case 'medium':
+			return 'var(--rating-e)';
+		case 'low':
+			return 'var(--rating-c)';
+		default:
+			return 'var(--rating-unknown)';
+	}
+};
+---
+
+<div class="sec-info-wrap">
+	{
+		hasScorecard && (
+			<div class="left">
+				<div class="overall">
+					<span
+						class="score-ring"
+						style={`--ring: ${scoreColor(scorecard.overallScore)}`}
+						aria-label={`Overall security score: ${scoreLabel(scorecard.overallScore)}`}
+					>
+						{scoreLabel(scorecard.overallScore)}
+					</span>
+					<div class="overall-meta">
+						<h4>Repo Security Summary</h4>
+						<p class="muted">
+							{scorecard.generatedAt && (
+								<span title={timeAgo(scorecard.generatedAt)}>
+									Updated {formatDate(scorecard.generatedAt)}
+								</span>
+							)}
+							{fuzzed && (
+								<span class="badge fuzzed">
+									<FontAwesome iconName="securityAudited" /> Fuzz tested
+								</span>
+							)}
+						</p>
+					</div>
+				</div>
+				<ul class="list-table">
+					{scorecard.checks.map((check) => (
+						<li>
+							<span class="check-name" title={check.reason}>
+								{check.name}
+								{check.url && (
+									<a
+										class="check-link"
+										href={check.url}
+										target="_blank"
+										rel="noopener noreferrer"
+										aria-label={`Open the ${check.name} scorecard documentation in a new tab`}
+									>
+										<FontAwesome iconName="externalLink" />
+									</a>
+								)}
+							</span>
+							<span
+								class="score-pill"
+								style={`--pill: ${scoreColor(check.score)}`}
+							>
+								{scoreLabel(check.score)}
+							</span>
+						</li>
+					))}
+				</ul>
+			</div>
+		)
+	}
+	{
+		hasAdvisories && (
+			<div class="right">
+				<h4>
+					Security Advisories <span class="count">({advisories.count})</span>
+				</h4>
+				<ul class="advisories">
+					{advisories.items.map((adv) => (
+						<li class="advisory">
+							<div class="adv-head">
+								<span
+									class="badge severity"
+									style={`--sev: ${severityColor(adv.severity)}`}
+								>
+									{adv.severity || 'unknown'}
+								</span>
+								<span
+									class={`badge patch ${adv.isPatched ? 'patched' : 'unpatched'}`}
+								>
+									{adv.isPatched ? 'Patched' : 'Unpatched'}
+								</span>
+								{adv.cvssScore !== null && (
+									<span class="cvss">CVSS {adv.cvssScore}</span>
+								)}
+							</div>
+							<p class="adv-summary">
+								<a href={adv.url} target="_blank" rel="noopener noreferrer">
+									{adv.cveId || adv.ghsaId}
+								</a>
+							  {adv.summary}
+							</p>
+							<p class="adv-meta">
+								{adv.publishedAt && (
+									<time
+										datetime={adv.publishedAt}
+										title={timeAgo(adv.publishedAt)}
+									>
+										{formatDate(adv.publishedAt)}
+									</time>
+								)}
+							</p>
+						</li>
+					))}
+				</ul>
+			</div>
+		)
+	}
+</div>
+
+<style lang="scss">
+	@use '../../styles/mixins' as *;
+	.sec-info-wrap {
+		@include detail-info-layout;
+		align-items: flex-start;
+	}
+
+	@include detail-info-base;
+
+	.left {
+		font-size: var(--text-md);
+		h4 {
+			font-size: var(--text-lg);
+		}
+		ul.list-table {
+			max-height: 500px;
+			font-size: var(--text-base);
+		}
+	}
+
+	.check-name {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-xs);
+		.check-link {
+			display: inline-flex;
+			opacity: var(--opacity-muted);
+			&:hover {
+				opacity: 1;
+			}
+			:global(svg) {
+				width: var(--text-sm);
+			}
+		}
+	}
+
+	// Scorecard overall score
+	.overall {
+		display: flex;
+		align-items: center;
+		gap: var(--space-md);
+		margin-bottom: var(--space-sm);
+		.score-ring {
+			flex-shrink: 0;
+			display: grid;
+			place-items: center;
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+			border: 3px solid var(--ring);
+			color: var(--ring);
+			font-family: var(--font-subtitle);
+			font-weight: bold;
+			font-size: var(--text-md);
+		}
+		.overall-meta h4 {
+			margin-top: 0;
+		}
+		.muted {
+			flex-wrap: wrap;
+			font-size: var(--text-sm);
+			opacity: var(--opacity-muted);
+		}
+	}
+
+	.score-pill {
+		flex-shrink: 0;
+		font-family: var(--font-subtitle);
+		font-weight: bold;
+		font-size: var(--text-sm);
+		color: var(--pill);
+	}
+
+	.badge {
+		@include changelog-badge;
+		border: var(--border-light);
+		:global(svg) {
+			width: var(--text-sm);
+		}
+		&.fuzzed {
+			display: inline-flex;
+			align-items: center;
+			gap: var(--space-xs);
+			background: var(--accent-3-translucent);
+			opacity: var(--opacity-subtle);
+		}
+		&.severity {
+			background: var(--sev);
+			color: var(--box-outline);
+		}
+		&.patch.patched {
+			background: color-mix(in srgb, var(--success-muted) 60%, transparent);
+		}
+		&.patch.unpatched {
+			background: color-mix(in srgb, var(--danger) 60%, transparent);
+		}
+	}
+
+	.count {
+		opacity: var(--opacity-muted);
+	}
+
+	// Advisories list
+	ul.advisories {
+		list-style: none;
+		padding-left: 0;
+		max-height: 500px;
+		overflow-y: auto;
+		.advisory {
+			padding: var(--space-sm) 0;
+			&:not(:last-child) {
+				border-bottom: 1px solid var(--accent-3-translucent);
+			}
+		}
+		.adv-head {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			gap: var(--space-xs);
+			.cvss {
+				font-size: var(--text-xs);
+				opacity: var(--opacity-muted);
+			}
+		}
+		.adv-summary {
+			font-size: var(--text-sm);
+			font-weight: 500;
+			display: flex;
+			flex-wrap: wrap;
+			margin: var(--space-xs) 0;
+			@include line-clamp(2);
+		}
+		.adv-meta {
+			justify-content: space-between;
+			font-size: var(--text-sm);
+			opacity: var(--opacity-soft);
+		}
+		.adv-versions {
+			flex-wrap: wrap;
+			gap: var(--space-sm);
+			font-size: var(--text-sm);
+			opacity: var(--opacity-soft);
+			code {
+				background: var(--code-bg);
+				padding: 0.05rem 0.3rem;
+				border-radius: var(--curve-sm);
+				font-family: var(--font-code);
+			}
+		}
+	}
+</style>

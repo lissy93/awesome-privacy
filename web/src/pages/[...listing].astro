@@ -4,6 +4,7 @@ import ListingHero from '@components/things/ListingHero.astro';
 import ServiceList from '@components/things/ServiceList.astro';
 import Comments from '@components/things/Comments.svelte';
 import GitHubDetailedInfo from '@components/things/GitHubDetailedInfo.astro';
+import SecurityDetailedInfo from '@components/things/SecurityDetailedInfo.astro';
 import PrivacyPolicyDetails from '@components/things/PrivacyPolicyDetails.astro';
 import WebsiteDetailedInfo from '@components/things/WebsiteDetailedInfo.astro';
 import DockerDetailedInfo from '@components/things/DockerDetailedInfo.astro';
@@ -18,6 +19,7 @@ import { fetchData, slugify } from '@utils/fetch-data';
 import { codebergUrl } from '@utils/parse-markdown';
 import { fetchChangelog } from '@utils/fetch-changelog';
 import { fetchGitHubStats } from '@utils/fetch-repo-info';
+import { fetchSecurityReport } from '@utils/fetch-security-info';
 import { fetchTosdrPrivacy } from '@utils/fetch-privacy-policy';
 import { fetchWebsiteInfo } from '@utils/fetch-website-info';
 import { fetchDockerData } from '@utils/fetch-docker-instructions';
@@ -143,6 +145,12 @@ const { previous, next } = makePaginationLinks();
 const ignoredSites = ['github.com', 'wikipedia.'];
 
 const githubData = github ? await fetchGitHubStats(github) : null;
+const securityData = github ? await fetchSecurityReport(github) : null;
+const hasSecurityData =
+	!!securityData &&
+	((securityData.scorecard.available &&
+		securityData.scorecard.checks.length > 0) ||
+		securityData.advisories.count > 0);
 const privacyData = tosdrId ? await fetchTosdrPrivacy(tosdrId) : null;
 const iosData = iosApp ? await fetchIosInfo(iosApp) : null;
 const androidData = androidApp ? await fetchAndroidInfo(androidApp) : null;
@@ -285,6 +293,14 @@ const makeSoftwareSchema = () => {
 				<section class="github-wrap">
 					<h2>{name} Source Code</h2>
 					<GitHubDetailedInfo gitHubData={githubData} repo={github} />
+				</section>
+			)
+		}
+		{
+			hasSecurityData && securityData && (
+				<section>
+					<h2>{name} Security</h2>
+					<SecurityDetailedInfo security={securityData} />
 				</section>
 			)
 		}
