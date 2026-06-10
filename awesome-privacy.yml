@@ -4394,10 +4394,10 @@ categories:
         openSource: true
         followWith: MacOS
         description: |
-          Local-first menu bar app that prepares projects, files, and clipboard text
-          for AI tools by detecting and masking sensitive data — API keys, tokens,
-          emails, and internal paths — entirely on your Mac. No cloud scanning or
-          account required.
+          macOS menu bar app that detects and masks sensitive data in project folders,
+          files, and clipboard text before sharing with AI tools — entirely on-device,
+          with no cloud scanning. macOS 13+ only; the free tier limits file size and
+          watched folders.
 
   - name: Smart Home & IoT
     sections:
