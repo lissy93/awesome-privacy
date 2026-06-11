@@ -4815,11 +4815,9 @@ categories:
         followWith: Desktop
         openSource: true
         description: |
-          A free, MIT-licensed, local-first desktop research dashboard for stocks, crypto
-          and macroeconomics. Watchlist with multi-indicator charts, 29 FRED macro series,
-          and cross-asset analysis tools. No accounts, no telemetry, no analytics, no cloud
-          sync — all state lives in a local SQLite database, and the only network requests
-          are to the public data sources you enable (FRED, Yahoo Finance, optional RSS).
+          Free, MIT-licensed, local-first desktop research dashboard for stocks, crypto
+          and macroeconomics. No accounts, no telemetry, no cloud sync — all data stays
+          in a local SQLite database.
 
 
   - name: Social
