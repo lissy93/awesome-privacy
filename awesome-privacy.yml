@@ -3160,6 +3160,14 @@ categories:
           Gitea, OpenProject and CalDAV integration. Features include time
           tracking, Pomodoro timer, break reminders, and idle detection.
 
+      - name: MoveCheck
+        url: https://movecheck.app/
+        github: adinglee/Moving
+        icon: https://movecheck.app/favicon.ico
+        description: |
+          A browser-based moving checklist generator for US moves. 
+          All checklist data is stored locally in the user's browser with no accounts, 
+          server-side databases, analytics, or third-party trackers required.
     ###########################
     ###### Backup & Sync ######
     ###########################
