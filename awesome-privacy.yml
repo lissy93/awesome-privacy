@@ -3162,6 +3162,17 @@ categories:
           Gitea, OpenProject and CalDAV integration. Features include time
           tracking, Pomodoro timer, break reminders, and idle detection.
 
+      - name: LogZero
+        url: https://logzero.app
+        icon: https://logzero.app/apple-touch-icon.png
+        followWith: iOS
+        openSource: false
+        iosApp: https://apps.apple.com/app/id6773557137
+        description: |
+          On-device habit, mood, food, exercise and weight tracker with to-dos and a
+          local correlation engine. No account, no telemetry; data stays on the iPhone,
+          AES-256 encrypted. Closed-source, iOS-only, freemium with paid Pro tiers.
+
     ###########################
     ###### Backup & Sync ######
     ###########################
