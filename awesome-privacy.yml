@@ -4431,7 +4431,14 @@ categories:
 
     - name: Terminal Emulators
       alternativeTo: ['putty', 'iterm2', 'gnome terminal', 'hyper', 'powershell']
-      services: []
+      services:
+      - name: Alacritty
+        url: https://alacritty.org/
+        github: alacritty/alacritty
+        openSource: true
+        description: |
+          Fast, GPU-accelerated terminal emulator focused on simplicity, performance,
+          and extensive keyboard-driven workflows.
 
   - name: Developer Utilities
     sections:
