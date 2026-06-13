@@ -73,6 +73,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [File Drop](#file-drop) (2)
 	- [Browser Sync](#browser-sync) (4)
 	- [Secure Conference Calls](#secure-conference-calls) (2)
+	- [Maps & Navigation](#maps--navigation) (1)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
 	- [PGP Managers](#pgp-managers) (8)
@@ -88,6 +89,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Development**
 	- [Code Hosting](#code-hosting) (5)
 	- [IDEs](#ides) (1)
+- **Developer Utilities**
+	- [Developer Tools](#developer-tools) (2)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
 - **Finance**
@@ -716,6 +719,8 @@ provide shared network connections and cache data to speed up common requests.
 > [V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building
 > proxies to bypass network restrictions and protect your privacy.
 > See [more](https://github.com/hugetiny/awesome-vpn)
+> [TransparentTorProxy](https://github.com/onyks-os/TransparentTorProxy) is a Linux CLI
+> utility that transparently routes all system traffic through the Tor network.
 > </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -1241,6 +1246,18 @@ security + privacy required in your situation.
 
 ---
 
+### Maps & Navigation
+
+Mainstream mapping apps log your location history, search queries and routes,
+building a detailed picture of where you live, work and travel. A privacy-respecting
+maps app keeps navigation on your device, works offline, and collects nothing about you.
+
+- **[<img src='https://www.comaps.app/favicon.ico' width='14' alt='' /> CoMaps](https://www.comaps.app)** - Community-led, not-for-profit offline maps and navigation app built on OpenStreetMap data. No tracking, ads or data collection; all search and routing happen on-device. A community fork of Organic Map[…](https://awesome-privacy.xyz/productivity/maps-and-navigation/comaps "View full CoMaps report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ## Utilities
 
 ### Virtual Machines
@@ -1693,9 +1710,13 @@ Cross-platform, open source malware detection and virus prevention tools
 
 ---
 
-### Developer Utilities
+## Developer Utilities
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+### Developer Tools
+
+- **[<img src='https://devtoys.app/favicon.ico' width='14' alt='' /> DevToys](https://devtoys.app/)** - Open-source offline toolbox for developers, with utilities for JSON, YAML, hashes, JWTs, Base64, text comparison and more. Useful alternative to pasting sensitive data into random online tools. 
+- **[<img src='https://www.usebruno.com/favicon.ico' width='14' alt='' /> Bruno](https://www.usebruno.com/)** - Open-source, local-first API client that stores collections as plain text files and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
