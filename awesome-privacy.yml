@@ -1237,6 +1237,15 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: Cypher eSIM
+        url: https://cypheresim.com
+        icon: https://cypheresim.com/logo.svg
+        acceptsCrypto: true
+        description: |
+          No-KYC travel eSIM for 180+ countries with 4G/5G data. No account, ID, or
+          email needed. Pay with crypto (BTC, USDT, SOL; Monero and TON coming soon)
+          and activate by QR in ~60 seconds. Available on the web and inside Telegram.
+
     ################################
     ###### Team Collaboration ######
     ################################
