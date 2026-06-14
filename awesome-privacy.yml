@@ -2875,6 +2875,15 @@ categories:
           hosting of open-source apps (Grafana, Matomo, Vaultwarden, etc.) and S3-compatible object
           storage. GDPR-native, ISO 27001 compliant, with no vendor lock-in.
 
+      - name: Skhron
+        url: https://skhron.eu/
+        acceptsCrypto: true
+        icon: https://skhron.com.ua/assets/img/logo-square.png
+        description: >-
+          Skhron reliable privacy-first VPS, uses own hardware and operates own
+          network. Accepts Bitcoin (+ Lightning Network), Monero and other
+          cryptocurrencies. No KYC required.
+
       notableMentions: |
         See also: [1984](https://www.1984.is) based in Iceland.
         [Shinjiru](http://shinjiru.com?a_aid=5e401db24a3a4), which offers off-shore dedicated servers.
