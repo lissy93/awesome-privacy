@@ -2880,9 +2880,8 @@ categories:
         acceptsCrypto: true
         icon: https://skhron.com.ua/assets/img/logo-square.png
         description: >-
-          Skhron reliable privacy-first VPS, uses own hardware and operates own
-          network. Accepts Bitcoin (+ Lightning Network), Monero and other
-          cryptocurrencies. No KYC required.
+          Skhron is a reliable privacy-first VPS provider, operating own hardware and network.
+          Accepts Bitcoin (+ Lightning Network), Monero and other cryptocurrencies. No KYC required.
 
       notableMentions: |
         See also: [1984](https://www.1984.is) based in Iceland.
