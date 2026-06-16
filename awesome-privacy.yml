@@ -5143,6 +5143,14 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
+      - name: OpenConvert
+        url: https://openconvert.net
+        icon: https://openconvert.net/favicon.ico
+        openSource: false
+        description: |
+          Privacy-first file converter that runs entirely in your browser — no uploads,
+          no servers, no tracking. Converts images, PDFs, documents and more across
+          170+ formats using client-side processing via WebAssembly and JavaScript.
 
   - name: Creativity
     sections:
