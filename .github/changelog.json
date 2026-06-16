@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T15:19:24Z",
+  "generatedAt": "2026-06-16T17:16:34Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -56,6 +56,7 @@
     "47cd53ef705bb9ae855e521bc68c0597b14f7325",
     "48b4e2c0e5c66e573b3ab3bd567bf1c614d42473",
     "48c3cae00bd0a0c02877d47f42df6d3579504155",
+    "4bd9ac18e8fe216b29a11a6b3ce1fb6285847f98",
     "4e8479e14ff71aa50e6bc0e8199e9b6600990206",
     "538f2364d3dbab3efdce45e3797da90f09da59b0",
     "568caa66a0f11307a49c648beacb7c1b2a746160",
@@ -277,6 +278,32 @@
     625
   ],
   "entries": [
+    {
+      "date": "2026-06-16",
+      "sha": "4bd9ac18e8fe216b29a11a6b3ce1fb6285847f98",
+      "pr": {
+        "number": 631,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/631",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "modified": [
+            {
+              "name": "Privacy Badger",
+              "category": "Security Tools",
+              "section": "Browser Extensions",
+              "fields": [
+                "description"
+              ]
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-06-15",
       "sha": "8735336d7f209fa22305fc1fbf160280f5af5c17",
