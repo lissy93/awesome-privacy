@@ -6,6 +6,8 @@ on:
     types: [completed]
   pull_request_review:
     types: [submitted]
+  pull_request_target:
+    types: [opened, edited, reopened]
 
 permissions:
   actions: read
@@ -252,4 +254,67 @@ jobs:
               });
             } catch (err) {
               console.log(`Failed to assign Lissy93: ${err.message}`);
+            }
+
+  # Applies a label matching the "Type" picked in the PR template. Non-critical and
+  # fully self-contained: it never fails the run, and runs independently of the checks.
+  label-type:
+    name: Apply type label
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request_target'
+    permissions:
+      issues: write
+      pull-requests: write
+    concurrency:
+      group: label-type-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    steps:
+      - name: Apply label from PR type
+        continue-on-error: true
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.BOT_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              const { owner, repo } = context.repo;
+              const pr = context.payload.pull_request;
+
+              // Template "Type" token -> label to apply
+              const TYPES = [
+                ['Addition', 'Addition'],
+                ['Amendment', 'Amendment'],
+                ['Removal', 'Removal'],
+                ['Spelling or Grammar', 'Grammar'],
+                ['Website', 'Website'],
+                ['Scripts', 'Scripts'],
+                ['Misc', 'Misc'],
+              ];
+              const managed = [...TYPES.map(t => t[1]), 'Uncategorized'];
+
+              // Isolate the "### Type" section, drop HTML comments, lowercase for matching
+              const body = pr.body || '';
+              const m = body.match(/###\s*Type\b([\s\S]*?)(?:\n\s*###|\n\s*---|$)/i);
+              const section = (m ? m[1] : '').replace(/<!--[\s\S]*?-->/g, '').toLowerCase();
+
+              // A correctly filled template leaves exactly one type; otherwise Uncategorized
+              const matched = TYPES.filter(t => section.includes(t[0].toLowerCase())).map(t => t[1]);
+              const desired = matched.length === 1 ? matched[0] : 'Uncategorized';
+
+              const current = (pr.labels || []).map(l => l.name);
+              for (const name of current.filter(l => managed.includes(l) && l !== desired)) {
+                await github.rest.issues.removeLabel({ owner, repo, issue_number: pr.number, name })
+                  .catch(e => console.log(`Skip remove ${name}: ${e.message}`));
+              }
+
+              if (!current.includes(desired)) {
+                await github.rest.issues.getLabel({ owner, repo, name: desired }).catch(async e => {
+                  if (e.status === 404) {
+                    await github.rest.issues.createLabel({ owner, repo, name: desired, color: 'ededed' });
+                  }
+                });
+                await github.rest.issues.addLabels({ owner, repo, issue_number: pr.number, labels: [desired] });
+              }
+              console.log(`Type label: ${desired} (matched ${matched.length})`);
+            } catch (err) {
+              console.log(`Type labeling skipped: ${err.message}`);
             }

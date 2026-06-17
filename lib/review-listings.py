@@ -827,9 +827,7 @@ def main():
     token = args.token or os.environ.get("GITHUB_TOKEN", "")
     api_token = os.environ.get("API_TOKEN", "")
 
-    # A targeted review (single entry/diff) runs token-gated checks unauthenticated, accepting
-    # rate limits. A full review skips them without a token, to avoid hammering the APIs across
-    # every listing once limits are hit.
+    # A targeted review (single entry/diff) runs external checks unauthenticated, as probz won't hit rate limit
     targeted = bool(args.service or args.category or args.section or args.changed_since)
 
     if not token:
