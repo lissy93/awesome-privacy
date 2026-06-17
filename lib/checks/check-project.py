@@ -204,8 +204,8 @@ def check_security_alerts(owner, repo, token):
 
 def check_spam_prs(pr_user, token):
     """Return list of spam findings based on recent PR activity."""
-    if not pr_user or not token:
-        logger.warning("check_spam_prs skipped: %s", "no PR_USER" if not pr_user else "no GITHUB_TOKEN")
+    if not pr_user:
+        logger.warning("check_spam_prs skipped: no PR_USER")
         return []
     try:
         since = (datetime.now(timezone.utc) - timedelta(days=SPAM_WINDOW_DAYS)).strftime("%Y-%m-%d")
@@ -245,7 +245,7 @@ def check_spam_prs(pr_user, token):
 
 def check_new_account(pr_user, token):
     """Return NEW_ACCOUNT_MSG if the PR author's GitHub account is very new."""
-    if not pr_user or not token:
+    if not pr_user:
         return None
     data = _gh_get(f"/users/{pr_user}", token, label="user")
     if not data:
@@ -296,8 +296,6 @@ def _pr_discloses_authorship(pr_body):
 
 def check_repo_exists(diff, token):
     """Return REPO_404_MSG if an added service's GitHub repo returns a 404."""
-    if not token:
-        return None
     seen = set()
     for svc in get_services(diff, "added"):
         owner, repo = utils.parse_github_field(svc.get("fields", {}).get("github"))
@@ -312,8 +310,6 @@ def check_repo_exists(diff, token):
 def check_repo_signals(diff, pr_user, token, pr_body=""):
     """Check GitHub repo author match, stars, and activity for added services."""
     findings = []
-    if not token:
-        return findings
     cache = {}
     for svc in get_services(diff, "added"):
         gh = svc.get("fields", {}).get("github")

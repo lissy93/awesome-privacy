@@ -540,6 +540,17 @@ def build_context(args, data, token, api_token):
     return ctx
 
 
+def changed_service_keys(ref, head):
+    """Return {(category, section, name)} for services added or modified vs a git ref."""
+    from yaml_diff import build_index, diff_index, load_yaml_at_ref
+    base = load_yaml_at_ref(ref)
+    if base is None:
+        logging.error("Could not read awesome-privacy.yml at git ref %s", ref)
+        sys.exit(2)
+    added, _, modified = diff_index(build_index(base, 3), build_index(head, 3))
+    return set(added) | {k for k, _ in modified}
+
+
 def filter_entries(data, args):
     for cat, sec, svc in utils.iter_services(data):
         if args.category and args.category.lower() != cat.lower():
@@ -654,7 +665,7 @@ def _markdown_summary(s):
 
 
 def render_list(findings, colors, summary):
-    lines = []
+    lines = ["", colors["bold"]("Findings"), "--------"]
     if not findings:
         lines.append(colors["green"]("✓ All services passed."))
     grouped: dict = {}
@@ -766,6 +777,8 @@ def parse_args():
     p.add_argument("--category", help="filter to a single category")
     p.add_argument("--section", help="filter to a single section")
     p.add_argument("--service", help="filter to a single service")
+    p.add_argument("--changed-since", metavar="REF",
+                   help="only review services added or modified vs this git ref (e.g. main)")
     p.add_argument("--only", type=_csv, default=[], help="comma-separated checks to run")
     p.add_argument("--skip", type=_csv, default=[], help="comma-separated checks to skip")
     p.add_argument("--severity", choices=["all", "warn", "error"], default="all")
@@ -814,25 +827,32 @@ def main():
     token = args.token or os.environ.get("GITHUB_TOKEN", "")
     api_token = os.environ.get("API_TOKEN", "")
 
+    # A targeted review (single entry/diff) runs external checks unauthenticated, as probz won't hit rate limit
+    targeted = bool(args.service or args.category or args.section or args.changed_since)
+
     if not token:
         gh_checks = [n for n in enabled if CHECKS[n].needs_github]
-        if gh_checks:
+        if gh_checks and not targeted:
             logging.warning(
-                "GITHUB_TOKEN not set, skipping GitHub checks (%s). "
-                "Export GITHUB_TOKEN to enable them.",
+                "GITHUB_TOKEN not set, skipping GitHub checks (%s) for a full review. "
+                "Export GITHUB_TOKEN, or narrow with --service/--category/--changed-since.",
                 ", ".join(gh_checks),
             )
             enabled = [n for n in enabled if not CHECKS[n].needs_github]
+        elif gh_checks:
+            logging.info("GITHUB_TOKEN not set, running GitHub checks unauthenticated (may be rate-limited)")
 
     if not api_token:
         api_checks = [n for n in enabled if CHECKS[n].needs_api]
-        if api_checks:
+        if api_checks and not targeted:
             logging.warning(
-                "API_TOKEN not set, skipping API checks (%s). "
-                "Export API_TOKEN to enable them.",
+                "API_TOKEN not set, skipping API checks (%s) for a full review. "
+                "Export API_TOKEN, or narrow the review to run them.",
                 ", ".join(api_checks),
             )
             enabled = [n for n in enabled if not CHECKS[n].needs_api]
+        elif api_checks:
+            logging.info("API_TOKEN not set, running API checks unauthenticated (may be rate-limited)")
 
     if not enabled:
         logging.error("No checks to run after filters.")
@@ -848,6 +868,13 @@ def main():
         sys.exit(2)
 
     entries = list(filter_entries(data, args))
+    if args.changed_since:
+        keys = changed_service_keys(args.changed_since, data)
+        entries = [e for e in entries if (e.category, e.section, e.name) in keys]
+        if not entries:
+            logging.info("No added or modified services since %s, nothing to review",
+                         args.changed_since)
+            return
     if not entries:
         logging.error("No services matched filters (category=%s, section=%s, service=%s)",
                       args.category, args.section, args.service)
