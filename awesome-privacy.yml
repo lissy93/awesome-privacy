@@ -1237,6 +1237,16 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: CypherESIM
+        url: https://cypheresim.com
+        icon: https://cypheresim.com/logo.svg
+        acceptsCrypto: true
+        description: |
+          Anonymous travel eSIM with 4G/5G data in 180+ countries. No account,
+          ID, email or phone number needed, no KYC. Paid in crypto (USDT, BTC,
+          ETH, USDC, XMR). eSIM activates in ~60 seconds.
+
+
     ################################
     ###### Team Collaboration ######
     ################################
