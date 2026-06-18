@@ -1320,6 +1320,19 @@ categories:
           Slack alternative, with native desktop, mobile and web apps and a wide variety of
           integrations.
 
+      - name: Zulip
+        url: https://zulip.com
+        github: zulip/zulip
+        icon: https://avatars.githubusercontent.com/u/4921959?s=256&v=4
+        openSource: true
+        tosdrId: 2318
+        iosApp: https://apps.apple.com/us/app/zulip/id1203036395
+        androidApp: com.zulipmobile
+        description: |
+          Open source team chat organized around topic-based threading, which keeps busy
+          conversations easier to follow than channel-only tools. Can be self-hosted, or
+          used as a paid cloud service. The threading model takes some getting used to.
+
       notableMentions: >
         Some chat platforms allow for cross-platform group chats, voice and video
         conferencing, but without the additional collaboration features.
