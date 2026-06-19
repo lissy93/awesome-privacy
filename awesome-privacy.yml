@@ -4457,6 +4457,15 @@ categories:
           Open-source, local-first API client that stores collections as plain text files
           and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools.
 
+      - name: gitGost
+        url: https://gitgost.fly.dev
+        github: livrasand/gitGost
+        icon: https://avatars.githubusercontent.com/u/246907436?v=4
+        description: |
+          Push to GitHub anonymously: add gitGost as a git remote and it opens a pull request
+          with your name, email and commit metadata stripped, optionally over Tor. Anonymity
+          isn't perfect, and the hosted service has had abuse-related downtime.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
