@@ -4434,8 +4434,6 @@ categories:
           Fast, GPU-accelerated terminal emulator focused on simplicity, performance,
           and extensive keyboard-driven workflows.
 
-  - name: Developer Utilities
-    sections:
     - name: Developer Tools
       services:
       - name: DevToys
