@@ -2270,6 +2270,14 @@ categories:
           modifying web page data and HTTP headers, controlling access, and removing ads and
           other obnoxious Internet junk.
 
+      - name: BibaVPN
+        url: https://github.com/Eljaja/BibaVPN
+        github: Eljaja/BibaVPN
+        openSource: true
+        description: |
+          Self-hosted SOCKS5 and HTTP CONNECT tunnel over TLS and WebSocket for single-VPS
+          deployments, with Android and Desktop clients.
+
       notableMentions: |
         [V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building
         proxies to bypass network restrictions and protect your privacy.
