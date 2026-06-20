@@ -53,7 +53,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [DNS Providers](#dns-providers) (3)
 	- [DNS Clients](#dns-clients) (6)
 	- [Firewalls](#firewalls) (13)
-	- [Ad Blockers](#ad-blockers) (6)
+	- [Ad Blockers](#ad-blockers) (7)
 	- [Host Block Lists](#host-block-lists) (5)
 	- [Router Firmware](#router-firmware) (2)
 	- [Network Analysis](#network-analysis) (3)
@@ -80,7 +80,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Metadata Removal](#metadata-removal) (3)
 	- [Data Erasers](#data-erasers) (8)
 - **Operating Systems**
-	- [Mobile Operating Systems](#mobile-operating-systems) (3)
+	- [Mobile Operating Systems](#mobile-operating-systems) (2)
 	- [Desktop Operating Systems](#desktop-operating-systems) (5)
 	- [Linux Defenses](#linux-defenses) (6)
 	- [Windows Defences](#windows-defences) (17)
@@ -89,8 +89,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Development**
 	- [Code Hosting](#code-hosting) (5)
 	- [IDEs](#ides) (1)
-- **Developer Utilities**
-	- [Developer Tools](#developer-tools) (2)
+	- [Terminal Emulators](#terminal-emulators) (1)
+	- [Developer Tools](#developer-tools) (3)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
 - **Finance**
@@ -107,12 +107,16 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [News Readers](#news-readers) (1)
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
+	- [Photo Management](#photo-management) (2)
+	- [Podcast Players](#podcast-players) (1)
+	- [Torrent Downloaders](#torrent-downloaders) (1)
 	- [File Converters](#file-converters) (2)
 - **Creativity**
 	- [Image Editors](#image-editors) (8)
 	- [Video Editors](#video-editors) (7)
 	- [Audio Editors & Recorders](#audio-editors--recorders) (1)
 	- [Casting & Streaming](#casting--streaming) (1)
+	- [Screenshot Tools](#screenshot-tools) (1)
 	- [3D Graphics](#3d-graphics) (2)
 	- [Animation](#animation) (1)
 </details></blockquote>
@@ -447,7 +451,7 @@ Now more than ever we are relying on software to help with team collaboration. U
 
 The following browser add-ons give you better control over what content is able to be loaded and executed while your browsing.<br> Before installing anything, you should read the Word of Warning section below.
 
-- **[<img src='https://i.ibb.co/8Y1ds5X/privacy-badger.png' width='14' alt='' /> Privacy Badger](https://privacybadger.org/)** - Blocks invisible trackers, in order to stop advertisers and other third-parties from secretly tracking where you go and what pages you look at. **Download**: [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger "View full Privacy Badger report") 
+- **[<img src='https://i.ibb.co/8Y1ds5X/privacy-badger.png' width='14' alt='' /> Privacy Badger](https://privacybadger.org/)** - Blocks invisible trackers, in order to stop advertisers and other third-parties from secretly tracking where you go and what pages you look at. Less configurable but simpler than uBlock, and focuses o[…](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger "View full Privacy Badger report") 
 - **[<img src='https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/ublock.svg' width='14' alt='' /> uBlock Origin](https://ublockorigin.com)** - Block ads, trackers and malware sites. **Download**: [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en-GB) - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/ublock-origin "View full uBlock Origin report") 
 - **[<img src='https://addons.mozilla.org/user-media/addon_icons/782/782160-64.png' width='14' alt='' /> Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)** - Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web wit[…](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers "View full Firefox Multi-Account Containers report") 
 - **[<img src='https://lh3.googleusercontent.com/n4XZC3SfmhMnrIwR1256Cmx5d51OaJImxBtJqaTQnNuWD7xqAgGI2LmAXQk6O1CffLzFNSiTqIO-ZxMCJIGTuKcG=s60' width='14' alt='' /> WebRTC-Leak-Prevent](https://diafygi.github.io/webrtc-ips)** - Provides user control over WebRTC privacy settings in Chromium, in order to prevent WebRTC leaks. **Download**: [Chrome](https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml?hl=en-GB). For Firefox users, you can do this through [browser settings](https://www.privacytools.io/browsers/#webrtc). Test for WebRTC leaks,[…](https://awesome-privacy.xyz/security-tools/browser-extensions/webrtc-leak-prevent "View full WebRTC-Leak-Prevent report") 
@@ -846,15 +850,11 @@ detect certain content based on pattern matching
 - **[<img src='https://icon.horse/icon/blokada.org' width='14' alt='' /> Blokada](https://blokada.org/)** - Open source mobile ad-blocker that acts like a firewall. Since it's device-wide, once connected all apps will have ads/ trackers blocked, and the blacklist can be edited. The app is free, but there is[…](https://awesome-privacy.xyz/networking/ad-blockers/blokada "View full Blokada report") 
 - **[<img src='https://rethinkdns.com/ico/app_icon.svg' width='14' alt='' /> RethinkDNS & Firewall](https://rethinkdns.com/app)** - Free and open source ad-blocker and a firewall for Android 6+ (no root required). 
 - **[<img src='https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/ublock.svg' width='14' alt='' /> uBlock Origin](https://github.com/gorhill/uBlock)** - Light-weight, fast browser extension for Firefox and Chromium (Chrome, Edge, Brave Opera etc), that blocks tracking, ads and known malware. uBlock is easy-to-use out-of-the-box, but also has a highly[…](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin "View full uBlock Origin report") 
+- **[<img src='https://avatars.githubusercontent.com/u/8361145?s=256&v=4' width='14' alt='' /> AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** - Self-hosted, network-wide DNS server that blocks ads and trackers for every device on your network, comparable to Pi-hole. Open source, with a web dashboard, encrypted DNS, and parental controls. Need[…](https://awesome-privacy.xyz/networking/ad-blockers/adguard-home "View full AdGuard Home report") 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
 
-> [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) is a cross-platform DNS Ad Blocker,
-> similar to Pi Hole, but with some additional features, like parental controls,
-> per-device configuration and the option to force safe search.
-> This may be a good solution for families with young children.
-> 
 > Some VPNs have ad-tracking blocking features, such as
 > [TrackStop with PerfectPrivacy](https://www.perfect-privacy.com/en/features/trackstop?a_aid=securitychecklist).
 > 
@@ -1414,7 +1414,6 @@ is an open source, usually Google-free mobile OS that can be flashed to your dev
 
 - **[<img src='https://grapheneos.org/apple-touch-icon.png' width='14' alt='' /> GrapheneOS](https://grapheneos.org/)** - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by Daniel Micay. GrapheneOS is a young project, and currently only supports Pixel devices,[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/grapheneos "View full GrapheneOS report") 
 - **[<img src='https://www.lineageos.org/images/logo.png' width='14' alt='' /> LineageOS](https://www.lineageos.org)** - A free and open-source operating system for various devices, based on the Android mobile platform - Lineage is light-weight, well maintained, supports a wide range of devices, and comes bundled with P[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/lineageos "View full LineageOS report") 
-- **[<img src='https://axpos.org/favicon.svg' width='14' alt='' /> AXP.OS](https://axpos.org)** - AXP.OS is an operating system based on AOSP & LineageOS. Emerged from the discontinued [DivestOS](https://divestos-archive.codeberg.page), it aims to prolong the lifespan of discontinued devices, enhance privacy and increase security where po[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/axp.os "View full AXP.OS report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -1705,17 +1704,17 @@ Cross-platform, open source malware detection and virus prevention tools
 
 ### Terminal Emulators
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://alacritty.org/alacritty-simple.svg' width='14' alt='' /> Alacritty](https://alacritty.org/)** - Fast, GPU-accelerated terminal emulator focused on simplicity, performance, and extensive keyboard-driven workflows. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
-
-## Developer Utilities
 
 ### Developer Tools
 
 - **[<img src='https://devtoys.app/favicon.ico' width='14' alt='' /> DevToys](https://devtoys.app/)** - Open-source offline toolbox for developers, with utilities for JSON, YAML, hashes, JWTs, Base64, text comparison and more. Useful alternative to pasting sensitive data into random online tools. 
 - **[<img src='https://www.usebruno.com/favicon.ico' width='14' alt='' /> Bruno](https://www.usebruno.com/)** - Open-source, local-first API client that stores collections as plain text files and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools. 
+- **[<img src='https://avatars.githubusercontent.com/u/246907436?v=4' width='14' alt='' /> gitGost](https://gitgost.fly.dev)** - Push to GitHub anonymously: add gitGost as a git remote and it opens a pull request with your name, email and commit metadata stripped, optionally over Tor. Anonymity isn't perfect, and the hosted ser[…](https://awesome-privacy.xyz/development/developer-tools/gitgost "View full gitGost report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -2163,9 +2162,11 @@ TikTok, and more.*
 
 ---
 
-### Photo Viewers
+### Photo Management
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/109746326?s=256&v=4' width='14' alt='' /> Immich](https://immich.app)** - Self-hosted photo and video backup and management server, with automatic mobile upload, timeline view, albums, search and facial recognition. Needs to be self-hosted, but gives you full ownership + co[…](https://awesome-privacy.xyz/media/photo-management/immich "View full Immich report") 
+- **[<img src='https://ente.com/assets/ente-photos-icon-transparent.png' width='14' alt='' /> Ente Photos](https://ente.com)** - Provides an open source, audited end-to-end encrypted platform to store photos in the cloud without needing to trust the service provider. With apps for desktop, web and mobile, album sharing, public[…](https://awesome-privacy.xyz/media/photo-management/ente-photos "View full Ente Photos report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -2179,14 +2180,16 @@ TikTok, and more.*
 
 ### Podcast Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/10713470?s=256&v=4' width='14' alt='' /> AntennaPod](https://antennapod.org)** - An open-source podcast manager for Android. Subscribe to any RSS feed, with offline downloads, variable playback speed, and optional gpodder.net or Nextcloud sync. Contains no ads or trackers, but is[…](https://awesome-privacy.xyz/media/podcast-players/antennapod "View full AntennaPod report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
 
 ### Torrent Downloaders
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/2131270?s=256&v=4' width='14' alt='' /> qBittorrent](https://www.qbittorrent.org)** - A cross-platform BitTorrent client with built-in torrent search, RSS feeds, and an optional web interface. It contains no ads or bundled software. As with any BitTorrent client, your IP address is vis[…](https://awesome-privacy.xyz/media/torrent-downloaders/qbittorrent "View full qBittorrent report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -2249,7 +2252,8 @@ TikTok, and more.*
 
 ### Screenshot Tools
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/5548736?s=256&v=4' width='14' alt='' /> ShareX](https://getsharex.com)** - Open-source screen-capture tool for Windows. Takes screenshots and short screen recordings, with annotation, OCR, a colour picker, and configurable save/upload destinations. Note that (if configured)[…](https://awesome-privacy.xyz/creativity/screenshot-tools/sharex "View full ShareX report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
