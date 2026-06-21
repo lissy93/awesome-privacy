@@ -3012,6 +3012,21 @@ categories:
           (yay, dark mode!), and it features built-in secure file store, tags/ folders, fast search and more.
           Standard Notes is actively developed, and fully open-source.
 
+      - name: MirrorNotes
+        url: https://mirrornotes.org
+        followWith: iOS (iPhone)
+        openSource: false
+        securityAudited: false
+        icon: https://mirrornotes.org/og-image.png
+        iosApp: https://apps.apple.com/app/id6769007201
+        description: |
+          A private journaling app for iPhone where all AI runs on-device (Gemma 3 1B via CoreML).
+          Journal text is never transmitted — no cloud AI, no server, no API calls. Features include
+          daily personalized reflection prompts, natural language queries over entries ("Ask your journal"),
+          mood tracking and timeline, weekly digest, and monthly deep report — all running locally on
+          the iPhone's Neural Engine. Works fully offline. Free to write forever; AI features
+          $2.99–$4.99/mo with a 7-day trial via Apple IAP.
+
       - name: Turtle
         url: https://turtlapp.com
         icon: https://turtlapp.com/images/logo.svg
