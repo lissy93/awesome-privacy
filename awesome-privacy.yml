@@ -1955,6 +1955,16 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+         - name: Vexyn
+          url: https://vexyn.app
+          icon: https://vexyn.app/favicon.svg
+          github: andreicristi88/vexyn
+          description: |
+            A collection of free browser tools — PDF merger and splitter, image compressor and format converter,
+            EXIF metadata remover, color palette extractor, AI background remover (RMBG-1.4 via WebGPU), JSON formatter,
+            Base64 encoder, QR generator — that all run entirely on the user's device. No upload, no signup, no tracking.
+            Open source (MIT). Verifiable by opening DevTools → Network: zero outgoing requests fire during processing.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
