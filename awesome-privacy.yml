@@ -3457,16 +3457,6 @@ categories:
           encryption and no IP address or device info is logged. Files are permanently deleted after download or after specified
           duration. Developed by StandardNotes, and has built-in integration with the SN app.
 
-      - name: Floe
-        url: https://floe.one/
-        github: jannskiee/floe
-        openSource: true
-        followWith: Web, CLI
-        description: |
-          Browser-native and CLI peer-to-peer file transfer built on WebRTC. File data is sent directly between peers
-          over an encrypted data channel and never touches a server; the server only brokers the initial connection.
-          Open source, with both a web app and a Go command-line client.
-
       - name: OnionShare
         url: https://onionshare.org/
         github: micahflee/onionshare
@@ -3476,6 +3466,17 @@ categories:
           require installing, but the benefit is that your files are transferred directly to the recipient, without needing to be
           hosted on an interim server. The host needs to remain connected for the duration of the transfer, but once it is complete,
           the process will be terminated.
+
+      - name: Floe
+        url: https://floe.one/
+        icon: https://floe.one/icon.svg
+        github: jannskiee/floe
+        openSource: true
+        followWith: Web, CLI
+        description: |
+          Peer-to-peer file transfer built on WebRTC, with a browser app and a command-line client. File data is sent
+          directly between peers over an encrypted data channel and never touches a server; the server only brokers
+          the initial connection.
 
       notableMentions: |
         [Instant.io](https://github.com/webtorrent/instant.io), is another peer-to-peer based solution,
