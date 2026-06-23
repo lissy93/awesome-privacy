@@ -1237,6 +1237,15 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: VirtualSMS
+        url: https://virtualsms.de
+        icon: https://virtualsms.de/img/smsvirtual_icon.webp
+        acceptsCrypto: true
+        description: |
+          Virtual phone number API for SMS verification and automation.
+          SMS-Activate compatible, supports 180+ countries and 200+ services.
+          Pay-as-you-go with no subscriptions. Accepts crypto payments.
+
     ################################
     ###### Team Collaboration ######
     ################################
