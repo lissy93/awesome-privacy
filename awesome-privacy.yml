@@ -5339,6 +5339,17 @@ categories:
         github: NatronGitHub/Natron
         icon: https://natrongithub.github.io/img/Natron_icon.svg
         openSource: true
+      - name: VidKit
+        followWith: Browser
+        description: |
+          A free, in-browser video compressor and format converter (MP4, MOV, MKV,
+          WebM, MP3, GIF). All processing runs locally via WebCodecs with an
+          ffmpeg.wasm fallback, so files are never uploaded — no server, no cookies,
+          no accounts. The zero-upload guarantee is enforced by an automated test.
+        url: https://vidkit.eu
+        github: TondaRuzicka/vidkit
+        icon: https://vidkit.eu/favicon.svg
+        openSource: true
 
     - name: Audio Editors & Recorders
       alternativeTo: ['adobe audition', 'garageband', 'fl studio', 'ableton live']
