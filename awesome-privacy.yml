@@ -4484,6 +4484,16 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: captchaapi
+        url: https://captchaapi.eu
+        icon: https://captchaapi.eu/favicon.ico
+        description: |
+          EU-hosted CAPTCHA that verifies users are human with a proof-of-work challenge
+          instead of behavioral tracking. It sets no cookies, loads no third-party trackers,
+          and keeps all data within the EU under GDPR. A privacy-respecting alternative to
+          reCAPTCHA, hCaptcha and Turnstile, with drop-in SDKs (including Laravel) and a
+          plain JavaScript widget.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
