@@ -115,6 +115,15 @@ categories:
           and email addresses for every website you use. Use the cloud version, or self-host and
           deploy within minutes via Docker.
 
+      - name: PaperVault
+        url: https://papervault.xyz
+        icon: https://papervault.xyz/papervault-512.png
+        github: boazeb/papervault
+        openSource: true
+        description: |
+          Store secrets and passwords on encrypted paper with distributed keys.
+          Designed to last generations. Open source, client-side only, works offline.
+
       notableMentions:
       - name: Password Safe
         url: https://www.pwsafe.org
