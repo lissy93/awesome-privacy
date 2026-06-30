@@ -3012,20 +3012,6 @@ categories:
           (yay, dark mode!), and it features built-in secure file store, tags/ folders, fast search and more.
           Standard Notes is actively developed, and fully open-source.
 
-      - name: AI Notebook
-        url: https://github.com/lukoplt/AI-notebook
-        github: lukoplt/AI-notebook
-        followWith: Windows, MacOS
-        openSource: true
-        securityAudited: false
-        icon: https://raw.githubusercontent.com/lukoplt/AI-notebook/main/docs/icon.png
-        description: |
-          AI Notebook is a free, open-source, offline alternative to Google NotebookLM. Chat with your
-          own documents (PDFs, Office files, web pages) and get answers with inline citations — the
-          embeddings, retrieval and chat all run locally on your machine via Ollama, so your files are
-          never uploaded anywhere. It also includes a notes editor and hybrid local search (vector +
-          full-text). Native macOS and Windows desktop apps, MIT licensed.
-
       - name: Turtle
         url: https://turtlapp.com
         icon: https://turtlapp.com/images/logo.svg
@@ -3119,6 +3105,18 @@ categories:
         description: |
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
+
+      - name: AI Notebook
+        url: https://github.com/lukoplt/AI-notebook
+        github: lukoplt/AI-notebook
+        followWith: Windows, MacOS
+        openSource: true
+        securityAudited: false
+        icon: https://raw.githubusercontent.com/lukoplt/AI-notebook/main/docs/icon.png
+        description: |
+          A free, open-source, offline alternative to Google NotebookLM for macOS and Windows. Chat with
+          your own documents and get answers with citations, all running locally via Ollama, so your files
+          are never uploaded.
 
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
