@@ -1181,6 +1181,14 @@ categories:
           + world-wide roaming. No data is required at sign-up. Affordable pricing, with
           payments and top-ups accepted in BTC. Requires an eSim-compatible device.
 
+      - name: 0xEsim
+        url: https://0xesim.io
+        icon: https://0xesim.io/favicon.ico
+        acceptsCrypto: true
+        description: |
+          No-KYC eSIM for 190+ countries. No account, no ID, no email required.
+          Pay with Monero, USDT and other crypto. Transparent IP breakout routing.
+
       - name: Crypton.sh
         url: https://crypton.sh/
         icon: https://crypton.sh/assets/shared/icons/favicon-32x32.png
