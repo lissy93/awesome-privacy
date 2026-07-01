@@ -2798,11 +2798,9 @@ categories:
         github: CodeWithEhtisham/webrtc-leak-check
         followWith: Web
         description: |
-          A free suite of browser-based diagnostic tools that reveal what your
-          browser and network expose - public IP & ISP, WebRTC/DNS/VPN leaks,
-          browser fingerprint, user agent, WebGL, open ports, and geolocation.
-          Runs client-side with no signup. The WebRTC leak-detection library is
-          open source.
+          Free, no-signup browser tools that reveal what your network exposes:
+          public IP & ISP, WebRTC/DNS/VPN leak tests, browser fingerprint, user
+          agent, open ports, and geolocation. Runs entirely client-side.
 
 
     #################################
