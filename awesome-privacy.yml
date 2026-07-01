@@ -1796,6 +1796,15 @@ categories:
           F-Droid is an installable catalogue of FOSS applications for Android. The client enables you
           to browse, install, and keep track of updates on your device.
 
+      - name: Spectre
+        url: https://github.com/thomasbuilds/Spectre
+        github: thomasbuilds/Spectre
+        openSource: true
+        icon: https://raw.githubusercontent.com/thomasbuilds/Spectre/5e915a8d4e1daa550fd9acc063b963732b64b863/icon.png
+        androidApp: dev.thomasbuilds.spectre
+        description: |
+          A radio frequency scanner app for Android with recon and offensive capabilities.
+
       wordOfWarning: |
         Too many installed apps will increase your attack surface - only install applications that you need.
         Be sure to check the permissions, and what data an app has access to prior to installation.
