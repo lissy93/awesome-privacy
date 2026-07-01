@@ -2792,6 +2792,18 @@ categories:
         description: |
           You can quickly check if a given IP is using a proxy, this can also be done through the command line.
 
+      - name: What Is My Tools
+        url: https://whatismytools.com
+        icon: https://whatismytools.com/icon.svg
+        github: CodeWithEhtisham/webrtc-leak-check
+        followWith: Web
+        description: |
+          A free suite of browser-based diagnostic tools that reveal what your
+          browser and network expose - public IP & ISP, WebRTC/DNS/VPN leaks,
+          browser fingerprint, user agent, WebGL, open ports, and geolocation.
+          Runs client-side with no signup. The WebRTC leak-detection library is
+          open source.
+
 
     #################################
     ###### Intrusion Detection ######
