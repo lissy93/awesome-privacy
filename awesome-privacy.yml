@@ -5103,7 +5103,17 @@ categories:
     sections:
     - name: Gaming
       alternativeTo: ['steam', 'epic games store', 'origin', 'ubisoft connect', 'battle.net']
-      services: []
+      services:
+      - name: Heroic Games Launcher
+        url: https://heroicgameslauncher.com
+        icon: https://avatars.githubusercontent.com/u/77549103?s=256&v=4
+        openSource: true
+        github: Heroic-Games-Launcher/HeroicGamesLauncher
+        discordInvite: rHJ2uqdquK
+        description: |
+          Open source game launcher for the Epic Games Store, GOG and Amazon Prime Gaming
+          on Linux, Windows and Mac. Replaces the official proprietary clients, though it
+          still connects to your third-party store accounts.
     - name: Media Servers
       alternativeTo: ['plex', 'emby', 'kodi', 'jellyfin', 'universal media server']
       services: []
