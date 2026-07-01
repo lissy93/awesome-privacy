@@ -1215,8 +1215,10 @@ categories:
         icon: https://pikasim.com/img/pika-transparent.png
         acceptsCrypto: true
         description: |
-          Privacy-focused eSIM provider for 170+ countries, with instant eSIM delivery.
-          No account, ID, email needed, and accepts crypto via a self-hosted BTCPay Server.
+          Privacy-focused eSIM provider for 190+ countries, plus real carrier phone numbers
+          (voice, SMS and data) with a genuine +1 or one of 157 country numbers. Instant
+          delivery, no account, ID or email needed. Pays via a self-hosted BTCPay Server,
+          accepting Bitcoin, Lightning, Monero and shielded Zcash.
 
       - name: nadanada
         url: https://nadanada.me
