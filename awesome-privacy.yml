@@ -5456,5 +5456,14 @@ categories:
         description: An animated sprite editor & pixel art tool for Windows, macOS and Linux.
         github: https://github.com/aseprite/aseprite
         openSource: true
-
+  - name: Data Broker Removal
+    services:
+      - name: CyberForget
+        url: https://cyberforget.com
+        description: |
+          Automated data broker removal service that scans 200+ data broker and people-search sites
+          for your personal information and submits opt-out requests on your behalf.
+          Features include free data breach scanning, continuous monitoring for re-appearance,
+          and automatic re-removal of re-listed data. No signup required for basic scanning.
+        icon: https://cyberforget.com/og-home.png
 
