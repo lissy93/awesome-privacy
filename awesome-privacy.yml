@@ -5457,7 +5457,7 @@ categories:
         github: https://github.com/aseprite/aseprite
         openSource: true
   - name: Data Broker Removal
-    services:
+    sections:
       - name: CyberForget
         url: https://cyberforget.com
         description: |
