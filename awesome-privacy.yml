@@ -1954,7 +1954,18 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
-
+        - name: Alatify
+          url: https://getalatify.com
+          icon: https://getalatify.com/android-chrome-512
+          openSource: false
+          description: |
+            A free, privacy-first suite of browser-based tools for images and documents.
+            All processing happens locally in your browser — your files are never uploaded
+            to a server, which you can verify yourself via the DevTools Network tab. It
+            includes privacy-focused utilities such as EXIF/metadata removal, ID document
+            redaction, and blur & redact, alongside background removal, image compression,
+            resizing, format conversion and PDF tools. No account or sign-up is required,
+            and it is installable as a PWA, with most tools working fully offline.
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
@@ -5456,5 +5467,5 @@ categories:
         description: An animated sprite editor & pixel art tool for Windows, macOS and Linux.
         github: https://github.com/aseprite/aseprite
         openSource: true
-
+    
 
