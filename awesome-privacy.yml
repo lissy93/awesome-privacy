@@ -4490,10 +4490,9 @@ categories:
         icon: https://raw.githubusercontent.com/ryan-knowone/quota-dashboard/main/favicon.svg
         openSource: true
         description: |
-          Open-source, local-only dashboard that shows remaining AI subscription quota for
-          Claude Code Max, Kimi, and Z.ai. Tokens stay in the browser and are never sent to
-          the app's server; provider APIs are called directly. Live mock mode lets reviewers
-          preview the UI without credentials.
+          Open-source, local-only dashboard for remaining AI subscription quota (Claude Code
+          Max, Kimi, Z.ai). Tokens stay in the browser; provider APIs are called directly.
+          Mock mode lets reviewers preview without credentials.
 
   - name: Smart Home & IoT
     sections:
