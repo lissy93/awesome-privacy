@@ -1718,6 +1718,7 @@ Cross-platform, open source malware detection and virus prevention tools
 - **[<img src='https://devtoys.app/favicon.ico' width='14' alt='' /> DevToys](https://devtoys.app/)** - Open-source offline toolbox for developers, with utilities for JSON, YAML, hashes, JWTs, Base64, text comparison and more. Useful alternative to pasting sensitive data into random online tools. 
 - **[<img src='https://www.usebruno.com/favicon.ico' width='14' alt='' /> Bruno](https://www.usebruno.com/)** - Open-source, local-first API client that stores collections as plain text files and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools. 
 - **[<img src='https://avatars.githubusercontent.com/u/246907436?v=4' width='14' alt='' /> gitGost](https://gitgost.fly.dev)** - Push to GitHub anonymously: add gitGost as a git remote and it opens a pull request with your name, email and commit metadata stripped, optionally over Tor. Anonymity isn't perfect, and the hosted ser[…](https://awesome-privacy.xyz/development/developer-tools/gitgost "View full gitGost report") 
+- **[Quota Dashboard](https://github.com/ryan-knowone/quota-dashboard)** - Local-only, privacy-first dashboard for tracking AI subscription quota across Claude, Kimi, and Z.ai. Runs entirely in the browser; tokens never leave your machine. ([Demo](https://ryan-knowone.github.io/quota-dashboard/?mock=1))
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
