@@ -4484,6 +4484,17 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: Quota Dashboard
+        url: https://ryan-knowone.github.io/quota-dashboard/
+        github: ryan-knowone/quota-dashboard
+        icon: https://raw.githubusercontent.com/ryan-knowone/quota-dashboard/main/favicon.svg
+        openSource: true
+        description: |
+          Open-source, local-only dashboard that shows remaining AI subscription quota for
+          Claude Code Max, Kimi, and Z.ai. Tokens stay in the browser and are never sent to
+          the app's server; provider APIs are called directly. Live mock mode lets reviewers
+          preview the UI without credentials.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
