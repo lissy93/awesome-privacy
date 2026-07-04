@@ -114,7 +114,17 @@ categories:
           AliasVault protects your privacy by creating alternative identities, passwords
           and email addresses for every website you use. Use the cloud version, or self-host and
           deploy within minutes via Docker.
-
+      - name: In Case
+        url: https://in-case.me
+        github: wulongwangpeng-jpg/in-case.me
+        openSource: true
+        icon: https://in-case.me/favicon.ico
+        description: |
+          Zero-knowledge encrypted vault focused on the "what happens to my accounts
+          if I can't log in" problem. Browser-side AES-256-GCM encryption means the server
+          never sees plaintext — contacts get access only after a configurable quiet period.
+          Open source (AGPL-3.0), independently built, no tracking. Not a full password
+          manager; solves digital account transition planning.
       notableMentions:
       - name: Password Safe
         url: https://www.pwsafe.org
