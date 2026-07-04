@@ -93,6 +93,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Developer Tools](#developer-tools) (3)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
+	- [Security Cameras](#security-cameras) (1)
 - **Finance**
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (7)
@@ -107,6 +108,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [News Readers](#news-readers) (1)
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
+	- [Gaming](#gaming) (1)
 	- [Photo Management](#photo-management) (2)
 	- [Podcast Players](#podcast-players) (1)
 	- [Torrent Downloaders](#torrent-downloaders) (1)
@@ -1779,6 +1781,14 @@ human voice interface while also protecting your privacy and security
 
 ---
 
+### Security Cameras
+
+- **[<img src='https://avatars.githubusercontent.com/u/271067237?s=400&u=183f42b70679974bfd5b7e0ad0bd12aee0b45d98&v=4' width='14' alt='' /> Secluso](https://secluso.com)** - An open source, end-to-end encrypted home security camera solution (Pi Zero 2W). Easy to setup with GUI deploy tool. Fully E2EE remote access (live streaming & smart motion alerts) via mobile app and[…](https://awesome-privacy.xyz/smart-home-and-iot/security-cameras/secluso "View full Secluso report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ## Finance
 
 ### Cryptocurrencies
@@ -2137,7 +2147,8 @@ TikTok, and more.*
 
 ### Gaming
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/77549103?s=256&v=4' width='14' alt='' /> Heroic Games Launcher](https://heroicgameslauncher.com)** - Open source game launcher for the Epic Games Store, GOG and Amazon Prime Gaming on Linux, Windows and Mac. Replaces the official proprietary clients, though it still connects to your third-party store[…](https://awesome-privacy.xyz/media/gaming/heroic-games-launcher "View full Heroic Games Launcher report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
