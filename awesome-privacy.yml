@@ -59,7 +59,10 @@ categories:
 
       - name: KeePass
         url: https://keepass.info
-        openSource: true
+        icon: https://keepass.info/images/icons/keepass_256x256.png
+        git: https://sourceforge.net/projects/keepass/
+        securityAudited: true
+        tosdrId: 3276
         subreddit: KeePass
         description: |
           Hardened, secure and offline password manager. Does not have cloud-sync baked
