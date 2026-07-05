@@ -1690,16 +1690,6 @@ categories:
           This application blocks ads and trackers, doesn't require root and works for all the apps on your
           Android phone. Check out how it works here.
 
-      - name: SnoopSnitch
-        url: https://opensource.srlabs.de/projects/snoopsnitch
-        github: srlabs/snoopsnitch
-        icon: https://f-droid.org/repo/icons-640/de.srlabs.snoopsnitch.50.png
-        androidApp: de.srlabs.snoopsnitch
-        description: |
-          Collects and analyzes mobile radio data to make you aware of your mobile network security and to
-          warn you about threats like fake base stations (IMSI catchers), user tracking and over-the-air updates.
-          Get from [F-Droid](https://f-droid.org/en/packages/de.srlabs.snoopsnitch/)
-
       - name: TrackerControl
         url: https://trackercontrol.org/
         github: TrackerControl/tracker-control-android
