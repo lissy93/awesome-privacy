@@ -5169,6 +5169,16 @@ categories:
           Provides an open source, audited end-to-end encrypted platform to store photos in the cloud without needing to trust the service provider.
           With apps for desktop, web and mobile, album sharing, public links, semantic search and facial recognition.
           Self-hosted or 10GB free.
+      - name: Loomey
+        url: https://blendstylez.com/pages/loomey/
+        icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/c7/55/95c75550-768d-b848-96d0-3ad9685aace4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+        iosApp: https://apps.apple.com/app/id6748387867
+        followWith: iOS/iPadOS/macOS
+        openSource: false
+        description: |
+          Local-first backup of the iPhone/iPad photo library to a NAS (SMB), computer share or USB drive. 
+          No cloud, no account; verifies transfers and skips duplicates. 
+          Proprietary freemium; one-way export only (no sync); SMB, USB or local folders.
 
     - name: E-Book Readers
       alternativeTo: ['kindle', 'google play books', 'apple books', 'adobe digital editions', 'calibre']
