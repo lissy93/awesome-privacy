@@ -1107,16 +1107,6 @@ categories:
           Verifies DKIM signatures and shows the result in the e-mail header, in order to help
           spot spoofed emails (which do not come from the domain that they claim to).
 
-      - name: VESmail
-        url: https://vesmail.email
-        icon: https://vesmail.email/favicon.ico
-        openSource: true
-        github: vesvault/VESmail
-        description: |
-          Self-hosted IMAP/SMTP proxy that end-to-end encrypts mail for any existing
-          email account, without changing clients or providers. Keys are recoverable
-          via the VESvault key repository, which the proxy depends on for key exchange.
-
       notableMentions: >
         If you are using ProtonMail, then the [ProtonMail Bridge](https://protonmail.com/bridge/thunderbird)
         enables you to sync & backup your emails to your own desktop mail client.
