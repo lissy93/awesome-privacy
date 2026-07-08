@@ -2867,6 +2867,15 @@ categories:
           Offers enterprise-grade, high-speed offshore dedicated servers, they own their own data centres, have a solid
           privacy policy and accept anonymous payment.
 
+      - name: Packetra
+        url: https://packetra.com
+        icon: https://packetra.com/favicon.ico
+        acceptsCrypto: true
+        description: |
+          Privacy-focused web hosting with infrastructure in Finland and Switzerland.
+          Shared, WordPress, VPS and dedicated servers, plus domain registration, with
+          email-only signup and no KYC.
+
       - name: Servers Guru
         url: https://servers.guru
         acceptsCrypto: true
