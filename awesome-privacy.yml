@@ -1083,6 +1083,15 @@ categories:
           If you already have ProtonMail's Professional (€8/month) or Visionary (€30/month) package,
           then an implementation of this feature is available via the Catch-All Email feature.
 
+      - name: Tomatoes.run
+        url: https://www.tomatoes.run
+        icon: https://www.tomatoes.run/icon.svg
+        openSource: false
+        description: |
+          Email aliasing through a personal subdomain (you.tomatoes.run): every address
+          forwards to your inbox, no alias to create first. Closed-source, France-hosted;
+          no custom domains or reply support. Free tier (5 aliases), €5/mo unlimited.
+          
     ##################################
     ###### Mail Security Tools ######
     #################################
