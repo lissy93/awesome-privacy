@@ -1944,8 +1944,7 @@ categories:
         - name: PrivacyScrubber
           url: https://privacyscrubber.com
           icon: https://privacyscrubber.com/favicon.ico
-          github: moxno/PrivacyScrubber
-          openSource: true
+          openSource: false
           description: |
             A 100% client-side, zero-trust PII sanitizer that strips sensitive data (names, emails, phones, IDs)
             from text, PDFs, and DOCX files locally in your browser before sharing with AI tools.
