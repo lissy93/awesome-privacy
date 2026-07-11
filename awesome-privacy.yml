@@ -3095,6 +3095,18 @@ categories:
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
 
+      - name: MirrorNotes
+        url: https://mirrornotes.org
+        github: lokii49/mirror
+        icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/e4/08/75e4083d-898c-86ad-4e78-dbf0f85e6843/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+        followWith: iOS
+        openSource: true
+        iosApp: https://apps.apple.com/app/id6769007201
+        description: |
+          On-device AI journaling app for iPhone. A local Gemma 3 model writes daily reflection
+          prompts and mood analysis from your own entries, fully offline. Free tier is unlimited
+          writing; AI features need a paid subscription. iOS only.
+
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
