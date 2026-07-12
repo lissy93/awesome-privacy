@@ -110,6 +110,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
 	- [Gaming](#gaming) (1)
+	- [Video Players](#video-players) (1)
 	- [Photo Management](#photo-management) (2)
 	- [Podcast Players](#podcast-players) (1)
 	- [Torrent Downloaders](#torrent-downloaders) (1)
@@ -2181,7 +2182,8 @@ TikTok, and more.*
 
 ### Video Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/1389585?s=256&v=4' width='14' alt='' /> VLC Media Player](https://www.videolan.org/vlc/)** - Free, cross-platform media player from the non-profit VideoLAN project. Plays almost any audio or video format locally, with no ads, trackers or telemetry. VLC has many powerful features and settings,[…](https://awesome-privacy.xyz/media/video-players/vlc-media-player "View full VLC Media Player report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T15:25:36Z",
+  "generatedAt": "2026-07-12T18:09:05Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -176,6 +176,7 @@
     "e55f08c8337bf322a0b10d1b6c9827cb2bac5a64",
     "e60f397fd1fc7703fc2258ce4b65d585259040a2",
     "e7474c579b7e33b3c47ed76492068d914e4566f1",
+    "e8bd96dde0f2b147e6472605d9db8da34dfd31b4",
     "e9b1fee82705ca9b52a9db6e081d46bc4c417f01",
     "eb3b8411aea7bca9e3093a66b8313ade4e516ffc",
     "ec4cbec4affe6d6ddcb178504e137d552af3771f",
@@ -329,6 +330,29 @@
     671
   ],
   "entries": [
+    {
+      "date": "2026-07-12",
+      "sha": "e8bd96dde0f2b147e6472605d9db8da34dfd31b4",
+      "pr": {
+        "number": 669,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/669",
+        "author": "lissy93",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/1862727?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "VLC Media Player",
+              "category": "Media",
+              "section": "Video Players"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-12",
       "sha": "d80c4314af6e5f0cc150d5e2b3cba7329932c7f2",
