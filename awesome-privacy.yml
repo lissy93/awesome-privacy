@@ -3802,6 +3802,25 @@ categories:
         - Ruby: [Exif](https://github.com/tonytonyjan/exif) by @tonytonyjan
         - PHP: [Pel](https://github.com/pel/pel) by @mgeisler
 
+    ################################
+    ###### Document Converters #####
+    ################################
+    - name: Document Converters
+      intro: |
+        Converting or editing documents (such as PDFs) often means uploading them
+        to a third-party server, which can expose sensitive information contained
+        within contracts, ID scans, or personal records. Tools that process files
+        entirely on-device avoid this risk altogether.
+      services:
+      - name: pdfcevir
+        url: https://pdfcevir.vercel.app
+        github: trixterx102-byte/pdfcevir
+        openSource: true
+        description: |
+          Free PDF toolkit that runs 100% client-side in your browser -- merge, split,
+          compress, convert and watermark PDFs. Files never leave your device, no
+          server processing required.
+
     ##########################
     ###### Data Erasers ######
     ##########################
