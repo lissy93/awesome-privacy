@@ -3372,6 +3372,14 @@ categories:
           Has optional open-source client-side encryption, compatible with RClone. Can connect to other cloud services
           and MS Office. 10GB free, on ISO27001 servers (DE).
 
+      - name: ShieldFive
+        url: https://shieldfive.com
+        icon: https://shieldfive.com/apple-touch-icon.png
+        description: |
+          Zero-knowledge, end-to-end encrypted cloud storage; files encrypted on-device before upload.
+          Post-quantum by default (ML-KEM-1024, FIPS 203). EU-hosted, GDPR. Open-source crypto core
+          (Apache-2.0); closed-source apps, no external audit yet.
+
       notableMentions: |
         An alternative option, is to use a cloud computing provider, and implement
         the syncing functionality yourself, and encrypt data locally before
