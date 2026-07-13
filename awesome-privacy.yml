@@ -3816,6 +3816,7 @@ categories:
         url: https://pdfcevir.vercel.app
         github: trixterx102-byte/pdfcevir
         openSource: true
+        icon: https://pdfcevir.vercel.app/icon-512.png
         description: |
           Free PDF toolkit that runs 100% client-side in your browser -- merge, split,
           compress, convert and watermark PDFs. Files never leave your device, no
