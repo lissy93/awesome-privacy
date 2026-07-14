@@ -1321,9 +1321,9 @@ categories:
         icon: https://xeres.io/wp-content/uploads/cropped-cropped-favicon-1-e1623491252400.png
         openSource: true
         description: |
-          A Peer-to-Peer (Friend-to-Friend), decentralized, encrypted and secure application
-          designed for communication and sharing. It features chat, forums, channels, boards,
-          voice calls and anonymous file sharing.
+          A decentralized, encrypted P2P friend-to-friend app for chat, forums, channels,
+          boards, voice calls and anonymous file sharing. Best for trusted contacts,
+          as it isn't anonymous unless you route it through Tor (off by default).
 
       notableMentions: >
         Some chat platforms allow for cross-platform group chats, voice and video
