@@ -3158,6 +3158,16 @@ categories:
           Note that CalDAV support is currently limited
           (see [#921](https://github.com/FossifyOrg/Calendar/issues/921)
 
+      - name: Tymeslot
+        url: https://tymeslot.app
+        icon: https://tymeslot.app/images/brand/favicon-ca68e86a59d4a3ed9891fa9d036807e5.svg
+        github: Tymeslot/tymeslot
+        openSource: true
+        description: |
+          Open-source (AGPL-3.0), self-hostable scheduling and calendar platform. Guests book
+          without creating an account; hosts get a full calendar with two-way sync to Google,
+          Outlook and iCloud. A managed cloud plan is offered too, not self-hosted.
+
     ###############################
     ###### Task Management ######
     ##############################
