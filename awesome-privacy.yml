@@ -1323,6 +1323,18 @@ categories:
           conversations easier to follow than channel-only tools. Can be self-hosted, or
           used as a paid cloud service. The threading model takes some getting used to.
 
+      - name: Zooid
+        url: https://zooid.dev/
+        github: zooid-ai/zooid
+        icon: https://avatars.githubusercontent.com/u/262163976?v=4
+        openSource: true
+        description: |
+          Open source (MIT), self-hostable Slack alternative built on the Matrix protocol,
+          so conversations live on infrastructure you control rather than a vendor's servers.
+          Its distinguishing feature is that AI agents can join as first-class teammates,
+          with approval cards, tool calls and live plans; any ACP-compatible agent runs
+          sandboxed. Best suited to technical teams comfortable self-hosting.
+
       notableMentions: >
         Some chat platforms allow for cross-platform group chats, voice and video
         conferencing, but without the additional collaboration features.
