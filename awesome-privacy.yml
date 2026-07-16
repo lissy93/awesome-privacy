@@ -1950,10 +1950,8 @@ categories:
           url: https://www.ondevicepdf.com
           icon: https://www.ondevicepdf.com/icon-192.png
           description: |
-            Free browser-based PDF tools with no accounts and offline PWA support. The security tools (password
-            protect, remove password, recover password and redact) are zero-egress by construction — a sealed
-            Content Security Policy (connect-src 'self') means the browser itself blocks any upload, which anyone
-            can verify in DevTools or via the live proof page at ondevicepdf.com/verify.
+            Free browser-based PDF tools. The security tools (protect, unlock, recover, redact) are zero-egress —
+            a sealed CSP (connect-src 'self') blocks all uploads, verifiable at ondevicepdf.com/verify.
           openSource: false
 
       wordOfWarning: >
