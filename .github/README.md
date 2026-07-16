@@ -1368,6 +1368,7 @@ This could obviously pose a security risk, and that is why it is recommended to 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
+[Brevio EXIF Remover](https://brevio.pro/tools/exif-remover) - Strips EXIF/GPS metadata from photos entirely in your browser; the image is never uploaded (verifiable in DevTools). Part of a larger suite of client-side file tools.
 ---
 
 ### Data Erasers
