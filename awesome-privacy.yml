@@ -1946,6 +1946,16 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: OnDevicePDF
+          url: https://www.ondevicepdf.com
+          icon: https://www.ondevicepdf.com/icon-192.png
+          description: |
+            Free browser-based PDF tools with no accounts and offline PWA support. The security tools (password
+            protect, remove password, recover password and redact) are zero-egress by construction — a sealed
+            Content Security Policy (connect-src 'self') means the browser itself blocks any upload, which anyone
+            can verify in DevTools or via the live proof page at ondevicepdf.com/verify.
+          openSource: false
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
