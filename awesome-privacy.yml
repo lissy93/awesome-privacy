@@ -5095,6 +5095,7 @@ categories:
           A free mobile and desktop PWA that strips YouTube of recommendations, Shorts, auto play, and trending feeds.
           Leaves only the channels you choose to follow without requiring any self-hosting.
         url: https://nosuggest.com
+        github: No-Suggest/NoSuggest
         icon: https://nosuggest.com/nosuggest-logo-v2-512.png
         openSource: false
         followWith: YouTube
