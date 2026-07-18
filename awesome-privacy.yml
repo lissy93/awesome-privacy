@@ -1227,6 +1227,16 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: VirtualSMS
+        url: https://virtualsms.io
+        icon: https://avatars.githubusercontent.com/u/265610251?v=4
+        acceptsCrypto: true
+        description: >-
+          Receive SMS verification codes on real carrier numbers across 145+
+          countries, without exposing your personal number. Pay-per-use,
+          accepts crypto, email-only signup. Closed-source hosted service, so
+          you trust the operator with message contents.
+
     ################################
     ###### Team Collaboration ######
     ################################
