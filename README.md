@@ -36,14 +36,14 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [P2P Messaging](#p2p-messaging) (4)
 	- [Encrypted Email](#encrypted-email) (4)
 	- [Email Clients](#email-clients) (6)
-	- [Mail Forwarding](#mail-forwarding) (6)
-	- [Email Security Tools](#email-security-tools) (2)
+	- [Mail Forwarding](#mail-forwarding) (4)
+	- [Email Security Tools](#email-security-tools) (3)
 	- [VOIP Clients](#voip-clients) (2)
 	- [Virtual Phone Numbers](#virtual-phone-numbers) (8)
 	- [Team Collaboration](#team-collaboration) (6)
 - **Security Tools**
 	- [Browser Extensions](#browser-extensions) (19)
-	- [Mobile Apps](#mobile-apps) (22)
+	- [Mobile Apps](#mobile-apps) (23)
 	- [Online Tools](#online-tools) (17)
 - **Networking**
 	- [Virtual Private Networks](#virtual-private-networks) (7)
@@ -110,6 +110,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
 	- [Gaming](#gaming) (1)
+	- [Video Players](#video-players) (1)
 	- [Photo Management](#photo-management) (2)
 	- [Podcast Players](#podcast-players) (1)
 	- [Torrent Downloaders](#torrent-downloaders) (1)
@@ -373,11 +374,15 @@ Email clients are the programs used to interact with the mail server. For hosted
 Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
 
 - **[<img src='https://addy.io/apple-touch-icon.png' width='14' alt='' /> Addy](https://addy.io)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan. 
-- **[<img src='https://33mail.com/favicon.ico' width='14' alt='' /> 33Mail](http://33mail.com)** - A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom doma[…](https://awesome-privacy.xyz/communication/mail-forwarding/33mail "View full 33Mail report") 
 - **[<img src='https://simplelogin.io/favicon.ico' width='14' alt='' /> SimpleLogin](https://simplelogin.io)** - Fully open source (view on [GitHub](https://github.com/simple-login)) alias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using cu[…](https://awesome-privacy.xyz/communication/mail-forwarding/simplelogin "View full SimpleLogin report") 
 - **[<img src='https://relay.firefox.com/favicon.svg' width='14' alt='' /> Firefox Private Relay](https://relay.firefox.com)** - Developed and managed by Mozilla, Relay is a Firefox addon, that lets you make an email alias with 1 click, and have all messages forwarded onto your personal email. Relay is totally free to use, and[…](https://awesome-privacy.xyz/communication/mail-forwarding/firefox-private-relay "View full Firefox Private Relay report") 
 - **[<img src='https://forwardemail.net/img/android-chrome-192x192.png' width='14' alt='' /> Forward Email](https://forwardemail.net)** - Catch-all email forwarding service with unlimited aliases and custom domains, configured via DNS records. Self-hostable; the hosted version has a limited free plan, with paid plans (from $3/month) add[…](https://awesome-privacy.xyz/communication/mail-forwarding/forward-email "View full Forward Email report") 
-- **[<img src='https://proton.me/favicons/android-chrome-192x192.png' width='14' alt='' /> ProtonMail](https://protonmail.com/pricing)** - If you already have ProtonMail's Professional (€8/month) or Visionary (€30/month) package, then an implementation of this feature is available via the Catch-All Email feature. 
+
+<details>
+<summary>✳️ <b>Notable Mentions</b></summary>
+
+> Some full email providers include aliasing or catch-all addresses as a built-in (usually premium) feature. For example, [Proton](https://proton.me) (catch-all, plus hide-my-email aliases via Proton Pass), [StartMail](https://www.startmail.com), [mailbox.org](https://mailbox.org) and [Posteo](https://posteo.de) all offer this.
+> </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -387,6 +392,7 @@ Revealing your real email address online can put you at risk. Email aliasing all
 
 - **[<img src='https://icon.horse/icon/www.emailprivacytester.com' width='14' alt='' /> Email Privacy Tester](https://www.emailprivacytester.com/)** - Tests whether your mail client "reads" emails before you open them, and what analytics, read-receipts or other tracking data it leaks back to the sender. Developed by [Mike Cardwell](https://www.grepular.com/); use a spare addres[…](https://awesome-privacy.xyz/communication/email-security-tools/email-privacy-tester "View full Email Privacy Tester report") 
 - **[<img src='https://addons.thunderbird.net/user-media/addon_icons/438/438634-64.png' width='14' alt='' /> DKIM Verifier](https://addons.thunderbird.net/en-US/thunderbird/addon/dkim-verifier/?collection_id=a5557f08-eafd-7a39-81c6-09127da790f7)** - Verifies DKIM signatures and shows the result in the e-mail header, in order to help spot spoofed emails (which do not come from the domain that they claim to). 
+- **[<img src='https://www.paperweight.email/icon.png' width='14' alt='' /> Paperweight](https://www.paperweight.email/)** - Paperweight scans your inbox to map your digital footprint, then helps you take back control and delete your data. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -520,6 +526,7 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://play-lh.googleusercontent.com/hMhLdDNBR_rBIDctJ5yCPbyPy0fi_6FHp9MdgaOIPPedyqgwr6tsZq_AO3W1z4Zb8HJ_=w240-h480' width='14' alt='' /> Catch the Man-in-the-Middle](https://play.google.com/store/apps/details?id=me.brax.certchecker)** - Simple tool, that compares SHA-1 fingerprints of the the SSL certificates seen from your device, and the certificate seen from an external network. If they do not match, this may indicate a man-in-the[…](https://awesome-privacy.xyz/security-tools/mobile-apps/catch-the-man-in-the-middle "View full Catch the Man-in-the-Middle report") 
 - **[<img src='https://f-droid.org/repo/com.celzero.bravedns/en-US/icon_AwgyVcHjczoaNxANCvUeSJrEfOWsIIeIpCgBaUKoXuY=.png' width='14' alt='' /> RethinkDNS & Firewall](https://rethinkdns.com)** - An open-source ad-blocker and firewall app for Android 6+ (does not require root). 
 - **[<img src='https://f-droid.org/assets/apple-touch-icon_ypJwtCrcixeH_qV6LdcMYk1anFIR9o-_ufR__1wNdJY=.png' width='14' alt='' /> F-Droid](https://f-droid.org/)** - F-Droid is an installable catalogue of FOSS applications for Android. The client enables you to browse, install, and keep track of updates on your device. 
+- **[<img src='https://raw.githubusercontent.com/thomasbuilds/Spectre/refs/heads/main/metadata/en-US/images/icon.png' width='14' alt='' /> Spectre](https://github.com/thomasbuilds/Spectre)** - A radio frequency scanner app for Android with recon and offensive capabilities. 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -2177,7 +2184,8 @@ TikTok, and more.*
 
 ### Video Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/1389585?s=256&v=4' width='14' alt='' /> VLC Media Player](https://www.videolan.org/vlc/)** - Free, cross-platform media player from the non-profit VideoLAN project. Plays almost any audio or video format locally, with no ads, trackers or telemetry. VLC has many powerful features and settings,[…](https://awesome-privacy.xyz/media/video-players/vlc-media-player "View full VLC Media Player report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
