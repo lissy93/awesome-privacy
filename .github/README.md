@@ -65,7 +65,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Productivity**
 	- [Digital Notes](#digital-notes) (8)
 	- [Calendar](#calendar) (3)
-	- [Task Management](#task-management) (1)
+	- [Task Management](#task-management) (2)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
 	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (6)
@@ -1077,6 +1077,7 @@ important.
 ### Task Management
 
 - **[<img src='https://raw.githubusercontent.com/johannesjo/super-productivity/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png' width='14' alt='' /> Super Productivity](https://super-productivity.com)** - Privacy-respecting, open-source task manager and time tracker. All data is stored locally on your device - no account required, no cloud dependency, and zero telemetry. Supports Jira, GitLab, GitHub,[…](https://awesome-privacy.xyz/productivity/task-management/super-productivity "View full Super Productivity report") 
+- **[<img src='https://github.com/dongdongbh/Mindwtr/raw/main/apps/mobile/assets/images/icon.png' width='14' alt='' /> Mindwtr](https://mindwtr.app)** - A Getting Things Done + Pomodoro productivity system for desktop and mobile. Local-first, no account required, can sync via WebDAV/Dropbox/local file or self-hosted deployment. With a CLI, REST API an[…](https://awesome-privacy.xyz/productivity/task-management/mindwtr "View full Mindwtr report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 

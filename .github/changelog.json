@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:28:13Z",
+  "generatedAt": "2026-07-18T20:13:54Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -85,6 +85,7 @@
     "6a34ef6b931861667da7d6227c1be8f48d26facc",
     "6cf287d925558028acb263fbafa7eb412abfed17",
     "6d21892e771f8ca4a64b772e211b32db166626a6",
+    "6eff55d23b27913fdb7102b8d747906ed84eb84d",
     "7177ba26e054a6f173ec451b420ee64d5fdef69b",
     "719de567d40d3be7714c3206fb76a41d93c61910",
     "75ad504f96da49df98dc30842d820fd74c85deb0",
@@ -331,9 +332,35 @@
     668,
     671,
     675,
-    677
+    677,
+    683,
+    684,
+    685
   ],
   "entries": [
+    {
+      "date": "2026-07-18",
+      "sha": "6eff55d23b27913fdb7102b8d747906ed84eb84d",
+      "pr": {
+        "number": 682,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/682",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Mindwtr",
+              "category": "Productivity",
+              "section": "Task Management"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-14",
       "sha": "9420fd7b12784cd36767cc4134a412ef96aba636",
@@ -6492,6 +6519,26 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-07-16",
+      "title": "Add OnDevicePDF in Online Tools",
+      "pr": {
+        "number": 684,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/684",
+        "author": "RaviChanduEdru",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/92777166?v=4"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "title": "[Add] Zooid in Team Collaboration",
+      "pr": {
+        "number": 683,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/683",
+        "author": "orivibes",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/103140410?v=4"
+      }
+    },
     {
       "date": "2026-07-13",
       "title": "Add pdfcevir under new Document Converters section",
