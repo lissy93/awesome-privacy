@@ -5097,7 +5097,7 @@ categories:
           chosen to follow. Unlike other options here, works instantly as a
           mobile/desktop PWA with no self hosting required.
         url: https://nosuggest.com
-        github: No-Suggest/NoSuggest
+        openSource: false
         followWith: YouTube
 
       - name: Redlib
