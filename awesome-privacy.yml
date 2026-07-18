@@ -5099,6 +5099,19 @@ categories:
         url: https://github.com/redlib-org/redlib
         followWith: Reddit
 
+        - name: NoSuggest
+        description: |
+          A completely free PWA that strips YouTube of recommendations, Shorts, auto-play,
+          and trending feeds, leaving only the channels you have deliberately
+          chosen to follow. Unlike other options here, works instantly as a
+          mobile/desktop PWA with no self-hosting required. Code is public for
+          transparency and inspection, though not under a fully open-source
+          license (redistribution/commercial reuse restricted).
+        url: https://nosuggest.com
+        github: https://github.com/No-Suggest/NoSuggest
+        icon: https://nosuggest.com/nosuggest-logo-v2-512.png
+        followWith: YouTube
+
       notableMentions:
       - name: NewPipe
         url: https://newpipe.schabi.org
