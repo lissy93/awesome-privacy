@@ -5092,11 +5092,10 @@ categories:
 
       - name: NoSuggest
         description: |
-          A completely free PWA that strips YouTube of recommendations, Shorts, auto play,
-          and trending feeds, leaving only the channels you have deliberately
-          chosen to follow. Unlike other options here, works instantly as a
-          mobile/desktop PWA with no self hosting required.
+          A free mobile and desktop PWA that strips YouTube of recommendations, Shorts, auto play, and trending feeds.
+          Leaves only the channels you choose to follow without requiring any self-hosting.
         url: https://nosuggest.com
+        icon: https://nosuggest.com/nosuggest-logo-v2-512.png
         openSource: false
         followWith: YouTube
 
