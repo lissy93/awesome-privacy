@@ -5090,6 +5090,16 @@ categories:
           Claims to encrypt traffic, but caution is advised for personal information. Managed by DevroLabs.
         url: https://weboproxy.com
 
+      - name: NoSuggest
+        description: |
+          A completely free PWA that strips YouTube of recommendations, Shorts, auto play,
+          and trending feeds, leaving only the channels you have deliberately
+          chosen to follow. Unlike other options here, works instantly as a
+          mobile/desktop PWA with no self hosting required.
+        url: https://nosuggest.com
+        github: No-Suggest/NoSuggest
+        followWith: YouTube
+
       - name: Redlib
         description: |
           An alternative private front-end to Reddit, with its origins in [Libreddit](https://github.com/libreddit/libreddit).
@@ -5098,17 +5108,6 @@ categories:
         icon: https://raw.githubusercontent.com/redlib-org/redlib/refs/heads/main/static/logo.png
         url: https://github.com/redlib-org/redlib
         followWith: Reddit
-
-        - name: NoSuggest
-          description: |
-            A completely free PWA that strips YouTube of recommendations, Shorts, auto play,
-            and trending feeds, leaving only the channels you have deliberately
-            chosen to follow. Unlike other options here, works instantly as a
-            mobile/desktop PWA with no self hosting required.
-          url: https://nosuggest.com
-          github: No-Suggest/NoSuggest
-          icon: https://nosuggest.com/nosuggest-logo-v2-512.png
-          followWith: YouTube
 
       notableMentions:
       - name: NewPipe
