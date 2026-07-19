@@ -1,0 +1,1 @@
+- [Vault Core](https://github.com/designer1977/vault_core) — Client-side cryptographic key and password generator with zero-transmission architecture. Live demo: https://vaultcore.tools · License: MIT
