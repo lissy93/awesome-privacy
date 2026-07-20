@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T10:54:31Z",
+  "generatedAt": "2026-07-20T11:30:55Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -109,6 +109,7 @@
     "8950c0b79c0fc336f579002466dcc2f8eaad43ea",
     "8c0cdf76b53040df0fe362941ca4a085d346ce8a",
     "8ee48cc161dd204f6eea70e8988ad3d4eb17e0c7",
+    "906ceba8d144bc074ceab3872424f3dd5d205fa5",
     "90d8ef9b928ed9abb25b3c2480717e6174451488",
     "9138eddcdec8ede666db70bc44d98b33c9f9653e",
     "923301401b6f5d19ea9bb2c4fb9360eff10a257a",
@@ -344,6 +345,29 @@
     689
   ],
   "entries": [
+    {
+      "date": "2026-07-20",
+      "sha": "906ceba8d144bc074ceab3872424f3dd5d205fa5",
+      "pr": {
+        "number": 690,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/690",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Rallly",
+              "category": "Productivity",
+              "section": "Scheduling"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-07-20",
       "sha": "f90930b0973cf9f030db48893a76735a7751d653",

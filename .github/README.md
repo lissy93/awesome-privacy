@@ -65,7 +65,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Productivity**
 	- [Digital Notes](#digital-notes) (8)
 	- [Calendar](#calendar) (3)
-	- [Scheduling](#scheduling) (1)
+	- [Scheduling](#scheduling) (2)
 	- [Task Management](#task-management) (2)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
@@ -1078,6 +1078,7 @@ important.
 ### Scheduling
 
 - **[<img src='https://tymeslot.app/images/brand/favicon-ca68e86a59d4a3ed9891fa9d036807e5.svg' width='14' alt='' /> Tymeslot](https://tymeslot.app)** - Open-source (AGPL-3.0), self-hostable scheduling and calendar platform. Guests book without creating an account; hosts get a full calendar with two-way sync to Google, Outlook and iCloud. A managed cl[…](https://awesome-privacy.xyz/productivity/scheduling/tymeslot "View full Tymeslot report") 
+- **[<img src='https://raw.githubusercontent.com/lukevella/rallly/refs/heads/main/apps/web/public/favicon.svg' width='14' alt='' /> Rallly](https://rallly.co/)** - Open-source & self-hostable scheduling tool that helps you find the best date and time to meet. Create a poll with a few options, share the link, and let your participants vote on when they're availab[…](https://awesome-privacy.xyz/productivity/scheduling/rallly "View full Rallly report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
