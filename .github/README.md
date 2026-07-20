@@ -48,7 +48,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Networking**
 	- [Virtual Private Networks](#virtual-private-networks) (7)
 	- [Self-Hosted Network Security](#self-hosted-network-security) (8)
-	- [Anonymity Networks](#anonymity-networks) (3)
+	- [Anonymity Networks](#anonymity-networks) (4)
 	- [Proxies](#proxies) (2)
 	- [DNS Providers](#dns-providers) (3)
 	- [DNS Clients](#dns-clients) (5)
@@ -664,6 +664,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 - **[<img src='https://www.torproject.org/static/images/favicon/favicon.ico' width='14' alt='' /> Tor](https://www.torproject.org)** - Tor provides robust anonymity, allowing you to defend against surveillance, circumvent censorship and reduce tracking. It blocks trackers, resists fingerprinting and implements multi-layered encryptio[…](https://awesome-privacy.xyz/networking/anonymity-networks/tor "View full Tor report") 
 - **[<img src='https://geti2p.net/_static/favicon.ico' width='14' alt='' /> I2P](https://geti2p.net)** - I2P offers great generic transports, it is well geared towards accessing hidden services, and has a couple of technical benefits over Tor: P2P friendly with unidirectional short-lived tunnels, it is p[…](https://awesome-privacy.xyz/networking/anonymity-networks/i2p "View full I2P report") 
 - **[<img src='https://www.hyphanet.org/favicon.ico' width='14' alt='' /> Freenet](https://freenetproject.org)** - Freenet is easy to setup, provides excellent friend To Friend Sharing vs I2P, and is great for publishing content anonymously. It's quite large in size, and very slow so not the best choice for casual[…](https://awesome-privacy.xyz/networking/anonymity-networks/freenet "View full Freenet report") 
+- **[<img src='https://raw.githubusercontent.com/number571/hidden-lake/refs/heads/master/images/favicon.ico' width='14' alt='' /> Hidden Lake](https://github.com/number571/hidden-lake)** - Hidden Lake is a network with theoretically provable security against a global observer based on the QB-problem. Due to its abstraction from the communication environment, the Hidden Lake network can[…](https://awesome-privacy.xyz/networking/anonymity-networks/hidden-lake "View full Hidden Lake report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -699,7 +700,7 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 <details>
 <summary>ℹ️ <b>Further Info</b></summary>
 
-> Tor, I2P and Freenet are all anonymity networks - but they work very differently and each is good for specific purposes.
+> Tor, I2P, Freenet and Hidden Lake are all anonymity networks - but they work very differently and each is good for specific purposes.
 So a good and viable solution would be to use all of them, for different tasks.
 *You can read more about how I2P compares to Tor, [here](https://blokt.com/guides/what-is-i2p-vs-tor-browser)*
 </details>
