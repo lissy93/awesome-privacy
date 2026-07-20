@@ -3174,6 +3174,17 @@ categories:
           without creating an account; hosts get a full calendar with two-way sync to Google,
           Outlook and iCloud. A managed cloud plan is offered too, not self-hosted.
 
+      - name: Rallly
+        url: https://rallly.co
+        icon: https://rallly.co/android-chrome-512x512.png
+        github: lukevella/rallly
+        openSource: true
+        discordInvite: uzg4ZcHbuM
+        description: |
+          Open-source group scheduling tool that finds a meeting time by polling everyone's
+          availability, like Doodle. Self-hostable, or use the managed cloud plan. Participants
+          need no account, though the host does. It's poll-focused, not a full calendar.
+
     ###############################
     ###### Task Management ######
     ##############################
