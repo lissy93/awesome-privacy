@@ -4546,7 +4546,17 @@ categories:
         For that reason it is recommended not to have these devices in your house.
         The following are open source AI voice assistants, that aim to provide a
         human voice interface while also protecting your privacy and security
-      services: []
+      services:
+      - name: Typer
+        url: https://typer.space
+        icon: https://typer.space/public/app-icon.png
+        openSource: false
+        iosApp: https://apps.apple.com/app/typer-ai/id6751274483
+        followWith: macOS (Apple Silicon)
+        description: |
+          Free, private AI chat app for macOS that runs entirely on-device.
+          No account, no cloud, no ads. Works fully offline with local web search.
+          Not open source, but no data leaves the device.
 
       notableMentions: |
         [Mycroft](https://github.com/MycroftAI/mycroft-core) and [Kalliope](https://github.com/kalliope-project/kalliope) removed, as no longer active.
