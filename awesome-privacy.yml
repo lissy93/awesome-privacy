@@ -3060,6 +3060,17 @@ categories:
           PDF annotation, flashcards, whiteboards strong markdown support and more.
           Includes themes and extensions, backed by a strong community
 
+      - name: Logue
+        url: https://github.com/bitwize-ai/Logue
+        github: bitwize-ai/Logue
+        followWith: Mac OS
+        openSource: true
+        description: |
+          Logue is a privacy-first AI meeting-notes and writing assistant for macOS. It records
+          mic and system audio and runs transcription, speaker diarization, and all AI inference
+          on-device via MLX on Apple Silicon, so by default nothing leaves your Mac. Includes Smart
+          Minutes summaries, action items, and an on-device AI writing editor. Free and open source.
+
       - name: Obsidian
         url: https://obsidian.md/
         github: obsidianmd/obsidian-releases
