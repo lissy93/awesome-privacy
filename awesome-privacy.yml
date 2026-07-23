@@ -806,6 +806,8 @@ categories:
         url: https://github.com/Bitmessage/PyBitmessage
       - name: RetroShare
         url: https://retroshare.cc
+      - name: Xeres
+        url: https://xeres.io
 
     #############################
     ###### Encrypted Email ######
@@ -1322,6 +1324,16 @@ categories:
           Open source team chat organized around topic-based threading, which keeps busy
           conversations easier to follow than channel-only tools. Can be self-hosted, or
           used as a paid cloud service. The threading model takes some getting used to.
+
+      - name: Xeres
+        url: https://xeres.io
+        github: zapek/Xeres
+        icon: https://xeres.io/wp-content/uploads/cropped-cropped-favicon-1-e1623491252400.png
+        openSource: true
+        description: |
+          A decentralized, encrypted P2P friend-to-friend app for chat, forums, channels,
+          boards, voice calls and anonymous file sharing. Best for trusted contacts,
+          as it isn't anonymous unless you route it through Tor (off by default).
 
       notableMentions: >
         Some chat platforms allow for cross-platform group chats, voice and video
