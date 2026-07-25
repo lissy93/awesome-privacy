@@ -3948,13 +3948,14 @@ categories:
       - name: REDACT
         url: https://github.com/yonasabeselom/redact
         github: yonasabeselom/redact
+        icon: https://avatars.githubusercontent.com/u/yonasabeselom
         openSource: true
         followWith: Windows
         description: |
-          Advanced forensic privacy eraser for Windows. Destroys 250+ system artifacts
-          that standard tools like BleachBit and CCleaner miss — including AmCache, BAM,
-          ShimCache, NTFS $UsnJrnl/$LogFile, Windows Recall, Shell Bags and SRUM.
-          Supports 1–35 pass cryptographic wipe modes with a native Windows 11 Fluent Dark UI.
+          Open source Windows forensic artifact eraser. Removes 250+ traces
+          including AmCache, BAM, ShimCache, NTFS logs, Windows Recall,
+          Shell Bags and SRUM that BleachBit and CCleaner miss.
+          Supports 1–35 pass wipe modes.
 
       - name: shred
         url: https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
