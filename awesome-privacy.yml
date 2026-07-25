@@ -5313,7 +5313,13 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
-
+      - name: PressImg
+        url: https://pressimg.com
+        openSource: false
+        description: |
+          Browser-based image compressor and converter that runs entirely
+          on your device — no uploads, no account. Compresses and converts
+          JPG, PNG, WebP and AVIF with batch processing and ZIP export.
   - name: Creativity
     sections:
     - name: Image Editors
