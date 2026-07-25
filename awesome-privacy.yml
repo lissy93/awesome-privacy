@@ -4417,6 +4417,12 @@ categories:
         description: |
           Free, open source macOS firewall. It aims to block unknown outgoing connections, unless explicitly approved by the user.
 
+      - name: Mainspring
+        url: https://trymainspring.com
+        icon: https://trymainspring.com/og.png
+        description: |
+          Native macOS app that turns off system-level data sharing with one-click, reversible toggles: analytics and telemetry, personalized ads, Siri suggestions, Spotlight data and web results, location services, and crash reporting. Also enforces password-on-wake and instant screen lock.
+
       - name: Stronghold
         url: https://github.com/alichtman/stronghold
         icon: https://i.ibb.co/jVmsrYp/stronghold.png
