@@ -3945,6 +3945,17 @@ categories:
         description: |
           C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface.
 
+      - name: REDACT
+        url: https://github.com/yonasabeselom/redact
+        github: yonasabeselom/redact
+        openSource: true
+        followWith: Windows
+        description: |
+          Advanced forensic privacy eraser for Windows. Destroys 250+ system artifacts
+          that standard tools like BleachBit and CCleaner miss — including AmCache, BAM,
+          ShimCache, NTFS $UsnJrnl/$LogFile, Windows Recall, Shell Bags and SRUM.
+          Supports 1–35 pass cryptographic wipe modes with a native Windows 11 Fluent Dark UI.
+
       - name: shred
         url: https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
         git: https://git.savannah.gnu.org/cgit/coreutils.git
