@@ -707,6 +707,19 @@ categories:
           Note that homeservers can log IP addresses and metadata, and
           unrelayed 1:1 calls may reveal your IP to the other party.
 
+      - name: GUPT
+        url: https://gupt.app
+        openSource: true
+        github: besoeasy/gupt
+        icon: https://gupt.app/favicon.ico
+        description: |
+          A browser-native, serverless encrypted messenger and privacy suite built on
+          Nostr relays. No phone number, email, or account required — identity is a
+          cryptographic keypair. Features E2E encrypted chat, P2P WebRTC voice/video
+          calls, a password vault, and IPFS-based media storage. Entirely
+          client-side with no central server, making it a fully decentralized
+          alternative to WhatsApp, Signal, and Telegram.
+
       notableMentions:
         - name: Chat Secure
           url: https://chatsecure.org
