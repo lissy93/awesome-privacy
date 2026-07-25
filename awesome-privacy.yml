@@ -1891,6 +1891,13 @@ categories:
           description: |
             Displays, and removes Meta and EXIF data from an uploaded photo or document.
 
+       - name: TryDocsy
+          url: https://trydocsy.com/
+          icon: https://trydocsy.com/favicon-32.png
+          description: |
+            Free, privacy-first, 100% browser-based PDF editing, AcroForm filling, PII redaction, AI background removal, and
+            file conversion platform operating offline via WebAssembly with zero server uploads.
+
         - name: Redirect Detective
           url: https://redirectdetective.com
           icon: https://redirectdetective.com/redirect-detective.png
