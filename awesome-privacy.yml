@@ -3945,18 +3945,6 @@ categories:
         description: |
           C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface.
 
-      - name: REDACT
-        url: https://github.com/yonasabeselom/redact
-        github: yonasabeselom/redact
-        icon: https://avatars.githubusercontent.com/u/yonasabeselom
-        openSource: true
-        followWith: Windows
-        description: |
-          Open source Windows forensic artifact eraser. Removes 250+ traces
-          including AmCache, BAM, ShimCache, NTFS logs, Windows Recall,
-          Shell Bags and SRUM that BleachBit and CCleaner miss.
-          Supports 1–35 pass wipe modes.
-
       - name: shred
         url: https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html
         git: https://git.savannah.gnu.org/cgit/coreutils.git
@@ -3982,6 +3970,18 @@ categories:
         description: |
           Proprietary, closed-source suite of forensic data tools for mobile. The data eraser allows for both Android and iOS to
           be fully wiped, through connecting them to a PC.
+
+      - name: REDACT
+        url: https://github.com/yonasabeselom/redact
+        github: yonasabeselom/redact
+        icon: https://avatars.githubusercontent.com/u/yonasabeselom
+        openSource: true
+        followWith: Windows
+        description: |
+          Open source Windows forensic artifact eraser. Removes 250+ traces
+          including AmCache, BAM, ShimCache, NTFS logs, Windows Recall,
+          Shell Bags and SRUM that BleachBit and CCleaner miss.
+          Supports 1–35 pass wipe modes.
 
       notableMentions: |
         There's no need to use a third-party tool. You can boot into a UNIX-based
