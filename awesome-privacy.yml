@@ -1955,6 +1955,13 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+         - name: TryDocsy
+          url: https://trydocsy.com/
+          icon: https://trydocsy.com/favicon-32.png
+          description: |
+            Free, privacy-first, 100% browser-based PDF editing, AcroForm filling, PII redaction, AI background removal, and
+            file conversion platform operating offline via WebAssembly with zero server uploads.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
