@@ -42,7 +42,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Virtual Phone Numbers](#virtual-phone-numbers) (8)
 	- [Team Collaboration](#team-collaboration) (6)
 - **Security Tools**
-	- [Browser Extensions](#browser-extensions) (19)
+	- [Browser Extensions](#browser-extensions) (20)
 	- [Mobile Apps](#mobile-apps) (23)
 	- [Online Tools](#online-tools) (17)
 - **Networking**
@@ -65,7 +65,8 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Productivity**
 	- [Digital Notes](#digital-notes) (8)
 	- [Calendar](#calendar) (3)
-	- [Task Management](#task-management) (1)
+	- [Scheduling](#scheduling) (2)
+	- [Task Management](#task-management) (2)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
 	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (6)
@@ -75,6 +76,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Habit Trackers](#habit-trackers) (1)
 	- [Secure Conference Calls](#secure-conference-calls) (2)
 	- [Maps & Navigation](#maps--navigation) (1)
+	- [Accessibility](#accessibility) (1)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
 	- [PGP Managers](#pgp-managers) (8)
@@ -480,6 +482,7 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://lh3.googleusercontent.com/c78SvSl7OD2thLmgX5irlo1tvxGVtkziKTKmp7VByjvvrw2czkP2cFbbRASmopQBV9-PpNBD_NOqt8WIC4JVc0WB3A=s60' width='14' alt='' /> Netcraft Extension](https://www.netcraft.com/apps/browser)** - Notifies you when visiting a known or potential phishing site, and detects suspicious JavaScript (including skimmers and miners). Also provides a simple rating for a given site's legitimacy and securi[…](https://awesome-privacy.xyz/security-tools/browser-extensions/netcraft-extension "View full Netcraft Extension report") 
 - **[<img src='https://icon.horse/icon/linguister.io' width='14' alt='' /> Linguist](https://linguister.io)** - Linguist is a privacy‑focused translation solution in-browser that has an embedded offline translator and lets users create [custom translators](https://linguister.io/docs/CustomTranslator) to use any translation API, even if it's locally deployed[…](https://awesome-privacy.xyz/security-tools/browser-extensions/linguist "View full Linguist report") 
 - **[<img src='https://raw.githubusercontent.com/libredirect/browser_extension/refs/heads/master/src/assets/images/libredirect.svg' width='14' alt='' /> LibRedirect](https://libredirect.manerakai.com)** - A browser extension that redirects popular sites to alternative privacy friendly frontends **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/libredirect/) - [Chrome](https://libredirect.github.io/download_chromium.html)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/libredirect "View full LibRedirect report") 
+- **[<img src='https://sponsor.ajay.app/icons/icon-192x192.png?v=2190b8dd66c9e760a732842073d0a087' width='14' alt='' /> SponsorBlock](https://sponsor.ajay.app)** - Crowdsourced browser extension that skips sponsored segments and other unwanted parts of YouTube videos using community-submitted timestamps. **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) - [Chrome](https://chromewebstore.google.com/detail/sponsorblock-para-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/sponsorblock "View full SponsorBlock report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -1058,6 +1061,8 @@ important.
 > [Safe Notes](https://play.google.com/store/apps/details?id=com.protectedtext.android) Android app.
 > [Laverna](https://laverna.cc/) is a cross-platform secure notes app,
 > where all entries are formatted with markdown.
+> [Bangle.io](https://app.bangle.io) is a local-first WYSIWYG Markdown notes PWA,
+> storing notes in browser storage or user-selected folders.
 > </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -1074,9 +1079,19 @@ important.
 
 ---
 
+### Scheduling
+
+- **[<img src='https://tymeslot.app/images/brand/favicon-ca68e86a59d4a3ed9891fa9d036807e5.svg' width='14' alt='' /> Tymeslot](https://tymeslot.app)** - Open-source (AGPL-3.0), self-hostable scheduling and calendar platform. Guests book without creating an account; hosts get a full calendar with two-way sync to Google, Outlook and iCloud. A managed cl[…](https://awesome-privacy.xyz/productivity/scheduling/tymeslot "View full Tymeslot report") 
+- **[<img src='https://raw.githubusercontent.com/lukevella/rallly/refs/heads/main/apps/web/public/favicon.svg' width='14' alt='' /> Rallly](https://rallly.co/)** - Open-source & self-hostable scheduling tool that helps you find the best date and time to meet. Create a poll with a few options, share the link, and let your participants vote on when they're availab[…](https://awesome-privacy.xyz/productivity/scheduling/rallly "View full Rallly report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ### Task Management
 
 - **[<img src='https://raw.githubusercontent.com/johannesjo/super-productivity/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png' width='14' alt='' /> Super Productivity](https://super-productivity.com)** - Privacy-respecting, open-source task manager and time tracker. All data is stored locally on your device - no account required, no cloud dependency, and zero telemetry. Supports Jira, GitLab, GitHub,[…](https://awesome-privacy.xyz/productivity/task-management/super-productivity "View full Super Productivity report") 
+- **[<img src='https://github.com/dongdongbh/Mindwtr/raw/main/apps/mobile/assets/images/icon.png' width='14' alt='' /> Mindwtr](https://mindwtr.app)** - A Getting Things Done + Pomodoro productivity system for desktop and mobile. Local-first, no account required, can sync via WebDAV/Dropbox/local file or self-hosted deployment. With a CLI, REST API an[…](https://awesome-privacy.xyz/productivity/task-management/mindwtr "View full Mindwtr report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -1271,6 +1286,18 @@ building a detailed picture of where you live, work and travel. A privacy-respec
 maps app keeps navigation on your device, works offline, and collects nothing about you.
 
 - **[<img src='https://www.comaps.app/favicon.ico' width='14' alt='' /> CoMaps](https://www.comaps.app)** - Community-led, not-for-profit offline maps and navigation app built on OpenStreetMap data. No tracking, ads or data collection; all search and routing happen on-device. A community fork of Organic Map[…](https://awesome-privacy.xyz/productivity/maps-and-navigation/comaps "View full CoMaps report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Accessibility
+
+Accessibility software like screen readers, dictation and voice input often runs
+in the cloud, sending everything you say or read to a remote server. Privacy-respecting
+alternatives keep this processing on your device, so your input never leaves it.
+
+- **[<img src='https://vocalinux.com/icon-192x192.png' width='14' alt='' /> Vocalinux](https://vocalinux.com/)** - Offline system-wide voice dictation for Linux (X11 and Wayland). Uses local models (whisper.cpp, Whisper, or VOSK) so microphone audio never leaves the device. Tray app with hotkeys; GPLv3. Currently[…](https://awesome-privacy.xyz/productivity/accessibility/vocalinux "View full Vocalinux report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
