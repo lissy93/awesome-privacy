@@ -3974,7 +3974,7 @@ categories:
       - name: REDACT
         url: https://github.com/yonasabeselom/redact
         github: yonasabeselom/redact
-        icon: https://avatars.githubusercontent.com/u/yonasabeselom
+        icon: https://raw.githubusercontent.com/yonasabeselom/redact/main/logo.png
         openSource: true
         followWith: Windows
         description: |
