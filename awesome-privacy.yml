@@ -1258,6 +1258,13 @@ categories:
           little technical experience is needed for users of the platform. Rocket.Chat's
           feature set is similar to Slack's, making it a good replacement for any team
           looking to have greater control over their data.
+          
+      - name: NexaTools P2P Transfer
+        url: https://nexatools.in/utility-tools/file-transfer
+        icon: https://nexatools.in/favicon.svg
+        description: |
+          A client-side WebRTC peer-to-peer file transfer web app. Transfers files directly
+          between browsers without central cloud storage, but requires both devices online.
 
       - name: RetroShare
         url: https://retroshare.cc/
