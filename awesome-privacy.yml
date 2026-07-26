@@ -1834,7 +1834,15 @@ categories:
           description: |
             Checks if your credentials (Email address or Password) have been compromised in a data breach.
             See also Firefox Monitor.
-
+        - name: Zapixal
+            url: https://zapixal.com
+            github: your-github-username/zapixal-repo
+            icon: https://zapixal.com/favicon.ico
+            description: 100% client-side image converter, compressor, and metadata remover powered by WebAssembly.
+           categories:
+           - metadata-removal
+           - online-tools
+             follow: false
         - name: εxodus
           url: https://reports.exodus-privacy.eu.org
           icon: https://i.ibb.co/Vvq8XrM/Exodus.png
