@@ -1190,6 +1190,7 @@ It is recommended to encrypt files on your client machine, before syncing to the
 
 ### File Drop
 
+- **[<img src='https://nexatools.in/favicon.svg' width='14' alt='' /> NexaTools P2P Transfer](https://nexatools.in/utility-tools/file-transfer)** - Zero-installation WebRTC peer-to-peer encrypted file sharing with local device discovery and zero server file uploads.
 - **[<img src='https://icon.horse/icon/filesend.standardnotes.org' width='14' alt='' /> FileSend](https://filesend.standardnotes.org)** - Simple, encrypted file sharing, with a 500mb limit and 5-day retention. Files are secured with client-side AES-256 encryption and no IP address or device info is logged. Files are permanently deleted[…](https://awesome-privacy.xyz/productivity/file-drop/filesend "View full FileSend report") 
 - **[<img src='https://icon.horse/icon/onionshare.org' width='14' alt='' /> OnionShare](https://onionshare.org/)** - An open source tool that lets you securely and anonymously share a file of any size, via Tor servers. OnionShare does require installing, but the benefit is that your files are transferred directly to[…](https://awesome-privacy.xyz/productivity/file-drop/onionshare "View full OnionShare report") 
 
@@ -1238,6 +1239,12 @@ It is recommended to encrypt files on your client machine, before syncing to the
 > </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Image Tools
+
+- **[<img src='https://nexatools.in/favicon.svg' width='14' alt='' /> NexaTools EXIF Stripper](https://nexatools.in/media-tools/exif-stripper)** - View GPS location coordinates and strip sensitive photo EXIF metadata 100% locally in browser.
 
 ---
 
