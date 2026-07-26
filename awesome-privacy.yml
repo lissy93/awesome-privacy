@@ -3875,6 +3875,19 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: Pixloc
+        url: https://pixloc.app
+        icon: https://pixloc.app/assets/icon-192.png
+        openSource: false
+        description: |
+          Web-based image converter that drops all EXIF metadata as a side effect of converting: GPS coordinates,
+          camera make and model, and timestamps do not survive the re-encode. Useful when you need a shareable copy
+          of a photo rather than a cleaned original.
+          Conversion runs entirely in the browser through the Canvas API, so no file is uploaded — verifiable by
+          disconnecting from the network, or watching the network tab, since the page keeps converting either way.
+          Handles HEIC, WebP, AVIF, PNG, JPG, BMP, GIF and SVG, in batches. No account, no watermark, works offline
+          as a PWA. Not open source, though the client-side claim is checkable from the browser.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
