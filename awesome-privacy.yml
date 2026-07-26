@@ -4019,6 +4019,16 @@ categories:
           GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by Daniel Micay.
           GrapheneOS is a young project, and currently only supports Pixel devices, partially due to their strong hardware security.
 
+      - name: CalyxOS
+        url: https://calyxos.org
+        icon: https://calyxos.org/assets/images/favicon/apple-touch-icon.png
+        github: CalyxOS/calyxos
+        tosdrId: 2558
+        description: |
+          CalyxOS is an free and open source Android mobile operating system that puts privacy and security into the hands of everyday users.
+          Plus, proactive security recommendations and automatic updates take the guesswork out of keeping your personal data personal. Also currently
+          only supports Pixel devices and Xiaomi Mi A2 with Fairphone 4, OnePlus 8T, OnePlus 9 test builds available. Developed by the Calyx Foundation.
+
       - name: LineageOS
         url: https://www.lineageos.org
         icon: https://www.lineageos.org/images/logo.png
