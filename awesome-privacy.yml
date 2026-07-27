@@ -1944,6 +1944,16 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: DocRedact
+          url: https://docredact.in
+          github: shadab127/doc-redact-in
+          openSource: true
+          icon: https://docredact.in/icon.svg
+          description: |
+            Browser-based tool that auto-detects and blacks out Indian ID data (Aadhaar, PAN, passport MRZ, QR codes, faces)
+            in PDFs and images, fully client-side with nothing uploaded. English-only OCR can miss some documents—verify
+            output before sharing.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
