@@ -1413,7 +1413,8 @@ the disk, before you destroy, sell or give away a hard drive.
 - **[<img src='https://icon.horse/icon/github.com' width='14' alt='' /> nwipe](https://github.com/martijnvanbrummelen/nwipe)** - C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface. 
 - **[<img src='https://www.gnu.org/favicon.ico' width='14' alt='' /> shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html)** - A CLI utility that can be used to securely delete files and devices, to make them extremely difficult to recover. 
 - **[<img src='https://pixelflare.cc/alicia/icons/srm' width='14' alt='' /> Secure Remove](https://srm.sourceforge.net/srm.html)** - CLI utility for securely removing files, directories and whole disks, works on Linux, BSD and MacOS. 
-- **[<img src='https://drfone.wondershare.com/favicon.ico' width='14' alt='' /> Mr. Phone](https://drfone.wondershare.com)** - Proprietary, closed-source suite of forensic data tools for mobile. The data eraser allows for both Android and iOS to be fully wiped, through connecting them to a PC. 
+- **[<img src='https://drfone.wondershare.com/favicon.ico' width='14' alt='' /> Mr. Phone](https://drfone.wondershare.com)** - Proprietary, closed-source suite of forensic data tools for mobile. The data eraser allows for both Android and iOS to be fully wiped, through connecting them to a PC.
+- **[<img src='https://multidrive.io/favicon.ico' width='14' alt='' /> MultiDrive](https://multidrive.io)** - Free Windows utility (GUI + CLI) for erasing multiple drives in parallel: sector-level overwrite with zero-fill or custom HEX patterns. Works fully offline, no account. Proprietary freeware. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
