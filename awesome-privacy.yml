@@ -1560,6 +1560,17 @@ categories:
           unwanted parts of YouTube videos using community-submitted timestamps.
           **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) - [Chrome](https://chromewebstore.google.com/detail/sponsorblock-para-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)
 
+      - name: PGP Tools
+        url: https://github.com/Am-I-Being-Pwned/PGP-Tools
+        github: Am-I-Being-Pwned/PGP-Tools
+        icon: https://raw.githubusercontent.com/Am-I-Being-Pwned/PGP-Tools/refs/heads/main/.github/logo.png
+        description: |
+          Security and UX first PGP in the browser. Everything is encrypted at rest
+          with password or passkey encryption. Encrypt, Decrypt, Sign and Verify messages.
+          Requires no sensitive permissions and does not change your browser fingerprint.
+          **Download**: [Chrome](https://chromewebstore.google.com/detail/pgp-tools-encrypt-decrypt/pgpcdgggohpbombhkffjoiiafdlfcpgp)
+
+
       notableMentions:
       - name: Extension source viewer
         url: https://addons.mozilla.org/en-US/firefox/addon/crxviewer
