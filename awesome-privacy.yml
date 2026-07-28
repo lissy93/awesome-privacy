@@ -3674,6 +3674,18 @@ categories:
         followWith: Linux
         openSource: true
 
+      - name: Yap
+        description: |
+          On-device voice dictation for macOS. Press a hotkey, talk, and
+          the text is pasted into whatever field you were typing in. It uses
+          the built-in macOS 26 speech APIs, so there is no model to download
+          and no network code at all. MIT licensed.
+        url: https://github.com/FrigadeHQ/yap
+        github: FrigadeHQ/yap
+        icon: https://raw.githubusercontent.com/FrigadeHQ/yap/main/assets/yap-icon.png
+        followWith: Mac
+        openSource: true
+
   - name: Utilities
     sections:
     ##############################
