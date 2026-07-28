@@ -3960,6 +3960,14 @@ categories:
           Proprietary, closed-source suite of forensic data tools for mobile. The data eraser allows for both Android and iOS to
           be fully wiped, through connecting them to a PC.
 
+      - name: MultiDrive
+        url: https://multidrive.io
+        openSource: false
+        followWith: Windows
+        icon: https://multidrive.io/favicon.ico
+        description: |
+          Free utility (GUI + CLI) for erasing multiple drives in parallel: sector-level overwrite with zero-fill or custom HEX patterns. Works fully offline, no account. Proprietary freeware.        
+
       notableMentions: |
         There's no need to use a third-party tool. You can boot into a UNIX-based
         system, mount the disk you need to erase, and use a command to write it
