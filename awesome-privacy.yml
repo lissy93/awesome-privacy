@@ -4750,6 +4750,18 @@ categories:
         followWith: Bitcoin or Ethereum & ERC-20 tokens
         github: digitalbitbox/bitbox-wallet-app
 
+      - name: Coin Wallet
+        url: https://coin.space
+        icon: https://coin.space/apple-touch-icon.png
+        openSource: true
+        iosApp: https://apps.apple.com/app/coin-wallet-buy-sell-crypto/id980719434
+        androidApp: com.coinspace.app
+        subreddit: Coin_Wallet
+        description: |
+          Open-source self-custodial multicurrency wallet for web, iOS, Android, desktop and Tor, with a dedicated .onion site and Tor routing in the apps. Supports Bitcoin, Monero, Litecoin, Ethereum, XRP, Solana, Cardano and other chains.
+        followWith: All Coins
+        github: CoinSpace/CoinSpace
+
       notableMentions: |
         [Metamask](https://metamask.io/) (Ethereum and ERC20 tokens) is a bridge
         that allows you to visit and interact with distributed web apps in your browser.
