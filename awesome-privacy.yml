@@ -5568,3 +5568,9 @@ categories:
         github: https://github.com/aseprite/aseprite
         openSource: true
 
+    - name: ToolMole
+      services:
+    - url: https://toolmole.com/
+      icon: https://toolmole.com/assets/icons/apple-touch-icon.png
+      description: Free, privacy-first online web utilities that process files 100% locally in your browser with zero server uploads.
+      openSource: false
