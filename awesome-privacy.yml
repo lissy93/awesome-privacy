@@ -5568,3 +5568,9 @@ categories:
         github: https://github.com/aseprite/aseprite
         openSource: true
 
+    - name: Creativity
+      services:
+        - name: ToolMole
+          url: https://toolmole.com/
+          description: Free, privacy-first online web utilities that process files 100% locally in your browser with zero server uploads.
+          openSource: false
