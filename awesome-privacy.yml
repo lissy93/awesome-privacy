@@ -5567,4 +5567,8 @@ categories:
         description: An animated sprite editor & pixel art tool for Windows, macOS and Linux.
         github: https://github.com/aseprite/aseprite
         openSource: true
-
+        
+    - name: ToolMole
+      description: Free, privacy-first online web utilities that process files 100% locally in your browser with zero server uploads.
+      url: https://toolmole.com/
+      openSource: false
