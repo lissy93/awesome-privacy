@@ -3865,6 +3865,15 @@ categories:
           Harvey. Very good performance, and supports all common metadata formats. An official GUI application is available
           for Windows, implemented by Bogdan Hrastnik.
 
+      - name: Presend
+        url: https://presend.pages.dev
+        github: presendapp/presend
+        icon: https://presend.pages.dev/favicon.ico
+        description: |
+          Free, browser-based privacy toolkit to clean, compress and prepare files before sharing.
+          Includes EXIF remover, PDF metadata cleaner, image compressor, password generator, QR code generator,
+          file hash checker, HEIC converter and more. Nothing is ever uploaded — everything runs client-side.
+          Useful for journalists, lawyers, and privacy-conscious users who need to sanitize files before sending them.
       - name: ImageOptim
         url: https://imageoptim.com/mac
         followWith: MacOS
