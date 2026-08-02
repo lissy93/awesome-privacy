@@ -4569,6 +4569,18 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: RegexPilot
+        url: https://regexpilot.com/
+        icon: https://regexpilot.com/favicon-32.png
+        openSource: false
+        description: |
+          macOS regex editor that runs entirely on-device, as an alternative to pasting
+          patterns and sample text into an online tester. Test data for a regex is often
+          real data: emails, logs, identifiers. RegexPilot bundles 21 native engines and
+          evaluates locally, with no accounts, no telemetry and no cloud calls. Optional
+          AI generation uses your own API key, or a fully local model via Ollama or
+          LM Studio. Proprietary, with a free tier.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
