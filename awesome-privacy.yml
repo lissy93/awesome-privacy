@@ -3121,6 +3121,15 @@ categories:
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
 
+      - name: Glyph
+        url: https://glyphformac.com/
+        github: SidhuK/Glyph
+        followWith: MacOS
+        openSource: true
+        description: |
+          Offline-first Markdown notes app for macOS with local file storage, search, tasks, and optional AI tools.
+          AGPL-3.0 source is available to build yourself; official builds are a paid one-time purchase after a 7-day trial.
+
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
