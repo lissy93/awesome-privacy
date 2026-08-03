@@ -1969,8 +1969,8 @@ categories:
         - name: Zapixal
           url: https://zapixal.com
           description: |
-            100% offline, privacy-first client-side batch image converter and compressor.
-            Processes files locally in browser memory using WebAssembly with zero server uploads.
+           100% offline, privacy-first client-side batch image converter and compressor.Processes files locally in browser
+           memory using WebAssembly with zero server uploads.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
