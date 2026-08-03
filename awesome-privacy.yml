@@ -1968,6 +1968,7 @@ categories:
             host, registrar, IP and SSL certificates.
         - name: Zapixal
           url: https://zapixal.com
+          icon: https://zapixal.com/favicon.ico
           description: |
            100% offline, privacy-first client-side batch image converter and compressor.Processes files locally in browser
            memory using WebAssembly with zero server uploads.
