@@ -3126,6 +3126,7 @@ categories:
         github: SidhuK/Glyph
         followWith: MacOS
         openSource: true
+        icon: https://glyphformac.com/favicon.ico
         description: |
           Offline-first Markdown notes app for macOS with local file storage, search, tasks, and optional AI tools.
           AGPL-3.0 source is available to build yourself; official builds are a paid one-time purchase after a 7-day trial.
