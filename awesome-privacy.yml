@@ -1978,6 +1978,15 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
+            
+        - name: norito Remove Metadata
+          url: https://norito.in/remove-metadata.html
+          icon: https://norito.in/assets/apple-touch-icon.png
+          github: ShubhMisaki/norito-devtoolbox
+          openSource: true
+          description: |
+            Strips EXIF, GPS location and camera metadata from a photo entirely in the browser, so the
+            image never leaves the device. JPEG re-encoding causes a small quality loss; PNG stays lossless.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
