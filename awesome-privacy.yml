@@ -5348,6 +5348,13 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
+      - name: ShrinkPDF
+        url: https://shrinkpdf.fyi
+        description: |
+          Free browser-based PDF toolkit for compressing, merging, splitting, rotating,
+          watermarking and adding page numbers. All processing runs client-side, so files
+          never leave the device. Available in English, Malay, Indonesian and Chinese.
+          Has fewer tools than some larger suites, and no offline desktop app.
 
   - name: Creativity
     sections:
