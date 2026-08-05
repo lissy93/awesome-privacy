@@ -567,18 +567,6 @@ categories:
           and a [no Javascript version](https://duckduckgo.com/html/).
           Note: Search data is primarily sourced from Bing, and DDG operates from within the US.
 
-      - name: Qwant
-        url: https://www.qwant.com
-        icon: https://avatars.githubusercontent.com/u/1692504
-        iosApp: https://apps.apple.com/us/app/qwant-private-search/id924470452
-        androidApp: com.qwant.liberty
-        subreddit:  Qwant
-        tosdrId: 527
-        description: |
-          French service that aggregates Bings results, with its own results. Qwant doesn't
-          plant any cookies, nor have any trackers or third-party advertising. It returns
-          non-biased search results, with no promotions. Qwant has a unique, but nice UI.
-
       - name: Startpage
         url: https://www.startpage.com
         icon: https://www.startpage.com/favicon.ico
@@ -641,6 +629,13 @@ categories:
           It is EU-based and 100% open source. It allows customization via Goggles.
 
       notableMentions:
+      - name: Qwant
+        url: https://www.qwant.com
+        description: >
+          French search engine, running on Bing results and the new European Search Perspective.
+          Contains contextual, non-tracking ads.
+          Privacy policy is out-dated, and Qwant does track users despite claiming not to.
+          See [full review](https://github.com/Lissy93/awesome-privacy/issues/45) for more info.
       - name: MetaGear
         url: https://metager.org
       - name: YaCy
