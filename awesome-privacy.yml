@@ -3899,6 +3899,16 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: No Bloat PDF
+        url: https://www.nobloatpdf.com
+        github: bgalvan1277/NoBloatPDF
+        followWith: Windows & MacOS
+        icon: https://www.nobloatpdf.com/assets/icon.png
+        description: |
+          Rebuilds a PDF from scratch so author name, metadata, embedded scripts and prior saved
+          revisions are removed rather than hidden. Runs locally with no network calls. Handles
+          PDFs only, not images, and has no Linux build.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
