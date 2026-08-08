@@ -30,7 +30,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [2-Factor Authentication](#2-factor-authentication) (11)
 	- [File Encryption](#file-encryption) (3)
 	- [Browsers](#browsers) (5)
-	- [Search Engines](#search-engines) (6)
+	- [Search Engines](#search-engines) (7)
 - **Communication**
 	- [Encrypted Messaging](#encrypted-messaging) (4)
 	- [P2P Messaging](#p2p-messaging) (4)
@@ -42,7 +42,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Virtual Phone Numbers](#virtual-phone-numbers) (8)
 	- [Team Collaboration](#team-collaboration) (6)
 - **Security Tools**
-	- [Browser Extensions](#browser-extensions) (20)
+	- [Browser Extensions](#browser-extensions) (21)
 	- [Mobile Apps](#mobile-apps) (22)
 	- [Online Tools](#online-tools) (17)
 - **Networking**
@@ -99,7 +99,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Security Cameras](#security-cameras) (1)
 - **Finance**
 	- [Cryptocurrencies](#cryptocurrencies) (2)
-	- [Crypto Wallets](#crypto-wallets) (7)
+	- [Crypto Wallets](#crypto-wallets) (6)
 	- [Crypto Exchanges](#crypto-exchanges) (2)
 	- [Virtual Credit Cards](#virtual-credit-cards) (2)
 	- [Other Payment Methods](#other-payment-methods) (3)
@@ -253,6 +253,7 @@ that makes a good alternative to BitLocker.
 - **[<img src='https://i.ibb.co/GH1n4wf/Brave-Search-Icon.png' width='14' alt='' /> Brave Search](https://search.brave.com/)** - Brave Search is a privacy-focused search engine that does not track users or their searches, does not use secret algorithms or user profiling, and is based on its own search index. 
 - **[<img src='https://www.mojeek.com/favicon.png' width='14' alt='' /> Mojeek](https://mojeek.com)** - British search engine providing independent and unbiased search results using its own crawler. Has a zero tracking policy (it is not open source) 
 - **[<img src='https://uruky.com/public/images/favicon.svg' width='14' alt='' /> Uruky](https://uruky.com)** - Uruky is an ad-free, private search engine focused on personalization. It uses, among other providers, Mojeek and Marginalia. It is EU-based and does not keep or track any personal data (it is not 100[…](https://awesome-privacy.xyz/essentials/search-engines/uruky "View full Uruky report") 
+- **[<img src='https://prieco.net/static/img/prieco.webp' width='14' alt='' /> PriEco](https://prieco.net)** - PriEco is an independent web search engine with growing index. It is EU-based and 100% open source. It allows customization via Goggles. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -278,7 +279,7 @@ that makes a good alternative to BitLocker.
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
-> Many messaging apps claim to be secure, but if they are not open source, then this cannot be verified - and they **should not be trusted**. This applies to [Telegram](https://telegram.org), [Threema](https://threema.ch), [Cypher](https://www.goldenfrog.com/cyphr), [Wickr](https://wickr.com/), [Silent Phone](https://www.silentcircle.com/products-and-solutions/silent-phone/) and [Viber](https://www.viber.com/), to name a few - these apps should not be used to communicate any sensitive data. [Wire](https://wire.com/) has also been removed, due to a [recent acquisition](https://blog.privacytools.io/delisting-wire/)
+> Many messaging apps claim to be secure, but if they are not open source, then this cannot be verified - and they **should not be trusted**. This applies to [Telegram](https://telegram.org), [Cypher](https://www.goldenfrog.com/cyphr), [Wickr](https://wickr.com/), [Silent Phone](https://www.silentcircle.com/products-and-solutions/silent-phone/) and [Viber](https://www.viber.com/), to name a few - these apps should not be used to communicate any sensitive data. [Wire](https://wire.com/) has also been removed, due to a [recent acquisition](https://blog.privacytools.io/delisting-wire/)
 
 </details>
 
@@ -288,6 +289,7 @@ that makes a good alternative to BitLocker.
 > - [Chat Secure](https://chatsecure.org)
 > - [KeyBase](https://keybase.io/) - Allows encrypted real-time chat, group chats, and public and private file sharing. It also has some nice features around cryptographically proving social identities, and makes PGP signing, encrypting and decrypting messages easy. However, since it was [acquired by Zoom](https://keybase.io/blog/keybase-joins-zoom) in 2020, it has no longer been receiving regular updates.
 > - [OpenPGP](https://www.openpgp.org) - can be used over existing chat networks (such as email or message boards). It provides cryptographic privacy and authentication, PGP is used to encrypt messages.<br /> **Note/ Issues with PGP**  PGP is [not easy](https://restoreprivacy.com/let-pgp-die/) to use for beginners, and could lead to human error/ mistakes being made, which would be overall much worse than if an alternate, simpler system was used. Do not use [32-bit key IDs](https://evil32.com/) - they are too short to be secure. There have also been vulnerabilities found in the OpenPGP and S/MIME, defined in [EFAIL](https://efail.de/), so although it still considered secure for general purpose use, for general chat, it may be better to use an encrypted messaging or email app instead.
+> - [Threema](https://threema.ch) - A paid, business-focused Swiss messenger. The apps are open source, but the server is proprietary.
 </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -484,6 +486,7 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://icon.horse/icon/linguister.io' width='14' alt='' /> Linguist](https://linguister.io)** - Linguist is a privacy‑focused translation solution in-browser that has an embedded offline translator and lets users create [custom translators](https://linguister.io/docs/CustomTranslator) to use any translation API, even if it's locally deployed[…](https://awesome-privacy.xyz/security-tools/browser-extensions/linguist "View full Linguist report") 
 - **[<img src='https://raw.githubusercontent.com/libredirect/browser_extension/refs/heads/master/src/assets/images/libredirect.svg' width='14' alt='' /> LibRedirect](https://libredirect.manerakai.com)** - A browser extension that redirects popular sites to alternative privacy friendly frontends **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/libredirect/) - [Chrome](https://libredirect.github.io/download_chromium.html)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/libredirect "View full LibRedirect report") 
 - **[<img src='https://sponsor.ajay.app/icons/icon-192x192.png?v=2190b8dd66c9e760a732842073d0a087' width='14' alt='' /> SponsorBlock](https://sponsor.ajay.app)** - Crowdsourced browser extension that skips sponsored segments and other unwanted parts of YouTube videos using community-submitted timestamps. **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/sponsorblock/) - [Chrome](https://chromewebstore.google.com/detail/sponsorblock-para-youtube/mnjggcdmjocbbbhaepdhchncahnbgone)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/sponsorblock "View full SponsorBlock report") 
+- **[<img src='https://dearrow.ajay.app/icons/icon-192x192.png?v=6f203adf3dc83cd564c279fa5c263c62' width='14' alt='' /> DeArrow](https://dearrow.ajay.app/)** - Crowdsourced browser extension that replaces YouTube video titles and thumbnails using community-submitted versions to stop clickbait. **Download**: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/dearrow/) - [Chrome](https://chromewebstore.google.com/detail/dearrow-better-titles-and/enamippconapkdmgfgjchkhakpfinmaj)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/dearrow "View full DeArrow report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -1888,7 +1891,6 @@ be physically tracked (CCTV, phone location, card payments etc)
 
 - **[<img src='https://wasabiwallet.io/img/favicon.ico' width='14' alt='' /> Wasabi Wallet](https://www.wasabiwallet.io)** - An open source, native desktop wallet for Windows, Linux, and MacOS. Wasabi implements trustless CoinJoins over the Tor network. Neither an observer nor the participants can determine which output bel[…](https://awesome-privacy.xyz/finance/crypto-wallets/wasabi-wallet "View full Wasabi Wallet report") 
 - **[<img src='https://trezor.io/favicon/apple-touch-icon.png' width='14' alt='' /> Trezor](https://trezor.io)** - Open source, cross-platform, offline, crypto wallet, compatible with 1000+ coins. Your private key is generated on the device, and never leaves it, all transactions are signed by the Trezor, which ens[…](https://awesome-privacy.xyz/finance/crypto-wallets/trezor "View full Trezor report") 
-- **[<img src='https://icon.horse/icon/coldcardwallet.com' width='14' alt='' /> ColdCard](https://coldcardwallet.com/)** - An easy-to-use, super secure Bitcoin hardware wallet, which can be used independently as an air-gapped wallet. ColdCard is based on partially signed Bitcoin transactions following the BIP174 standard.[…](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard "View full ColdCard report") 
 - **[<img src='https://icon.horse/icon/electrum.org' width='14' alt='' /> Electrum](https://electrum.org/)** - Long-standing Python-based Bitcoin wallet with good security features. Private keys are encrypted and do not touch the internet and balance is checked with a watch-only wallet. Compatible with other w[…](https://awesome-privacy.xyz/finance/crypto-wallets/electrum "View full Electrum report") 
 - **[<img src='https://icon.horse/icon/sparrowwallet.com' width='14' alt='' /> Sparrow Wallet](https://sparrowwallet.com/)** - Sparrow is a Bitcoin wallet for those who value financial self-sovereignty. Sparrow’s emphasis is on security, privacy, and usability. Sparrow does not hide information from you - on the contrary, it[…](https://awesome-privacy.xyz/finance/crypto-wallets/sparrow-wallet "View full Sparrow Wallet report") 
 - **[<img src='https://icon.horse/icon/cryptosteel.com' width='14' alt='' /> CryptoSteel](https://cryptosteel.com/how-it-works)** - A steel plate, with engraved letters which can be permanently screwed - CryptoSteel is a good fire-proof, shock-proof, water-proof, and stainless cryptocurrency backup solution. 
