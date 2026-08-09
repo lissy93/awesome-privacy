@@ -2061,6 +2061,19 @@ categories:
           WireGuard and AmneziaWG protocols, no-logs policy, REST API for developers. No
           subscriptions or credit cards.
 
+      - name: Warren
+        url: https://warren.ro
+        github: WarrenBrowse/warren-app
+        openSource: true
+        securityAudited: false
+        acceptsCrypto: true
+        icon: https://warren.ro/icon-192.png
+        description: |
+          Romania-based no-logs VPN running over QUIC, so tunnel traffic is hard to tell apart
+          from ordinary HTTPS browsing. Account-free: access keys derive from a local wallet,
+          no email asked. Open source apps (AGPL-3.0), port forwarding included, pays with card,
+          Lightning or Monero. Not independently audited yet.
+
       - name: Windscribe
         url: https://windscribe.com
         github: Windscribe/Desktop-App
