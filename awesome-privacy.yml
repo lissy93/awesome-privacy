@@ -2061,19 +2061,6 @@ categories:
           WireGuard and AmneziaWG protocols, no-logs policy, REST API for developers. No
           subscriptions or credit cards.
 
-      - name: Warren
-        url: https://warren.ro
-        github: WarrenBrowse/warren-app
-        openSource: true
-        securityAudited: false
-        acceptsCrypto: true
-        icon: https://warren.ro/icon-192.png
-        description: |
-          Romania-based no-logs VPN running over QUIC, so tunnel traffic is hard to tell apart
-          from ordinary HTTPS browsing. Account-free: access keys derive from a local wallet,
-          no email asked. Open source apps (AGPL-3.0), port forwarding included, pays with card,
-          Lightning or Monero. Not independently audited yet.
-
       - name: Windscribe
         url: https://windscribe.com
         github: Windscribe/Desktop-App
@@ -2087,6 +2074,18 @@ categories:
           An audited and court-proven VPN with a free 10GB plan, in-RAM servers, browser extensions
           and open source WireGuard/IKEv2/OpenVPN clients. Supports split tunneling,
           customizable DNS blocking, MAC spoofing, decoy traffic and censorship circumvention.
+
+      - name: Warren
+        url: https://warren.ro
+        github: WarrenBrowse/warren-app
+        openSource: true
+        securityAudited: false
+        acceptsCrypto: true
+        icon: https://warren.ro/icon-192.png
+        description: |
+          Romania-based no-logs VPN over QUIC, hard to tell apart from ordinary HTTPS.
+          No account or email: keys derive from a local wallet. Open source (AGPL-3.0),
+          port forwarding included, card, Lightning or Monero payment. Not yet independently audited.
 
       wordOfWarning: |
         - *A VPN does not make you anonymous - it merely changes your public IP address to that of your VPN provider, instead of your ISP. Your browsing session can still be linked back to your real identity either through your system details (such as user agent, screen resolution even typing patterns), cookies / session storage, or by the identifiable data that you enter. [Read more about fingerprinting](https://pixelprivacy.com/resources/browser-fingerprinting/)*
