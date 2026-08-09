@@ -4572,6 +4572,17 @@ categories:
           hashes, JWTs, Base64, text comparison and more. Useful alternative to
           pasting sensitive data into random online tools.
 
+      - name: Agent Island
+        url: https://agent-island.dev
+        icon: https://agent-island.dev/assets/favicon-64.png
+        github: tristan666666/agent-island
+        openSource: true
+        description: |
+          Local-first status companion for AI coding agents. Reads the session logs Claude Code,
+          Codex, Gemini CLI, Grok and Cursor already write to your own disk, shows what each run is
+          doing, and computes token usage and estimated cost on-device. No account, no product
+          telemetry, and no session content leaves the machine.
+
       - name: Bruno
         url: https://www.usebruno.com/
         icon: https://www.usebruno.com/favicon.ico
