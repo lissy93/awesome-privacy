@@ -1248,6 +1248,16 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: JuicySMS
+        url: https://juicysms.com
+        icon: https://juicysms.com/web-app-manifest-512x512.png
+        acceptsCrypto: true
+        description: >-
+          Temporary numbers for receiving SMS verification codes, on carrier SIMs
+          rather than internet-routed lines. Only charged when a code arrives.
+          Requires an account and email, and coverage is limited to the US, UK,
+          Netherlands and Philippines.
+
     ################################
     ###### Team Collaboration ######
     ################################
