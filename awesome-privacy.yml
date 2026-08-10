@@ -170,7 +170,6 @@ categories:
           and they have a solid reputation for transparently disclosing and fixing vulnerabilities
       - name: Zen Passwords
         url: https://www.zenproducts.ai/apps/zen-passwords
-        iosApp: https://apps.apple.com/us/app/zen-passwords/id6761246936
         description: >
           (proprietary) Private password manager for iPhone, iPad, and Mac.
           Vault is encrypted on device before any optional sync; sync (when enabled)
