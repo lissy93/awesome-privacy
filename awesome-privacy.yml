@@ -3706,6 +3706,14 @@ categories:
         followWith: Linux
         openSource: true
 
+      notableMentions:
+      - name: Yaps
+        url: https://yaps.ai
+        description: >
+          Privacy-first dictation, transcription, and text-to-speech that runs entirely
+          offline. Not open source; account/subscription checks talk to a server, the
+          actual speech processing does not
+
   - name: Utilities
     sections:
     ##############################
