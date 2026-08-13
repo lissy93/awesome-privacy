@@ -3705,6 +3705,17 @@ categories:
         icon: https://vocalinux.com/icon-192x192.png
         followWith: Linux
         openSource: true
+      - name: YazSes
+        description: |
+          Offline hold-to-talk voice dictation for Linux, macOS and Windows.
+          Hold a key, speak, release, and the transcript is typed into whatever
+          application has focus. Transcription runs on-device with faster-whisper,
+          so no audio is sent anywhere; the only network access is a one-time
+          speech-model download. Also transcribes existing recordings offline,
+          with optional speaker labels. Apache-2.0.
+        url: https://mskazemi.com/yazses/
+        github: MSKazemi/yazses
+        openSource: true
 
   - name: Utilities
     sections:
