@@ -4592,6 +4592,17 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: Atomic Agent
+        url: https://atomicagent.io
+        github: AtomicBot-ai/atomic-agent
+        icon: https://avatars.githubusercontent.com/u/259533419?s=200&v=4
+        openSource: true
+        discordInvite: https://discord.gg/Us7qXtDGw
+        description: |
+          CLI and TUI coding assistant that runs open-weight models entirely on your machine
+          via a llama.cpp fork, with no account or API key required. Anonymous usage analytics
+          and crash reporting are on by default, though both can be disabled.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
