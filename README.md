@@ -30,7 +30,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [2-Factor Authentication](#2-factor-authentication) (11)
 	- [File Encryption](#file-encryption) (3)
 	- [Browsers](#browsers) (5)
-	- [Search Engines](#search-engines) (7)
+	- [Search Engines](#search-engines) (6)
 - **Communication**
 	- [Encrypted Messaging](#encrypted-messaging) (4)
 	- [P2P Messaging](#p2p-messaging) (4)
@@ -248,8 +248,7 @@ that makes a good alternative to BitLocker.
 ### Search Engines
 
 - **[<img src='https://duckduckgo.com/favicon.png' width='14' alt='' /> DuckDuckGo](https://duckduckgo.com)** - DuckDuckGo is a user-friendly and fast secure search engine. While it doesn't use trackers or cookies, there are search-related ads. It's also highly customisable, with theming, languages, bangs and p[…](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo "View full DuckDuckGo report") 
-- **[<img src='https://avatars.githubusercontent.com/u/1692504' width='14' alt='' /> Qwant](https://www.qwant.com)** - French service that aggregates Bings results, with its own results. Qwant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no pro[…](https://awesome-privacy.xyz/essentials/search-engines/qwant "View full Qwant report") 
-- **[<img src='https://www.startpage.com/favicon.ico' width='14' alt='' /> Startpage](https://www.startpage.com)** - Dutch search engine that searches on Google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source) 
+- **[<img src='https://www.startpage.com/favicon.ico' width='14' alt='' /> Startpage](https://www.startpage.com)** - Dutch search engine returning primarily Google results, proxied to strip IP and identifiers. Includes an "Anonymous View" proxy for previewing results privately. No third-party tracking or cookies, bu[…](https://awesome-privacy.xyz/essentials/search-engines/startpage "View full Startpage report") 
 - **[<img src='https://i.ibb.co/GH1n4wf/Brave-Search-Icon.png' width='14' alt='' /> Brave Search](https://search.brave.com/)** - Brave Search is a privacy-focused search engine that does not track users or their searches, does not use secret algorithms or user profiling, and is based on its own search index. 
 - **[<img src='https://www.mojeek.com/favicon.png' width='14' alt='' /> Mojeek](https://mojeek.com)** - British search engine providing independent and unbiased search results using its own crawler. Has a zero tracking policy (it is not open source) 
 - **[<img src='https://uruky.com/public/images/favicon.svg' width='14' alt='' /> Uruky](https://uruky.com)** - Uruky is an ad-free, private search engine focused on personalization. It uses, among other providers, Mojeek and Marginalia. It is EU-based and does not keep or track any personal data (it is not 100[…](https://awesome-privacy.xyz/essentials/search-engines/uruky "View full Uruky report") 
@@ -258,6 +257,7 @@ that makes a good alternative to BitLocker.
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
 
+> - [Qwant](https://www.qwant.com) - French search engine, running on Bing results and the new European Search Perspective. Contains contextual, non-tracking ads. Privacy policy is out-dated, and Qwant does track users despite claiming not to. See [full review](https://github.com/Lissy93/awesome-privacy/issues/45) for more info.
 > - [MetaGear](https://metager.org)
 > - [YaCy](https://yacy.net)
 > - [Searx](https://github.com/searxng/searxng) - Self-hostable search engines that use the results of multiple other engines (such as Google and Bing) at the same time. They're open source and self-hostable, although using a [public instance](https://searx.space) has the benefit of not singling out your queries to the engines used. A fork of the original [Searx](https://searx.github.io/searx/).
