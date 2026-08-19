@@ -1979,6 +1979,7 @@ categories:
         - name: Mirror Veil
           url: https://justlay.me/mirror-veil
           github: justlayme/mirror-veil
+          icon: https://justlay.me/icon-192x192.png
           description: |
             Redacts names, phone numbers, email addresses and other identifiers out of a chat or message export
             before you share it with a lawyer, a therapist or an AI. It is a single HTML file that you download and
