@@ -4813,6 +4813,16 @@ categories:
           invoices to minimize custody and trust requirements.
           The deterministically generated avatars help users stick to best privacy practices.
 
+      - name: "[NOT]KYC"
+        url: https://notkyc.life
+        icon: https://notkyc.life/apple-touch-icon.png
+        acceptsCrypto: true
+        description: |
+          A directory and live-rate comparison for no-KYC crypto exchanges.
+          Compare live swap rates, privacy and trust scores and no-KYC track
+          records across 17+ anonymous services. No signup, ID or logs.
+
+
       notableMentions: |
         For traders, [BaseFEX](https://www.basefex.com/) doesn't require ID and has a good privacy policy.
 
