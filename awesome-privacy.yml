@@ -1249,7 +1249,22 @@ categories:
           Inbound/outbound calls, SMS and roaming internet. Very private, has a Tor mirror,
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
+      
+      - name: BuyUKeSIM
+        url: https://buyukesim.com/
+        icon: https://buyukesim.com/favicon-192.png
+        description: |
+          Real UK +44 carrier eSIM that receives verification SMS and incoming calls.
+          Bought outright for a one-off $25 rather than leased for a term, so there is
+          no renewal date at which the number returns to a pool and is reassigned;
+          keeping the line active costs $15 every 6 months. Also sells travel data
+          eSIMs for 190+ countries from $1.99. No ID, no account and no email at any
+          point - orders are retrieved with a token. Paid in 12 crypto methods
+          including Monero. Publishes a warrant canary and an exit-IP country table
+          for every destination it sells. Requires an eSIM-compatible device.   
+        acceptsCrypto: true
 
+        
     ################################
     ###### Team Collaboration ######
     ################################
