@@ -5539,6 +5539,11 @@ categories:
         openSource: true
         tosdrId: 4516
 
+      - name: Earkeep
+        url: https://earkeep.com
+        description: |-
+          Ambient meeting transcriber — always-on local whisper.cpp transcription, no cloud, no bot, no data leaves your device.
+
     - name: Casting & Streaming
       alternativeTo: ['xsplit', 'streamlabs obs', 'twitch studio', 'wirecast']
       services:
