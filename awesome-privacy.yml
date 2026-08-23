@@ -3643,6 +3643,34 @@ categories:
           Free, open source habit tracker. Take notes, plan tasks, and track habits.
           All data stored locally or self-hosted via Docker. No accounts required.
 
+
+    ##############################
+    ###### Period Trackers #######
+    ##############################
+    - name: Period Trackers
+      alternativeTo: ['Flo', 'Clue', 'Glow', 'Ovia']
+      services:
+      - name: Niah
+        url: https://apps.apple.com/app/id6784382605
+        iosApp: https://apps.apple.com/app/id6784382605
+        description: |
+          Private period and cycle tracker — all data stays on-device with no account
+          required. Features cycle predictions that adapt to irregular patterns, symptom
+          and mood logging, encrypted local backup/restore, and opt-in Apple Health
+          integration. No third-party analytics, crash reporting, or ad SDKs. Works
+          fully offline.
+
+      - name: drip
+        url: https://dripapp.org
+        github: bloodyhealth/drip
+        androidApp: com.drip
+        iosApp: https://apps.apple.com/us/app/drip-cycle-tracker/id6504684498
+        openSource: true
+        description: |
+          Open-source menstrual cycle tracking app. Keeps all data on your device, no
+          registration or cloud sync required. Supports cycle predictions and temperature
+          tracking.
+
     ##############################
     ###### Conference Calls ######
     #############################
