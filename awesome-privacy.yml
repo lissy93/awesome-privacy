@@ -5363,6 +5363,14 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
+      - name: PDFForYou
+        url: https://pdfforyou.in
+        icon: https://pdfforyou.in/favicon.ico
+        openSource: false
+        description: |
+          Free PDF and image toolkit (merge, split, compress, crop, sign, watermark, convert)
+          plus an ID photo cropper with presets for multiple countries. Runs locally in the
+          browser using pdf.js and pdf-lib — files are never uploaded, no account or sign-up.
 
   - name: Creativity
     sections:
