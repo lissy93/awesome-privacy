@@ -3933,6 +3933,19 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: FormatTailor
+        url: https://formattailor.tech
+        icon: https://formattailor.tech/favicon.svg
+        description: |
+          Free, browser-based privacy toolkit where photos are decoded and
+          re-exported entirely client-side - nothing is ever uploaded to a
+          server. The metadata tool shows a readable report of what the file
+          carries (flagging GPS coordinates when present), then creates a fresh
+          copy containing no copied EXIF block. The same no-upload engine also
+          compresses images toward exact file-size targets, converts between
+          HEIC/PNG/WebP/JPG, resizes to precise pixel dimensions, and builds
+          website favicon/asset packs.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
