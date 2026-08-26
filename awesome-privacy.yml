@@ -3895,6 +3895,19 @@ categories:
         for their own use.
         This could obviously pose a security risk, and that is why it is recommended to strip out this data from a file before sharing.
       services:
+      - name: clearbox
+        url: https://wedo911.github.io/clearbox/tools/photo/
+        github: wedo911/clearbox
+        icon: https://wedo911.github.io/clearbox/favicon.svg
+        openSource: true
+        followWith: Web
+        description: |
+          Browser-based JPEG/PNG metadata viewer and remover, requiring no install. Shows exactly what a photo reveals
+          (GPS coordinates with a map link, camera make/model, timestamps, software, comments) before stripping it.
+          Parses the JPEG marker and PNG chunk structure directly rather than re-encoding, so pixel data is untouched.
+          Runs fully client-side with a service worker, so it works offline and the photo never leaves the device.
+          Part of a small bilingual (English/Arabic) suite that also covers contract, password and text checks.
+
       - name: ExifCleaner
         url: https://exifcleaner.com
         github: szTheory/exifcleaner
