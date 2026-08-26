@@ -1597,6 +1597,18 @@ categories:
         description: >
           A handy extension for viewing the source code of another browser extension,
           which is a useful tool for verifying the code does what it says
+
+      - name: SafeAgent
+        url: https://github.com/Bemosha/safeagent
+        github: Bemosha/safeagent
+        icon: https://raw.githubusercontent.com/Bemosha/safeagent/main/src/popup/assets/icon-128.png
+        openSource: true
+        description: >
+          Flags clipboard address substitution, unlimited-approval signatures, seed-phrase
+          forms and typosquatted domains, on-device. Detection is heuristic, so false
+          positives occur, and its page-context hooks are not tamper-proof against a
+          hostile site. Chromium only.
+          **Download**: [Chrome](https://chromewebstore.google.com/detail/ofohhhijlkclalcbfckgpinancpdapmh)
       wordOfWarning: |
         - Having many extensions installed raises entropy, causing your fingerprint to be more unique, hence making tracking easier.
         - Much of the functionality of the above addons can be applied without installing anything, by configuring browser settings yourself. For Firefox this is done in the user.js
