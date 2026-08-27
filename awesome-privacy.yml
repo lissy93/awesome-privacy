@@ -5554,6 +5554,17 @@ categories:
     - name: Screenshot Tools
       alternativeTo: ['snagit', 'greenshot', 'lightshot', 'gyazo', 'sharex']
       services:
+      - name: OneTake
+        followWith: Chrome
+        url: https://screenrecorder.link
+        openSource: false
+        description: |
+          Records a tab, window or screen from Chrome. Encoding runs in the page:
+          gifski compiled to WebAssembly for GIF, plus WebP, AVIF and MP4. File exports
+          stay local. The optional share link uploads the recording to OneTake's server
+          during capture. No account is required either way. Free recordings stop at
+          5 minutes; 1080p and 10-minute recordings are paid.
+
       - name: ShareX
         followWith: Windows
         url: https://getsharex.com
