@@ -3544,6 +3544,19 @@ categories:
           encryption and no IP address or device info is logged. Files are permanently deleted after download or after specified
           duration. Developed by StandardNotes, and has built-in integration with the SN app.
 
+      - name: html.cloud
+        url: https://html.cloud
+        icon: https://html.cloud/apple-touch-icon.png
+        openSource: true
+        github: viljamilaurila/html-cloud
+        followWith: Web
+        description: |
+          Share a single self-contained HTML file as a private link. The file is encrypted in
+          the browser with AES-256-GCM before upload, and the decryption key stays in the URL
+          fragment, which browsers never transmit — so the server stores only ciphertext it
+          cannot read. No account required; also usable from a CLI or via an MCP server for
+          AI assistants. Self-hostable.
+
       - name: OnionShare
         url: https://onionshare.org/
         github: micahflee/onionshare
