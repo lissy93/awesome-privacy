@@ -2286,6 +2286,19 @@ categories:
           modifying web page data and HTTP headers, controlling access, and removing ads and
           other obnoxious Internet junk.
 
+      - name: Noctis
+        url: https://noctis.c0nn3ct.info
+        github: c0nn3ct-info/noctis
+        icon: https://noctis.c0nn3ct.info/favicon.ico
+        openSource: false
+        description: |
+          Chrome extension that routes only browser traffic through a server you control, over
+          VLESS Reality, VMess, Trojan, Shadowsocks, Hysteria2, TUIC or WireGuard. A native helper
+          runs a local sing-box, Xray or mihomo core, and per-host rules decide whether a request
+          takes the proxy or goes direct. There is no Noctis service and no account, so no
+          operator sits between you and the sites you visit. The helper is
+          [MIT-licensed](https://github.com/c0nn3ct-info/noctis), the extension is not.
+
       notableMentions: |
         [V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building
         proxies to bypass network restrictions and protect your privacy.
