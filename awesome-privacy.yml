@@ -3697,6 +3697,11 @@ categories:
         icon: https://imageoptim.com/icon.png
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
+      - name: swapfile.io
+        url: https://swapfile.io
+        description: |
+          Free, browser-based tool to strip EXIF, GPS, XMP and C2PA metadata from images without uploading — the file is
+          read, cleaned and downloaded entirely on your device. Also includes an AI-metadata checker plus image, PDF and audio conversion.
 
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
