@@ -1942,6 +1942,15 @@ categories:
           icon: https://www.islegitsite.com/apple-touch-icon.png
           description: |
             Checks if a website or business is a scam, before buying something from it.
+            
+        - name: Computer Scams
+          url: https://computerscams.com
+          icon: https://computerscams.com/wp-content/uploads/2026/08/cropped-android-chrome-512x512-1-192x192.png
+          description: |
+            Free tools to check emails, websites, passwords for scams and more. Includes
+            an AI-powered email scam checker, a website safety checker cross-referencing
+            Google Safe Browsing, a password breach checker, and a temporary email
+            generator. No signup required for any tool.
 
         - name: Should I Remove It?
           url: https://www.shouldiremoveit.com
