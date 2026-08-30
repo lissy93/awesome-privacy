@@ -1980,6 +1980,7 @@ categories:
           url: https://justlay.me/mirror-veil
           github: justlayme/mirror-veil
           icon: https://justlay.me/icon-192x192.png
+          openSource: true
           description: |
             Redacts names, phone numbers, email addresses and other identifiers out of a chat or message export
             before you share it with a lawyer, a therapist or an AI. It is a single HTML file that you download and
@@ -1987,7 +1988,8 @@ categories:
             which is an easier way to verify the claim than reading a privacy policy. Unlike pattern-based
             redactors, it builds an alias graph so every identifier belonging to one person maps to one stable
             token, keeping the conversation readable instead of replacing "Mike", "Mikey" and his number with three
-            unrelated blanks.
+            unrelated blanks. It emits a SHA-256 receipt of what was removed, and it does not claim anonymity:
+            preserved context can still identify people, and the documentation says so.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
