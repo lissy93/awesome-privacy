@@ -4624,6 +4624,16 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: BugShot
+        url: https://bug-shot.com
+        icon: https://bug-shot.com/favicon.ico
+        github: SinhyeokKang/bugshot-2
+        openSource: true
+        description: |
+          Chrome side panel that captures a bug as screenshots, video and console/network
+          logs, then files it to your own Jira, GitHub or Linear. Capture data goes from
+          browser to tracker with no vendor server. Chrome-only, needs broad host access.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
