@@ -4624,6 +4624,15 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: Yad
+        url: https://yadagent.com
+        github: holistis/al-yad
+        openSource: true
+        description: |
+          Open-source, local-first AI browser agent. Runs through a local companion
+          instead of a cloud copy of your browsing, with encrypted stored actions and
+          a public page documenting its own red-team results.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
