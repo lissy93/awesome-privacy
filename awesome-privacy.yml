@@ -3272,6 +3272,17 @@ categories:
           can sync via WebDAV/Dropbox/local file or self-hosted deployment.
           With a CLI, REST API and MCP for scripting, has optional BYOK AI.
 
+      - name: Sessionplan
+        url: https://sessionplan.de
+        icon: https://sessionplan.de/pwa/icon-512.png
+        github: tim-peters/sessionplan
+        openSource: true
+        description: |
+          Free, browser-based tool for building visual timeline agendas for
+          workshops, trainings and meetings. Installable PWA that works fully
+          offline; data stays in your browser. Optional real-time sync
+          requires a self-hosted backend (not E2E-encrypted).
+
     ###########################
     ###### Backup & Sync ######
     ###########################
