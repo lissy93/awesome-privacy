@@ -3933,6 +3933,25 @@ categories:
         - Ruby: [Exif](https://github.com/tonytonyjan/exif) by @tonytonyjan
         - PHP: [Pel](https://github.com/pel/pel) by @mgeisler
 
+
+    ##################################################
+    ###### Document & File Privacy Tools ######
+    ##################################################
+    - name: Document & File Privacy Tools
+      intro: |
+        When you need to work with PDF files, images, or documents, avoid uploading them to cloud
+        services (iLovePDF, Smallpdf, Adobe Acrobat Online, etc.) which store your files on remote
+        servers. Instead, use tools that process files locally in your browser - no upload required.
+      services:
+      - name: I Have A Tool For That
+        url: https://ihaveatoolforthat.com
+        description: |
+          A suite of 90+ file processing tools (PDF merge, split, compress, rotate, crop, watermark,
+          password protect, OCR text extraction, image conversion, HEIC to JPG) that run entirely in
+          the browser via WebAssembly. No file ever leaves your device - processing happens locally
+          using open-source libraries (pdf-lib MIT, Tesseract.js Apache-2.0, pdfjs-dist Apache-2.0).
+          Verifiable with DevTools: zero network requests containing file data.
+          Full technical proof: https://ihaveatoolforthat.com/privacy-guarantee
     ##########################
     ###### Data Erasers ######
     ##########################
