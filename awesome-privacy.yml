@@ -5375,8 +5375,19 @@ categories:
         discordInvite: kqevGxYPak
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
-          Supports 250+ formats across images, audio, documents, and video.
-
+          Supports 250+ formats across images, audio, documents, and video.          
+      - name: pdf-iq
+        url: https://pdf-iq.com
+        icon: https://pdf-iq.com/favicon.svg
+        openSource: true
+        github: billionedges-mk/pdf-iq-web
+        description: |
+          Seven PDF tools — compress, merge, split, rotate, reorder, images to PDF and OCR —
+          which run entirely inside the browser tab. The file is never uploaded: it is opened
+          by the browser, changed on the device and saved back to disk. Every page shows a
+          live count of bytes sent and third-party requests, so the claim can be checked
+          rather than taken on trust. No account, and everything except the first OCR run
+          works with the network off.          
   - name: Creativity
     sections:
     - name: Image Editors
