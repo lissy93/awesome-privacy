@@ -2587,6 +2587,16 @@ categories:
         description: |
           Enterprise firewall and router for protecting networks, built on the FreeBSD system.
 
+      - name: Cloudflare Security Art
+        url: https://github.com/buybitart/cloudflare-security-art
+        github: buybitart/cloudflare-security-art
+        openSource: true
+        icon: https://github.com/buybitart.png
+        description: |
+          Open-source Cloudflare security configurations for small websites, covering WAF rules,
+          DDoS protection, bot and AI crawler blocking, and security headers. Requires Cloudflare
+          and site-specific tuning.
+
       wordOfWarning: |
         There are different [types](https://www.networkstraining.com/different-types-of-firewalls)
         of firewalls, that are used in different circumstances.
