@@ -3945,13 +3945,11 @@ categories:
       services:
       - name: I Have A Tool For That
         url: https://ihaveatoolforthat.com
+        icon: https://ihaveatoolforthat.com/icon-192.png
+        openSource: false
         description: |
-          A suite of 90+ file processing tools (PDF merge, split, compress, rotate, crop, watermark,
-          password protect, OCR text extraction, image conversion, HEIC to JPG) that run entirely in
-          the browser via WebAssembly. No file ever leaves your device - processing happens locally
-          using open-source libraries (pdf-lib MIT, Tesseract.js Apache-2.0, pdfjs-dist Apache-2.0).
-          Verifiable with DevTools: zero network requests containing file data.
-          Full technical proof: https://ihaveatoolforthat.com/privacy-guarantee
+          PDF, OCR, and image tools (merge, split, compress, protect, convert) running in-browser via WebAssembly — no upload, no server. Uses pdf-lib (MIT), Tesseract.js (Apache-2.0), pdfjs-dist (Apache-2.0). Verifiable with DevTools.
+
     ##########################
     ###### Data Erasers ######
     ##########################
