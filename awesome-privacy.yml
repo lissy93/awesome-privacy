@@ -1908,6 +1908,12 @@ categories:
           description: |
             Displays, and removes Meta and EXIF data from an uploaded photo or document.
 
+        - name: GO AI EXIF Tool
+          url: https://goaichat.app/tools/exif
+          icon: https://goaichat.app/logo.png
+          description: |
+            Free, client-side EXIF/metadata viewer and stripper for JPEG and PNG. Rewrites the file's marker segments directly rather than re-encoding through a canvas, so the image data stays byte-identical; nothing is uploaded. No HEIC/RAW support or batch mode yet.
+
         - name: Redirect Detective
           url: https://redirectdetective.com
           icon: https://redirectdetective.com/redirect-detective.png
