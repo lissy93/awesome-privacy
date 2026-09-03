@@ -3917,6 +3917,12 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: Refentra
+        url: https://refentra.com/tools/remove-image-metadata/
+        icon: https://refentra.com/icon.svg
+        description: |
+          Browser-based tools for viewing, editing, and stripping image EXIF/metadata. All processing happens locally in the browser,
+          so files are never uploaded. No account is required. Closed source; submitted by its maintainer.
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
