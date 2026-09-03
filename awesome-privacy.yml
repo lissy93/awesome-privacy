@@ -5463,6 +5463,13 @@ categories:
         github: darktable-org/darktable
         icon: https://i.ibb.co/09PfHbG/darktable.png
         openSource: true
+          - name: nosend
+            url: https://nosend.io
+            icon: https://raw.githubusercontent.com/chivesz/nosend/main/public/logo-512.png
+            github: chivesz/nosend
+            openSource: true
+            description: |
+              Compresses and converts images (JPG, PNG, WEBP, GIF and HEIC) entirely in your browser using the Canvas API, so files never leave your device. No account, no file size limit, and metadata is stripped automatically.
 
     - name: Video Editors
       alternativeTo: ['adobe premiere pro', 'final cut pro', 'davinci resolve', 'imovie', 'sony vegas pro']
