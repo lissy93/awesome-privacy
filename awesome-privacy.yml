@@ -3917,6 +3917,17 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: EkaanHub
+        url: https://ekaanhub.com
+        icon: https://ekaanhub.com/icons/icon-192.png
+        followWith: Browser
+        description: |
+          Browser-based metadata tools, for when installing software is not an option. Strips EXIF (including GPS
+          coordinates) from JPEG, PNG and WebP photos, removes the author, producer, timestamps and title from PDFs,
+          and includes a read-only viewer for checking what a file carries before it is shared. Files are read and
+          rewritten on the device using the File and Canvas APIs, so the page continues to work with the network
+          disconnected. No account and no upload. Source is not currently public.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
