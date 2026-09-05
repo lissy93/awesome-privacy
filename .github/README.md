@@ -85,7 +85,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Operating Systems**
 	- [Mobile Operating Systems](#mobile-operating-systems) (3)
 	- [Desktop Operating Systems](#desktop-operating-systems) (5)
-	- [Linux Defenses](#linux-defenses) (6)
+	- [Linux Defenses](#linux-defenses) (7)
 	- [Windows Defences](#windows-defences) (16)
 	- [Mac OS Defences](#mac-os-defences) (2)
 	- [Anti-Malware](#anti-malware) (2)
@@ -97,6 +97,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
 	- [Security Cameras](#security-cameras) (1)
+	- [Wearables & Health](#wearables--health) (1)
 - **Finance**
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (6)
@@ -1627,6 +1628,7 @@ See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-secur
 - **[<img src='https://icon.horse/icon/www.chkrootkit.org' width='14' alt='' /> chkrootkit](http://www.chkrootkit.org)** - Locally checks for signs of a rootkit. 
 - **[<img src='https://icon.horse/icon/www.snort.org' width='14' alt='' /> Snort](https://www.snort.org)** - Open source intrusion prevention system capable of real-time traffic analysis and packet logging. 
 - **[<img src='https://icon.horse/icon/www.bleachbit.org' width='14' alt='' /> BleachBit](https://www.bleachbit.org)** - Clears cache and deletes temporary files very effectively. This frees up disk space, improves performance, but most importantly helps to protect privacy. 
+- **[<img src='https://avatars.githubusercontent.com/u/61513268?v=4' width='14' alt='' /> SysWarden](https://github.com/duggytuxy/syswarden)** - Open-source, host-local Linux security orchestrator combining nftables enforcement, system telemetry, threat-intelligence feeds, out-of-band WAAP log analysis and a terminal dashboard. It requires Lin[…](https://awesome-privacy.xyz/operating-systems/linux-defenses/syswarden "View full SysWarden report") 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -1837,6 +1839,14 @@ human voice interface while also protecting your privacy and security
 
 ---
 
+### Wearables & Health
+
+- **[<img src='https://codeberg.org/Freeyourgadget/Gadgetbridge/raw/branch/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png' width='14' alt='' /> Gadgetbridge](https://gadgetbridge.org/)** - Open source Android app that connects smartwatches and fitness trackers to your phone without the vendor app or cloud account. Supports 30+ brands (Mi Band, Amazfit, Pebble, Huawei), though feature pa[…](https://awesome-privacy.xyz/smart-home-and-iot/wearables-and-health/gadgetbridge "View full Gadgetbridge report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ## Finance
 
 ### Cryptocurrencies
@@ -1913,6 +1923,11 @@ be physically tracked (CCTV, phone location, card payments etc)
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
 
+> [Vultisig](https://vultisig.com/) is a seedless, self-custodial wallet.
+> It uses MPC threshold signatures to split your key across several devices you own,
+> so there's no seed phrase to write down or leak. It adds no on-chain privacy,
+> and chain queries default to Vultisig's own endpoints unless you set a custom RPC.
+> 
 > [Metamask](https://metamask.io/) (Ethereum and ERC20 tokens) is a bridge
 > that allows you to visit and interact with distributed web apps in your browser.
 > Metamask has good hardware wallet support, so you can use it to swap, stake,
