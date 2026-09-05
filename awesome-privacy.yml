@@ -3139,6 +3139,17 @@ categories:
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
           editing experience. It manages notes directly as plain text files on your local system.
 
+      - name: MindMapVault
+        url: https://www.mindmapvault.com
+        github: mindmapvault/mindmapvault-foss
+        followWith: Windows, Mac OS, Linux
+        openSource: true
+        icon: https://www.mindmapvault.com/apple-touch-icon.png
+        description: |
+          Mind mapping and notes with client-side encryption. The FOSS desktop build runs fully offline
+          with no account or server, but it is local-only, with no sync between devices and no mobile
+          apps.
+
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
