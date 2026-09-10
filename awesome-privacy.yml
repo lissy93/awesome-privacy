@@ -4622,6 +4622,17 @@ categories:
           hashes, JWTs, Base64, text comparison and more. Useful alternative to
           pasting sensitive data into random online tools.
 
+      - name: PasteGuard
+        url: https://pasteguard-exp2.netlify.app
+        icon: https://pasteguard-exp2.netlify.app/logo.svg
+        github: ExtendedUser/pasteguard
+        openSource: true
+        description: |
+          Client-side scanner for API keys, tokens, private keys, and common PII before
+          you paste text into ChatGPT, Claude, Copilot, or other AI chats. Runs entirely
+          in the browser with nothing uploaded — a privacy-first check for logs, configs,
+          and .env snippets.
+
       - name: Bruno
         url: https://www.usebruno.com/
         icon: https://www.usebruno.com/favicon.ico
