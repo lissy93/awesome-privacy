@@ -309,6 +309,18 @@ categories:
           Proton Authenticator is free, open source, and available for both iOS and Android.
           A Proton account is required to use Proton Authenticator.
           Existing 2FA codes can be imported from other popular apps such as Google Authenticator and LastPass.
+          
+      - name: SnappyKit
+        followWith: Web
+        description: |
+          A free suite of 40+ privacy-first image tools, including compression,
+          format conversion (JPG, PNG, WebP, AVIF, HEIC), resizing, cropping,
+          filters, and metadata removal. All processing runs client-side in
+          your browser using Canvas and WebAssembly - nothing is ever uploaded.
+        url: https://snappykit.site
+        openSource: false
+        securityAudited: false
+        acceptsCrypto: false
 
       - name: Chronos Authenticator
         url: https://chronosauth.com
