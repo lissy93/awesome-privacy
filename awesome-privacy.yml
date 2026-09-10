@@ -4914,6 +4914,16 @@ categories:
           is a free plan for up to 3 identities, and premium plans start at $0.99/month.
 
 
+      - name: Halocard
+        url: https://halocard.co
+        icon: https://halocard.co/images/homepage/logos/logo-halocard-square-colorful.png
+        openSource: false
+        description: |
+          US-issued virtual Visa cards for 140+ countries. Single-use, spend-limited
+          and physical cards with a custom name, billing address and Apple/Google Pay.
+          Fund by card, bank transfer (no Plaid) or crypto. Plans from $12/month.
+
+
     - name: Other Payment Methods
       services:
       - name: Cash
