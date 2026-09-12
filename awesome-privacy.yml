@@ -1090,6 +1090,16 @@ categories:
           with paid plans (from $3/month) adding encrypted IMAP/POP3 mailboxes.
           Audited by Cure53 in 2026.
 
+      - name: Mailfo
+        url: https://mailfo.pages.dev
+        icon: https://mailfo.pages.dev/assets/images/favicon.svg
+        androidApp: com.mailfo.tmailapp
+        openSource: false
+        description: |
+          Privacy-oriented disposable temporary email and instant verification OTP receiver.
+          Features instant webhook delivery, offline caching, and zero user tracking or account
+          requirements for Android and web.
+
       notableMentions: >
         Some full email providers include aliasing or catch-all addresses as a built-in
         (usually premium) feature.
