@@ -63,12 +63,12 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [DNS Hosting](#dns-hosting) (1)
 	- [Mail Servers](#mail-servers) (3)
 - **Productivity**
-	- [Digital Notes](#digital-notes) (8)
+	- [Digital Notes](#digital-notes) (9)
 	- [Calendar](#calendar) (4)
 	- [Scheduling](#scheduling) (2)
-	- [Task Management](#task-management) (2)
+	- [Task Management](#task-management) (3)
 	- [Backup and Sync](#backup-and-sync) (4)
-	- [Cloud Productivity Suites](#cloud-productivity-suites) (5)
+	- [Cloud Productivity Suites](#cloud-productivity-suites) (4)
 	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (6)
 	- [Secret Sharing](#secret-sharing) (3)
 	- [File Drop](#file-drop) (2)
@@ -1049,6 +1049,7 @@ providers that own and run their own infrastructure
 - **[<img src='https://obsidian.md/favicon.svg' width='14' alt='' /> Obsidian](https://obsidian.md/)** - A powerful knowledge base that works on top of local plain-text Markdown files. It has a strong community, and a lot of plugins and themes. Generally privacy-respecting, but no encryption out of the b[…](https://awesome-privacy.xyz/productivity/digital-notes/obsidian "View full Obsidian report") 
 - **[<img src='https://raw.githubusercontent.com/cryptee/web-client/v3/source/assets/logo-b.svg' width='14' alt='' /> Cryptee](https://crypt.ee/)** - Private & encrypted rich-text documents. Cryptee has encryption and anonymity at its core, it also has a beautiful and minimalistic UI. You can use Cryptee from the browser, or download native apps. C[…](https://awesome-privacy.xyz/productivity/digital-notes/cryptee "View full Cryptee report") 
 - **[<img src='https://icon.horse/icon/app.vnote.fun' width='14' alt='' /> VNote](https://app.vnote.fun/en_us/)** - A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown editing experience. It manages notes directly as plain text files on your local system. 
+- **[<img src='https://raw.githubusercontent.com/timothepoznanski/poznote/main/src/favicon.ico' width='14' alt='' /> Poznote](https://poznote.com)** - Self-hosted notes and tasks app with rich-text, Markdown and drawing editors, tags, multi-user, OIDC login and a REST API. Docker-based (PHP + SQLite); the only outbound call is a daily update check.[…](https://awesome-privacy.xyz/productivity/digital-notes/poznote "View full Poznote report") 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -1099,6 +1100,7 @@ providers that own and run their own infrastructure
 
 - **[<img src='https://raw.githubusercontent.com/johannesjo/super-productivity/master/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png' width='14' alt='' /> Super Productivity](https://super-productivity.com)** - Privacy-respecting, open-source task manager and time tracker. All data is stored locally on your device - no account required, no cloud dependency, and zero telemetry. Supports Jira, GitLab, GitHub,[…](https://awesome-privacy.xyz/productivity/task-management/super-productivity "View full Super Productivity report") 
 - **[<img src='https://github.com/dongdongbh/Mindwtr/raw/main/apps/mobile/assets/images/icon.png' width='14' alt='' /> Mindwtr](https://mindwtr.app)** - A Getting Things Done + Pomodoro productivity system for desktop and mobile. Local-first, no account required, can sync via WebDAV/Dropbox/local file or self-hosted deployment. With a CLI, REST API an[…](https://awesome-privacy.xyz/productivity/task-management/mindwtr "View full Mindwtr report") 
+- **[<img src='https://vikunja.io/favicon.ico' width='14' alt='' /> Vikunja](https://vikunja.io)** - Vikunja is an open-source to-do application. It is suitable for a wide variety of projects, supporting List, Gantt, Table and Kanban views to visualize all tasks in different contexts. For collaborati[…](https://awesome-privacy.xyz/productivity/task-management/vikunja "View full Vikunja report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -1147,7 +1149,6 @@ providers that own and run their own infrastructure
 - **[<img src='https://nextcloud.com/c/uploads/2022/03/favicon.png' width='14' alt='' /> NextCloud](https://nextcloud.com)** - A complete self-hosted productivity platform, with a strong community and growing app store. NextCloud is similar to (but arguably more complete than) Google Drive, Office 365 and Dropbox. Clear UI an[…](https://awesome-privacy.xyz/productivity/cloud-productivity-suites/nextcloud "View full NextCloud report") 
 - **[<img src='https://disroot.org/user/themes/disroot/images/favicon.png' width='14' alt='' /> Disroot](https://disroot.org)** - A platform providing online services based on principles of freedom, privacy, federation and decentralization. It is an implementation of NextCloud, with strong encryption configured - it is widely us[…](https://awesome-privacy.xyz/productivity/cloud-productivity-suites/disroot "View full Disroot report") 
 - **[<img src='https://sandstorm.io/favicon.ico' width='14' alt='' /> Sandstorm](https://sandstorm.io)** - An open source platform for self-hosting web apps. Once you've set it up, you can install items from the Sandstorm App Market with -click, similar to NextCloud in terms of flexibility. 
-- **[<img src='https://vikunja.io/favicon.ico' width='14' alt='' /> Vikunja](https://vikunja.io)** - Vikunja is an open-source to-do application. It is suitable for a wide variety of projects, supporting List, Gantt, Table and Kanban views to visualize all tasks in different contexts. For collaborati[…](https://awesome-privacy.xyz/productivity/cloud-productivity-suites/vikunja "View full Vikunja report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
