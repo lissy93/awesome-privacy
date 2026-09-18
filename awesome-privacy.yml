@@ -4341,6 +4341,7 @@ categories:
 
       - name: linux-utils
         url: https://github.com/albilu/linux-utils
+        icon: https://avatars.githubusercontent.com/u/35330562?v=4
         github: albilu/linux-utils
         openSource: true
         description: |
