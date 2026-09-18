@@ -5001,6 +5001,15 @@ categories:
         github: actualbudget/actual
         openSource: true
 
+      - name: Open-Finance
+        description: |
+          Local-first, self-hosted personal finance manager with assets,
+          budgets, QIF/OFX import, multi-currency and AI assistant.
+          Docker + SQLite/Postgres, data stays on your own server.
+        url: https://github.com/openfinance-app/open-finance
+        github: openfinance-app/open-finance
+        followWith: Self-hosted
+
       - name: BeeCount
         description: |
           Privacy-first cross-platform personal expense tracker (Android/iOS/Web)
