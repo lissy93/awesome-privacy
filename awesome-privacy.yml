@@ -4339,6 +4339,15 @@ categories:
           WAAP log analysis and a terminal dashboard. It requires Linux
           administration and is not an inline proxy.
 
+      - name: linux-utils
+        url: https://github.com/albilu/linux-utils
+        github: albilu/linux-utils
+        openSource: true
+        description: |
+          Bash scripts for Debian full-disk encryption: LUKS1/LUKS2 with LVM,
+          UEFI Secure Boot with custom keys, GRUB hardening and chroot recovery.
+          Runs from a live USB, no data leaves the machine.
+
       notableMentions: |
         [SecTools.org](https://sectools.org) is a directory or popular Unix security tools.
 
