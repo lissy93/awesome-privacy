@@ -5001,15 +5001,6 @@ categories:
         github: actualbudget/actual
         openSource: true
 
-      - name: Open-Finance
-        description: |
-          Local-first, self-hosted personal finance manager with assets,
-          budgets, QIF/OFX import, multi-currency and AI assistant.
-          Docker + SQLite/Postgres, data stays on your own server.
-        url: https://github.com/openfinance-app/open-finance
-        github: openfinance-app/open-finance
-        followWith: Self-hosted
-
       - name: BeeCount
         description: |
           Privacy-first cross-platform personal expense tracker (Android/iOS/Web)
@@ -5035,6 +5026,17 @@ categories:
         openSource: true
         acceptsCrypto: true
         subreddit: rotki
+
+      - name: Open-Finance
+        description: |
+          Local-first personal finance manager with assets, budgets,
+          QIF/OFX import, multi-currency and AI assistant. Self-hosted
+          with Docker, data stays on your server. Source-available
+          (Elastic-2.0), not OSI-approved.
+        url: https://github.com/openfinance-app/open-finance
+        icon: https://raw.githubusercontent.com/openfinance-app/open-finance/main/openfinance-ui/public/favicon.svg
+        github: openfinance-app/open-finance
+        followWith: Self-hosted
 
       notableMentions: |
         Spreadsheets remain a popular choice for managing budgets and financial planning.
