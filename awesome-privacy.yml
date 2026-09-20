@@ -4640,6 +4640,16 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: LibreDB Studio
+        url: https://libredb.org
+        icon: https://avatars.githubusercontent.com/u/251081537?v=4
+        github: libredb/libredb-studio
+        openSource: true
+        description: |
+          Browser-based SQL editor for 16+ engines, self-hosted next to your data so no
+          database has to be exposed. Connections and history stay in storage you run. Optional
+          AI features send your query and schema to the model provider you configure.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
