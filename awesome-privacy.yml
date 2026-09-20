@@ -3171,6 +3171,12 @@ categories:
         [Bangle.io](https://app.bangle.io) is a local-first WYSIWYG Markdown notes PWA,
         storing notes in browser storage or user-selected folders.
 
+        [ToText](https://www.lovelaceloom.com/totext/) ([iOS/iPadOS](https://apps.apple.com/app/id6770080775))
+        is a voice recorder and searchable transcript library. It requires no account,
+        stores recordings and generated text on-device with optional iCloud sync, and has
+        no third-party analytics SDKs. Transcription and text generation send temporary
+        audio or transcript text to external providers when requested.
+
     ######################
     ###### Calendar ######
     ######################
