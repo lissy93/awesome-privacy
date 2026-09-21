@@ -3932,6 +3932,22 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: ShrinkKit
+        url: https://p32929.github.io/shrinkkit
+        github: p32929/shrinkkit
+        followWith: Web
+        description: |
+          Browser-based bulk tool that both shows you the metadata in your photos and removes it. Drop a whole folder in,
+          press "Inspect metadata", and it lists the camera make and model, lens, body serial number, owner name, editing
+          software, timestamps and the GPS coordinates (with a map link) for every file. Compressing or converting the
+          images then re-encodes them through Canvas, which drops the EXIF, GPS and XMP blocks entirely.
+
+          There is no server and no upload: the JPEG APP1/TIFF blocks are parsed in JavaScript on your own machine, and
+          the page keeps working after you disconnect from the network. It is a single MIT-licensed HTML file, so it can
+          be read in full before you trust photos to it, or saved and run offline. Useful when you cannot install a
+          desktop tool, e.g. on a work or borrowed machine. Free; an optional paid licence raises the 20-image batch
+          limit, but inspection and metadata removal are free and unlimited.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
