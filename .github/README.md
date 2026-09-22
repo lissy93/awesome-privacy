@@ -2411,6 +2411,7 @@ This list was focused on privacy-respecting software. Below are other awesome li
 - [**More GitHub Awesome Lists →**](https://github.com/Lissy93/personal-security-checklist/blob/master/articles/4_Privacy_And_Security_Links.md#more-awesome-github-lists)
 
 **Security List**<br>
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 - [Personal Security Checklist](https://github.com/lissy93/personal-security-checklist) - A curated list of security and privacy advice, tools, and resources.
 
 **News & Updates**<br>
