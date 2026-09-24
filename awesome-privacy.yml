@@ -5417,6 +5417,11 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
+      - name: FileOnTap
+        url: https://fileontap.com/
+        description: |
+          Free online file converter for images and PDFs that runs entirely in your browser.
+          Files are never uploaded to a server and no account is required.
 
   - name: Creativity
     sections:
