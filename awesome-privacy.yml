@@ -5419,6 +5419,7 @@ categories:
           Supports 250+ formats across images, audio, documents, and video.
       - name: FileOnTap
         url: https://fileontap.com/
+        icon: https://fileontap.com/favicon.png
         description: |
           Free online file converter for images and PDFs that runs entirely in your browser.
           Files are never uploaded to a server and no account is required.
