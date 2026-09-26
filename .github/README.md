@@ -86,7 +86,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Mobile Operating Systems](#mobile-operating-systems) (3)
 	- [Desktop Operating Systems](#desktop-operating-systems) (5)
 	- [Linux Defenses](#linux-defenses) (7)
-	- [Windows Defences](#windows-defences) (16)
+	- [Windows Defences](#windows-defences) (17)
 	- [Mac OS Defences](#mac-os-defences) (2)
 	- [Anti-Malware](#anti-malware) (2)
 - **Development**
@@ -1659,6 +1659,7 @@ See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-secur
 - **[<img src='http://www2.gmer.net/favicon.ico' width='14' alt='' /> GMER](http://www.gmer.net)** - Rootkit detection and removal utility. 
 - **[<img src='https://schiffer.tech/img/logos/sw.png' width='14' alt='' /> ScreenWings](https://schiffer.tech/screenwings.html)** - Blocks malicious background applications from taking screenshots. 
 - **[<img src='https://icon.horse/icon/schiffer.tech' width='14' alt='' /> CamWings](https://schiffer.tech/camwings.html)** - Blocks unauthorized webcam access. 
+- **[<img src='https://avatars.githubusercontent.com/u/9938813?s=256&v=4' width='14' alt='' /> Win11Debloat](https://github.com/Raphire/Win11Debloat)** - Open-source PowerShell script that removes bloatware, disables telemetry and pre-installed apps for Windows 10 and 11, with whitelists/blacklists reversion support. It heavily modifies the OS, so a re[…](https://awesome-privacy.xyz/operating-systems/windows-defences/win11debloat "View full Win11Debloat report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
