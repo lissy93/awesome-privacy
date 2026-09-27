@@ -3937,9 +3937,9 @@ categories:
         github: EpicFail20/Obfusk8
         icon: https://raw.githubusercontent.com/EpicFail20/Obfusk8/refs/heads/main/docs/obfusk8-icon-256.png
       description: |
-        A self-hosted document anonymization tool that detects and redacts
-        sensitive information in PDF, DOCX, CSV, and image files before
-        they're sent to third-party AI services.
+          A self-hosted document anonymization tool that detects and redacts
+          sensitive information in PDF, DOCX, CSV, and image files before
+          they're sent to third-party AI services.
         
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
