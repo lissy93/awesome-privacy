@@ -5496,6 +5496,15 @@ categories:
         securityAudited: false
         acceptsCrypto: true
         tosdrId: 4105
+      - name: UseCOS Photo Resizer
+        followWith: Web
+        description: |
+          A free, client-side in-browser photo resizer and compressor tailored for
+          biometric IDs, passports, and visa applications. Images are processed 100%
+          locally in the browser using HTML5 Canvas with zero cloud uploads or tracking.
+        url: https://usecos.app/photo-resizer
+        icon: https://usecos.app/favicon.ico
+        openSource: false
       - name: Krita
         followWith: Windows, Mac OS, Linux
         icon: https://i.ibb.co/TqtRH52/Krita.png
