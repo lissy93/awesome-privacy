@@ -4984,6 +4984,16 @@ categories:
         url: https://www.gnucash.org
         icon: https://www.gnucash.org/images/gnc-download.png
 
+
+      - name: BusinessOS
+        description: |
+          An offline-first business platform with invoicing, expense tracking, CRM,
+          financial reports, and 40+ calculators. All data stays in the browser with
+          no signup required. Optional end-to-end encrypted cloud sync available.
+          Supports Arabic/RTL and multi-currency.
+        followWith: Web-based PWA
+        url: https://businessos.biz
+
       - name: Plain Text Accounting
         github: plaintextaccounting/plaintextaccounting
         description: |
