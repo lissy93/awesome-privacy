@@ -4663,6 +4663,13 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: jarvis-refined
+        url: https://github.com/fideltfg/jarvis-refined
+        github: fideltfg/jarvis-refined
+        openSource: true
+        description: |
+          Private voice-first AI assistant with local tools, swappable model providers,
+          and cinematic browser HUD. All processing stays local—nothing leaves the network.
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
