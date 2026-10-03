@@ -1984,6 +1984,12 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: Daily Toolbox
+          url: https://dailytoolbox.org
+          icon: https://dailytoolbox.org/favicon.ico
+          description: |
+            157 free online utilities (JSON/YAML formatters, encoders, PDF merge/split/compress, image watermark/resize) that run 100% in the browser - files are processed locally on your device and never uploaded to any server. No signup, no usage limits.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
