@@ -1829,11 +1829,6 @@ categories:
         Too many installed apps will increase your attack surface - only install applications that you need.
         Be sure to check the permissions, and what data an app has access to prior to installation.
         Only install from official sources.
-      - name: HostDeFi
-        url: https://hostdefi.com
-        description: |
-          No-KYC Solana DEX and free token safety scanner — Jupiter-routed
-          swaps at a flat 1% fee, with no signup or account required.
       notableMentions: |
         For more open source security & privacy apps, check out these publishers:
         [The Guardian Project](https://guardianproject.info) ([Play Store](https://play.google.com/store/apps/dev?id=6502754515281796553), [F-Droid](https://search.f-droid.org/?q=guardianproject)),
@@ -4896,6 +4891,11 @@ categories:
           invoices to minimize custody and trust requirements.
           The deterministically generated avatars help users stick to best privacy practices.
 
+      - name: HostDeFi
+        url: https://hostdefi.com
+        description: |
+          No-KYC Solana DEX and free token safety scanner — Jupiter-routed
+          swaps at a flat 1% fee, with no signup or account required.
       notableMentions: |
         For traders, [BaseFEX](https://www.basefex.com/) doesn't require ID and has a good privacy policy.
 
