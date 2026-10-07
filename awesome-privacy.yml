@@ -3527,16 +3527,6 @@ categories:
     - name: Secret Sharing
       alternativeTo: ['pastebin', 'hastebin', 'ghostbin', 'justpaste.it']
       services:
-      - name: Hemmelig.app
-        url: https://hemmelig.app/
-        icon: https://hemmelig.app/icons/icon-512x512.png
-        openSource: true
-        github: HemmeligOrg/Hemmelig.app
-        description: |
-          Share rich text and files securely with locally encrypted messages that automatically self-destruct, or
-          invite others to send you a secret. Allows setting maximum views, webhooks, expiration times and IP restrictions.
-          Open source and self-hostable.
-
       - name: crypt.fyi
         url: https://crypt.fyi
         icon: https://www.crypt.fyi/logo.ico
