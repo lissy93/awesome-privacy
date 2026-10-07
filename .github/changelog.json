@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:46:29Z",
+  "generatedAt": "2026-10-07T18:45:54Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -61,6 +61,7 @@
     "3e4dbc7a1919781cb28dbfb5d75cf36daac9bd4e",
     "3e760b3a774e6b65f62866dc3effa5b504a4e10f",
     "401776af65289a4a71318462202a3b6a924c44bc",
+    "40e547f6f72c4cf29ef23cace01e0c797fa95947",
     "4145b323ab2b8e93d05392ba12ace9ee815c27f9",
     "4155d6bcfc0d01136a323bfb841452e478be1fa6",
     "41e72fe5b4c16c5ffced9d3b85e8ddb7c2011f5e",
@@ -472,9 +473,37 @@
     821,
     822,
     823,
-    828
+    828,
+    829,
+    830,
+    831,
+    833,
+    834
   ],
   "entries": [
+    {
+      "date": "2026-10-07",
+      "sha": "40e547f6f72c4cf29ef23cace01e0c797fa95947",
+      "pr": {
+        "number": 835,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/835",
+        "author": "ltguillaume",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/4777345?v=4"
+      },
+      "changes": {
+        "services": {
+          "removed": [
+            {
+              "name": "Hemmelig.app",
+              "category": "Productivity",
+              "section": "Secret Sharing"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-10-02",
       "sha": "d3ce9466fbf255e744fe8ca4200a67d1f85c57dc",
@@ -7360,6 +7389,56 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-10-06",
+      "title": "Add HostDeFi to Crypto Exchanges",
+      "pr": {
+        "number": 834,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/834",
+        "author": "verixiaapps",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/255719916?v=4"
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Add SnappyKit to Creativity > Image Editors",
+      "pr": {
+        "number": 833,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/833",
+        "author": "jamesdanner",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/8231955?v=4"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Add jarvis-refined to Developer Tools",
+      "pr": {
+        "number": 831,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/831",
+        "author": "fideltfg",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/6055873?v=4"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Add Daily Toolbox to Online Tools",
+      "pr": {
+        "number": 830,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/830",
+        "author": "tinali7564-eng",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/259341738?v=4"
+      }
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Add UseCOS Photo Resizer (client-side in-browser photo tool)",
+      "pr": {
+        "number": 829,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/829",
+        "author": "rivlosys",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/231087431?v=4"
+      }
+    },
     {
       "date": "2026-10-02",
       "title": "Add BusinessOS to Secure Budgeting",
