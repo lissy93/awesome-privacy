@@ -70,7 +70,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (4)
 	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (6)
-	- [Secret Sharing](#secret-sharing) (2)
+	- [Secret Sharing](#secret-sharing) (3)
 	- [File Drop](#file-drop) (2)
 	- [Browser Sync](#browser-sync) (4)
 	- [Habit Trackers](#habit-trackers) (1)
@@ -1191,6 +1191,7 @@ It is recommended to encrypt files on your client machine, before syncing to the
 
 - **[<img src='https://www.crypt.fyi/logo.ico' width='14' alt='' /> crypt.fyi](https://crypt.fyi)** - crypt.fyi is an ephemeral zero-knowledge sensitive data sharing platform with web, cli, and chrome-extension clients. It offers a suite of configurations beyond the standard for comparable private pas[…](https://awesome-privacy.xyz/productivity/secret-sharing/crypt.fyi "View full crypt.fyi report") 
 - **[<img src='https://1time.io/favicon.svg' width='14' alt='' /> 1time.io](https://1time.io/)** - 1time.io - Zero-knowledge one-time secret sharing with AES-256-GCM browser-side encryption, HKDF key derivation, CLI tool, and Docker self-hosting. 
+- **[<img src='https://skysend.app/logo.svg' width='14' alt='' /> SkySend](https://skysend.app/)** - Share end-to-end encrypted Markdown notes, files, code and passwords/keys, or request secrets from others. Set a password, expiration time and/or maximum views. No account necessary. Self-hostable and[…](https://awesome-privacy.xyz/productivity/secret-sharing/skysend "View full SkySend report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
