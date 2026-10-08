@@ -3547,6 +3547,16 @@ categories:
           1time.io - Zero-knowledge one-time secret sharing with AES-256-GCM browser-side
           encryption, HKDF key derivation, CLI tool, and Docker self-hosting.
 
+      - name: SkySend
+        url: https://skysend.app/
+        icon: https://skysend.app/logo.svg
+        openSource: true
+        github: skyfay/skysend
+        description: |
+          Share end-to-end encrypted Markdown notes, files, code and passwords/keys,
+          or request secrets from others. Set a password, expiration time and/or maximum views.
+          No account necessary. Self-hostable and has a client and admin CLI.
+
     ########################
     ###### File Drop ######
     #######################
