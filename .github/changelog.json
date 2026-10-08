@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T09:15:03Z",
+  "generatedAt": "2026-10-08T09:53:06Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -105,6 +105,7 @@
     "6cf287d925558028acb263fbafa7eb412abfed17",
     "6d21892e771f8ca4a64b772e211b32db166626a6",
     "6eff55d23b27913fdb7102b8d747906ed84eb84d",
+    "6f269b704d33ad593bbc651c383005acf2e3254a",
     "7177ba26e054a6f173ec451b420ee64d5fdef69b",
     "719de567d40d3be7714c3206fb76a41d93c61910",
     "75ad504f96da49df98dc30842d820fd74c85deb0",
@@ -482,6 +483,36 @@
     834
   ],
   "entries": [
+    {
+      "date": "2026-10-08",
+      "sha": "6f269b704d33ad593bbc651c383005acf2e3254a",
+      "pr": {
+        "number": 832,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/832",
+        "author": "hugovolzoliveira",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/16353291?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Umbra",
+              "category": "Finance",
+              "section": "Crypto Tools"
+            }
+          ]
+        },
+        "sections": {
+          "added": [
+            {
+              "name": "Crypto Tools",
+              "category": "Finance"
+            }
+          ]
+        },
+        "categories": {}
+      }
+    },
     {
       "date": "2026-10-08",
       "sha": "4dad9e3936e2cb4492fa9082668783678c622666",

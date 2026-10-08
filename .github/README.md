@@ -102,6 +102,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (6)
 	- [Crypto Exchanges](#crypto-exchanges) (2)
+	- [Crypto Tools](#crypto-tools) (1)
 	- [Virtual Credit Cards](#virtual-credit-cards) (2)
 	- [Other Payment Methods](#other-payment-methods) (3)
 	- [Secure Budgeting](#secure-budgeting) (7)
@@ -1963,6 +1964,14 @@ be physically tracked (CCTV, phone location, card payments etc)
 > is tagged with its KYC level, jurisdiction, supported payment methods, and a trust score
 > reflecting audit history and known incidents.
 > </details>
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Crypto Tools
+
+- **[<img src='https://app.umbra.cash/icons/favicon-128x128.png' width='14' alt='' /> Umbra](https://app.umbra.cash)** - Umbra is a stealth address protocol on the EVM. It allows users to send payments to a one-time address controlled by a recipient without their interaction, promoting unlinkability (if proper hygiene i[…](https://awesome-privacy.xyz/finance/crypto-tools/umbra "View full Umbra report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
