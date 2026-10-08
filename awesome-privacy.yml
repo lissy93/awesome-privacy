@@ -4905,6 +4905,17 @@ categories:
         is tagged with its KYC level, jurisdiction, supported payment methods, and a trust score
         reflecting audit history and known incidents.
 
+    - name: Crypto Tools
+      services:
+      - name: Umbra
+        url: https://app.umbra.cash
+        icon: https://app.umbra.cash/icons/favicon-128x128.png
+        github: ScopeLift/umbra-protocol
+        followWith: Ethereum
+        openSource: true
+        description: |
+          Umbra is a stealth address protocol on the EVM. It allows users to send payments to a one-time address controlled by a recipient without their interaction, promoting unlinkability (if proper hygiene is followed) without resorting to mixers or pools.
+
     - name: Virtual Credit Cards
       alternativeTo: ['visa', 'mastercard', 'american express', 'discover', 'capital one']
       intro: |
