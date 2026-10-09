@@ -5169,7 +5169,7 @@ categories:
         The content on many of the smaller video sites, often just doesn't compare to YouTube.
         So another alternative, is to access YouTube through a proxy client, which reduces what Google can track.
         - Good options are: [Invidious](https://invidious.io/) (web), [Piped](https://piped.kavin.rocks) (web), [FreeTube](https://freetubeapp.io/) (Windows, Mac OS, Linux), [NewPipe](https://newpipe.schabi.org/) (Android), [YouTube++](https://iosninja.io/ipa-library/download-youtube-plus-ipa-ios) (iOS)
-        - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For just audio, there is [PodSync](https://podsync.net/)
+        - Or download videos with [youtube-dl](https://ytdl-org.github.io/youtube-dl/) (cli) or [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) (gui). For audio feeds, there is [PigeonPod](https://pigeonpod.cloud/)
 
         #### Video Search Engines
         [Petey Vid](https://www.peteyvid.com) is a non-biased video search engine.
