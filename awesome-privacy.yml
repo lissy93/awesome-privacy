@@ -5689,7 +5689,9 @@ categories:
       description: 100% Client-side zero-upload text and code diff checker running in browser RAM.
       url: https://fyxdata.co.in/text-compare.html
       github: https://github.com/FyxData/Text-compare-offline
+      icon: https://fyxdata.co.in/favicon.ico
       openSource: true
+  
   
   
   
