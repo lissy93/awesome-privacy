@@ -5390,6 +5390,7 @@ categories:
       services:
       - name: Nostos
         url: https://nostos.page
+        icon: https://raw.githubusercontent.com/Christian-Gennari/Nostos/main/Nostos.Frontend/public/pwa-192.png
         github: Christian-Gennari/Nostos
         openSource: true
         followWith: Self-Hosted
