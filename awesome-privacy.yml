@@ -5387,7 +5387,15 @@ categories:
 
     - name: E-Book Readers
       alternativeTo: ['kindle', 'google play books', 'apple books', 'adobe digital editions', 'calibre']
-      services: []
+      services:
+      - name: Nostos
+        url: https://nostos.page
+        github: Christian-Gennari/Nostos
+        openSource: true
+        followWith: Self-Hosted
+        description: |
+          A self-hosted personal library, reader, and digital study for ebooks and audiobooks.
+          Features EPUB/PDF reading, OPDS catalog support, and connected reading notes with zero telemetry.
 
     - name: Podcast Players
       alternativeTo: ['apple podcasts', 'spotify', 'google podcasts', 'pocket casts', 'overcast']
