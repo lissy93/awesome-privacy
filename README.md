@@ -102,6 +102,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (6)
 	- [Crypto Exchanges](#crypto-exchanges) (2)
+	- [Crypto Tools](#crypto-tools) (1)
 	- [Virtual Credit Cards](#virtual-credit-cards) (2)
 	- [Other Payment Methods](#other-payment-methods) (3)
 	- [Secure Budgeting](#secure-budgeting) (7)
@@ -1189,9 +1190,9 @@ It is recommended to encrypt files on your client machine, before syncing to the
 
 ### Secret Sharing
 
-- **[<img src='https://hemmelig.app/icons/icon-512x512.png' width='14' alt='' /> Hemmelig.app](https://hemmelig.app/)** - Share rich text and files securely with locally encrypted messages that automatically self-destruct, or invite others to send you a secret. Allows setting maximum views, webhooks, expiration times and[…](https://awesome-privacy.xyz/productivity/secret-sharing/hemmelig.app "View full Hemmelig.app report") 
 - **[<img src='https://www.crypt.fyi/logo.ico' width='14' alt='' /> crypt.fyi](https://crypt.fyi)** - crypt.fyi is an ephemeral zero-knowledge sensitive data sharing platform with web, cli, and chrome-extension clients. It offers a suite of configurations beyond the standard for comparable private pas[…](https://awesome-privacy.xyz/productivity/secret-sharing/crypt.fyi "View full crypt.fyi report") 
 - **[<img src='https://1time.io/favicon.svg' width='14' alt='' /> 1time.io](https://1time.io/)** - 1time.io - Zero-knowledge one-time secret sharing with AES-256-GCM browser-side encryption, HKDF key derivation, CLI tool, and Docker self-hosting. 
+- **[<img src='https://skysend.app/logo.svg' width='14' alt='' /> SkySend](https://skysend.app/)** - Share end-to-end encrypted Markdown notes, files, code and passwords/keys, or request secrets from others. Set a password, expiration time and/or maximum views. No account necessary. Self-hostable and[…](https://awesome-privacy.xyz/productivity/secret-sharing/skysend "View full SkySend report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -1963,6 +1964,14 @@ be physically tracked (CCTV, phone location, card payments etc)
 > is tagged with its KYC level, jurisdiction, supported payment methods, and a trust score
 > reflecting audit history and known incidents.
 > </details>
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Crypto Tools
+
+- **[<img src='https://app.umbra.cash/icons/favicon-128x128.png' width='14' alt='' /> Umbra](https://app.umbra.cash)** - Umbra is a stealth address protocol on the EVM. It allows users to send payments to a one-time address controlled by a recipient without their interaction, promoting unlinkability (if proper hygiene i[…](https://awesome-privacy.xyz/finance/crypto-tools/umbra "View full Umbra report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
