@@ -5685,3 +5685,10 @@ categories:
         description: An animated sprite editor & pixel art tool for Windows, macOS and Linux.
         github: https://github.com/aseprite/aseprite
         openSource: true
+      - name: FYX Data Text Compare
+    description: Client-side text and code diff checker running inside browser RAM.
+    url: https://fyxdata.co.in/text-compare.html
+    icon: https://fyxdata.co.in/favicon.ico
+    github: FyxData/Text-compare-offline
+    openSource: true
+    
