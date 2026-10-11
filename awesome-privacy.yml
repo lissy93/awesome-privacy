@@ -1267,6 +1267,15 @@ categories:
           accepts crypto, doesn't KYC and you can delete your logs.
         acceptsCrypto: true
 
+      - name: Major Phones
+        url: https://majorphones.com
+        icon: https://www.majorphones.com/wp-content/uploads/2021/09/cropped-faviconMajor-192x192.png
+        acceptsCrypto: true
+        description: |
+          US and UK virtual phone numbers for SMS verification, with short and
+          long-term rentals, plus virtual cards and an API. Accepts crypto.
+          Closed-source; pricing varies by number and rental period.
+
     ################################
     ###### Team Collaboration ######
     ################################
