@@ -2747,6 +2747,14 @@ categories:
           Variety of lists (free and paid-for) for blocking content based on certain topics, inducing: spam, abuse,
           political, illegal, hijacked, bad peers and more.
 
+      - name: HaGeZi DNS Blocklists
+        url: https://github.com/hagezi/dns-blocklists
+        github: hagezi/dns-blocklists
+        openSource: true
+        description: |
+          A set of DNS blocklists that block ads, trackers, telemetry, phishing, malware, scams, and other unwanted domains network-wide.
+          They work for any region and with every common DNS server, ad blocker, and content blocker.
+
     #############################
     ###### Router FirmWARE ######
     #############################
