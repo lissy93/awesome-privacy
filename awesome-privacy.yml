@@ -2540,6 +2540,16 @@ categories:
           Makes internet connections from all apps visible, allowing you to block or manage traffic on a per-app basis.
           GNU/Linux port of the Little Snitch application firewall.
 
+      - name: Snitch
+        followWith: Cross-platform
+        github: aixisstudio/Snitch
+        icon: https://raw.githubusercontent.com/aixisstudio/Snitch/main/icon.png
+        url: https://github.com/aixisstudio/Snitch
+        description: |
+          Free, open-source (AGPL-3.0) real-time network traffic visualizer. Shows every connection
+          your computer makes — live node graph, world map, per-process attribution, anomaly
+          detection and privacy score — 100% local, zero telemetry. (macOS, Windows, Linux)
+
       - name: Gufw
         followWith: Linux
         openSource: true
