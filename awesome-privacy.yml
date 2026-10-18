@@ -3952,19 +3952,11 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
-- name: ImageOptim
-  url: https://imageoptim.com
-  description: |
-    Native MacOS app, with drag 'n drop image optimization and meta data removal.
-                            ⬆️ এখানে paste করবে (ফাঁকা লাইন দিয়ে)
 - name: PrivacyMetadata
   url: https://privacymetadata.com
   description: |
     Free, browser-based metadata removal for images, PDFs, documents, video and audio. Files are processed
     client-side in the browser — nothing is uploaded to a server.
-
-notableMentions: |
-
 
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
