@@ -1970,6 +1970,13 @@ categories:
           description: |
             Generates temporary disposable email address, to avoid giving your real details.
 
+        - name: TempMail10min
+          url: https://temp-mail10min.online/
+          icon: https://temp-mail10min.online/assets/themes/basic/img/favicon.webp
+          description: |
+            Free, zero-log temporary disposable email generator with custom 5, 10, 15, and 30-minute inboxes.
+            Incoming emails are kept exclusively in volatile server RAM and permanently overwritten upon timer expiration.
+
         - name: MXToolBox Mail Headers
           url: https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx
           icon: https://mxtoolbox.com/favicon.ico
