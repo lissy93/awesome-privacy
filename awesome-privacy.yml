@@ -1984,6 +1984,16 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: YuliusBox
+          url: https://www.yuliusbox.com/
+          icon: https://www.yuliusbox.com/favicon.ico
+          github: zeawhy/yuliusbox
+          openSource: true
+          description: |
+            Collection of 36 free online tools (PDF, image, developer utilities) that process files locally
+            in the browser via WebAssembly, with no uploads or signup required. Open source (MIT).
+            A few AI and server-powered tools are clearly labeled as exceptions.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
