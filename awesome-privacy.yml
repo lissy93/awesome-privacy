@@ -2943,6 +2943,17 @@ categories:
           datacenters and network (AS29222). ISO 27001 certified since 2018, and Swiss law keeps it outside
           the 14 Eyes and the CLOUD Act. Card payment only, so there is no anonymous signup.
 
+      - name: DarkVPS
+        url: https://www.darkvps.pro
+        icon: https://www.darkvps.pro/favicon.ico
+        openSource: false
+        securityAudited: false
+        acceptsCrypto: true
+        description: |
+          Bulgarian VPS and dedicated server hosting on its own hardware in Bulgaria and Sweden, running
+          since 2025. Cryptocurrency accepted with anonymous signup, no ID or personal details required.
+          Bulgaria sits outside the 14 Eyes, and servers are covered by EU law only.
+
       notableMentions: |
         See also: [Bahnhof](https://bahnhof.cloud), which offers high-security hosting from its own data
         centres in Sweden, but takes card and PayPal only.
