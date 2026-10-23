@@ -2569,6 +2569,16 @@ categories:
           IPFire is a hardened, versatile, state-of-the-art Open Source firewall based on Linux. Easy to install
           on a raspberry Pi, since it is lightweight and heavily customizable.
 
+      - name: Snitch
+        followWith: Windows, macOS, Linux
+        url: https://aixisstudio.github.io/Snitch/
+        github: aixisstudio/Snitch
+        icon: https://raw.githubusercontent.com/aixisstudio/Snitch/main/icon.png
+        description: |
+          Open-source application firewall that shows which process opens each outbound
+          connection and lets you block it in real time. Runs fully on-device with no
+          telemetry: packet capture, Sigma-based detection and offline geolocation stay local.
+
       - name: Shorewall
         url: https://shorewall.org
         git: https://gitlab.com/shorewall/code
