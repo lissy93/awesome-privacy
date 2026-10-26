@@ -3404,6 +3404,14 @@ categories:
     - name: Cloud Productivity Suites
       alternativeTo: ['microsoft office 365', 'google workspace', 'zoho office suite', 'libreoffice online']
       services:
+      - name: Utilvo
+        description: >-
+          Utilvo is a software technology company developing privacy-first, client-side
+          web utilities and document processing workflows. Built on WebAssembly, it
+          processes PDF and office files locally within the user's browser without
+          uploading sensitive documents to external servers.
+        url: https://utilvo.com/
+        github: utilvo/utilvo-specifications
       - name: CryptPad
         url: https://cryptpad.org/
         github: xwiki-labs/cryptpad
