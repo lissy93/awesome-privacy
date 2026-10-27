@@ -3995,6 +3995,17 @@ categories:
         description: |
           Native MacOS app, with drag 'n drop image optimization and meta data removal.
 
+      - name: BrowserStay
+        url: https://browserstay.com/remove-image-metadata
+        icon: https://browserstay.com/favicon.svg
+        followWith: Web
+        description: |
+          Free browser-based metadata remover. The image is decoded and re-encoded
+          in the tab, so the EXIF block — including GPS coordinates — is dropped
+          without the file ever being uploaded. No account, no file list, and
+          nothing left on a server to delete afterwards. The same site hosts PDF,
+          image and developer tools built the same way.
+
       notableMentions: |
         It's possible (but slower) to do this without a third-party tool.
         For Windows, right click on a file, and go to: `Properties --> Details --> Remove Properties --> Remove from this File --> Select All --> OK`.
