@@ -902,19 +902,6 @@ categories:
           attachments, subject lines, and sender names etc) which PGP mail providers cannot do. The recent upgrades
           to Tuta's encryption algorithm makes data stored and sent with their service safe against attacks
           posed by quantum computers.
-      - name: VaelMail
-        url: https://vaelmail.com
-        icon: https://vaelmail.com/social/vaelmail-logo.png
-        openSource: true
-        github: vaelmail
-        onion: http://5gxnpixptykyv5fchr2qidjbrazjewswx77ddrqowpcmwmmgll57daid.onion
-        description: |
-          Privacy-first webmail authenticated via client-generated 16-digit account keys
-          with zero phone verification or personal identifiers. Based in Sweden. Free tier
-          includes 100 MB mailbox storage and persistent @vael.pw receive-only aliases to
-          isolate external services. Includes native Tor v3 onion routing, I2P eepsite, and
-          a scriptless No-JS interface (https://nojs.vaelmail.com). Supports native Monero
-          (XMR) and Bitcoin checkout for Plus upgrades.
       - name: Mailfence
         url: https://mailfence.com?src=digitald
         icon: https://mailfence.com/c/mailfence/images/favicon/android-chrome-192x192.png
@@ -945,6 +932,15 @@ categories:
           They provide good account security and email encryption, with OpenPGP, as well as
           encrypted storage. There is no dedicated app, but it works well with any standard
           mail client with SSL. There's also currently no anonymous payment option.
+      - name: VaelMail
+        url: https://vaelmail.com
+        icon: https://vaelmail.com/social/vaelmail-logo.png
+        openSource: true
+        github: vaelmail/vaelmail
+        description: |
+          Sweden-based privacy webmail authenticated via 16-digit account keys with no
+          phone verification. Offers 100 MB free storage, persistent @vael.pw aliases,
+          a No-JS interface, and Monero checkout for upgrades.
       notableMentions:
       - name: HushMail
         url: https://www.hushmail.com
