@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:41:48Z",
+  "generatedAt": "2026-10-29T20:34:09Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -49,6 +49,7 @@
     "303cc2f8a124db8a9d0a2b5562725811069ceaa5",
     "30569aa9b85bc55905b08c00719ce3715df6c8e7",
     "3196cfc9d503b8cfe9bab5de9c5c2e6b12dd59dd",
+    "31f9c574780e5d427c84dc4c0eb4c9e8944d65cd",
     "330b4a9f95e44c4a553a4e982c7eb7d9d27f280c",
     "335a2df16b0f7accf9a56cc22aa7030dbdac6f13",
     "350dd06439fdba13c56d4138a86f1b759a221677",
@@ -522,6 +523,29 @@
     882
   ],
   "entries": [
+    {
+      "date": "2026-10-29",
+      "sha": "31f9c574780e5d427c84dc4c0eb4c9e8944d65cd",
+      "pr": {
+        "number": 883,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/883",
+        "author": "Acorn221",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/28987083?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "PGP Tools",
+              "category": "Utilities",
+              "section": "PGP Managers"
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-10-29",
       "sha": "be0198284a09c8bb1e83d118361390f20c16696b",

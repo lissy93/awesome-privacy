@@ -80,7 +80,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Office Suites](#office-suites) (3)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
-	- [PGP Managers](#pgp-managers) (8)
+	- [PGP Managers](#pgp-managers) (9)
 	- [Metadata Removal](#metadata-removal) (3)
 	- [Data Erasers](#data-erasers) (8)
 - **Operating Systems**
@@ -1381,6 +1381,7 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 - **[<img src='https://www.pgpeverywhere.com/i/favicon/favicon-16x16.png' width='14' alt='' /> PGP Everywhere](https://www.pgpeverywhere.com)** - iOS app for encrypting/ decrypting text. Has native keyboard integration, keychain support and app integrations which makes it quick to use in any app. 
 - **[<img src='https://flowcrypt.com/img/favicons/apple-touch-icon.png?version=69' width='14' alt='' /> FlowCrypt](https://flowcrypt.com)** - Browser extension for using PGP within Gmail, for Chrome and Firefox. Mobile version supported on Android and iOS. 
 - **[<img src='https://icon.horse/icon/www.mailvelope.com' width='14' alt='' /> Mailvelope](https://www.mailvelope.com)** - Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. Works with Gmail, Yahoo, Outlook[…](https://awesome-privacy.xyz/utilities/pgp-managers/mailvelope "View full Mailvelope report") 
+- **[<img src='https://raw.githubusercontent.com/Am-I-Being-Pwned/PGP-Tools/refs/heads/main/apps/pgp/public/icon-128.png' width='14' alt='' /> PGP Tools](https://github.com/Am-I-Being-Pwned/PGP-Tools)** - Encrypt, decrypt, sign and verify OpenPGP messages, plus age encryption. Uses Sequoia-PGP in WASM, keys are encrypted at rest with a password or passkey, and it needs no sensitive permissions, so it c[…](https://awesome-privacy.xyz/utilities/pgp-managers/pgp-tools "View full PGP Tools report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
