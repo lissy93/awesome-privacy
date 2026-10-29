@@ -3968,6 +3968,17 @@ categories:
           version for free, or opt to host your own instance.
           Works with Gmail, Yahoo, Outlook, GMX, Posteo, Web.de, FreeNet.de, Mailbox.org and [many others](https://mailvelope.com/en/faq#mailer_list).
 
+      - name: PGP Tools
+        url: https://github.com/Am-I-Being-Pwned/PGP-Tools
+        github: Am-I-Being-Pwned/PGP-Tools
+        icon: https://raw.githubusercontent.com/Am-I-Being-Pwned/PGP-Tools/refs/heads/main/apps/pgp/public/icon-128.png
+        followWith: Browser
+        description: |
+          Encrypt, decrypt, sign and verify OpenPGP messages, plus age encryption.
+          Uses Sequoia-PGP in WASM, keys are encrypted at rest with a password or passkey,
+          and it needs no sensitive permissions, so it can't read the sites you visit.
+          **Download**: [Chrome](https://chromewebstore.google.com/detail/pgp-tools-encrypt-decrypt/pgpcdgggohpbombhkffjoiiafdlfcpgp) - [Edge](https://microsoftedge.microsoft.com/addons/detail/pgp-tools-encrypt-decr/ngdbamkfldpokifphlmbflhoaepkcehf)
+
 
     ##############################
     ###### Metadata Removal ######
