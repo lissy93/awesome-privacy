@@ -3979,6 +3979,13 @@ categories:
           and it needs no sensitive permissions, so it can't read the sites you visit.
           **Download**: [Chrome](https://chromewebstore.google.com/detail/pgp-tools-encrypt-decrypt/pgpcdgggohpbombhkffjoiiafdlfcpgp) - [Edge](https://microsoftedge.microsoft.com/addons/detail/pgp-tools-encrypt-decr/ngdbamkfldpokifphlmbflhoaepkcehf)
 
+      wordOfWarning: >
+        Browser extensions (FlowCrypt, Mailvelope, PGP Tools) keep your private key inside the browser,
+        the most exposed app on most devices. They also update automatically, so a compromised or sold
+        extension could push an update that steals your key.
+        For important or long-term keys, use a desktop tool such as Kleopatra or GPG Suite, ideally with
+        the key stored on a hardware token, and keep a separate key for browser use.
+
 
     ##############################
     ###### Metadata Removal ######
