@@ -3980,11 +3980,8 @@ categories:
           **Download**: [Chrome](https://chromewebstore.google.com/detail/pgp-tools-encrypt-decrypt/pgpcdgggohpbombhkffjoiiafdlfcpgp) - [Edge](https://microsoftedge.microsoft.com/addons/detail/pgp-tools-encrypt-decr/ngdbamkfldpokifphlmbflhoaepkcehf)
 
       wordOfWarning: >
-        Browser extensions (FlowCrypt, Mailvelope, PGP Tools) keep your private key inside the browser,
-        the most exposed app on most devices. They also update automatically, so a compromised or sold
-        extension could push an update that steals your key.
-        For important or long-term keys, use a desktop tool such as Kleopatra or GPG Suite, ideally with
-        the key stored on a hardware token, and keep a separate key for browser use.
+        Browser extensions are inherently more risky, given how exposed they are and that updates happen automatically.
+        For long-term storage and important keys, prefer a hardware token or offline desktop app.
 
 
     ##############################
