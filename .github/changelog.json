@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T20:34:09Z",
+  "generatedAt": "2026-10-30T16:57:34Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -182,6 +182,7 @@
     "bb76bb8677c29932746d94b0de20ac5bbe7e1447",
     "bbafb2908e2189ef959ebc5fa8ccfab91402f62f",
     "bc2f085c6329b3e60b29017a40c5413b494679e8",
+    "bc3938cde24b44340d51e66e74bc05e4c1fe33a2",
     "bc99ed2b8704c26e3165320efe62dd863521b26e",
     "bcc2a64a33c0bb4a07a4faa37288c324d0153bd7",
     "bd021a41c3c5858c0474bb407ad406d5c4664aaa",
@@ -505,6 +506,7 @@
     856,
     857,
     858,
+    859,
     861,
     862,
     863,
@@ -520,7 +522,8 @@
     879,
     880,
     881,
-    882
+    882,
+    884
   ],
   "entries": [
     {
@@ -7732,6 +7735,16 @@
   ],
   "rejections": [
     {
+      "date": "2026-10-30",
+      "title": "Adds QuikTools Hub to Online Tools",
+      "pr": {
+        "number": 884,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/884",
+        "author": "umarfarooqufs007-cmyk",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/345558908?v=4"
+      }
+    },
+    {
       "date": "2026-10-29",
       "title": "Adds AltQuick to Crypto Exchanges",
       "pr": {
@@ -7869,6 +7882,16 @@
         "url": "https://github.com/lissy93/awesome-privacy/pull/861",
         "author": "howion",
         "authorAvatar": "https://avatars.githubusercontent.com/u/39840945?v=4"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "title": "Add PrivacyMetadata to Metadata Removal",
+      "pr": {
+        "number": 859,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/859",
+        "author": "suzonmahmud321",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/344319683?v=4"
       }
     },
     {
@@ -8059,26 +8082,6 @@
         "url": "https://github.com/lissy93/awesome-privacy/pull/823",
         "author": "EpicFail20",
         "authorAvatar": "https://avatars.githubusercontent.com/u/261627847?v=4"
-      }
-    },
-    {
-      "date": "2026-09-26",
-      "title": "Add FileOnTap – private browser-based file converter",
-      "pr": {
-        "number": 822,
-        "url": "https://github.com/lissy93/awesome-privacy/pull/822",
-        "author": "zjch022",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/275394221?v=4"
-      }
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Add FileOnTap – private browser-based file converter",
-      "pr": {
-        "number": 821,
-        "url": "https://github.com/lissy93/awesome-privacy/pull/821",
-        "author": "zjch022",
-        "authorAvatar": "https://avatars.githubusercontent.com/u/275394221?v=4"
       }
     },
     {

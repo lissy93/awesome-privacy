@@ -1383,6 +1383,13 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 - **[<img src='https://icon.horse/icon/www.mailvelope.com' width='14' alt='' /> Mailvelope](https://www.mailvelope.com)** - Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. Works with Gmail, Yahoo, Outlook[…](https://awesome-privacy.xyz/utilities/pgp-managers/mailvelope "View full Mailvelope report") 
 - **[<img src='https://raw.githubusercontent.com/Am-I-Being-Pwned/PGP-Tools/refs/heads/main/apps/pgp/public/icon-128.png' width='14' alt='' /> PGP Tools](https://github.com/Am-I-Being-Pwned/PGP-Tools)** - Encrypt, decrypt, sign and verify OpenPGP messages, plus age encryption. Uses Sequoia-PGP in WASM, keys are encrypted at rest with a password or passkey, and it needs no sensitive permissions, so it c[…](https://awesome-privacy.xyz/utilities/pgp-managers/pgp-tools "View full PGP Tools report") 
 
+<details>
+<summary>⚠️ <b>Word of Warning</b></summary>
+
+> Browser extensions are inherently more risky, given how exposed they are and that updates happen automatically. For long-term storage and important keys, prefer a hardware token or offline desktop app.
+
+</details>
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
