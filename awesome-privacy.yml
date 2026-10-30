@@ -3979,6 +3979,10 @@ categories:
           and it needs no sensitive permissions, so it can't read the sites you visit.
           **Download**: [Chrome](https://chromewebstore.google.com/detail/pgp-tools-encrypt-decrypt/pgpcdgggohpbombhkffjoiiafdlfcpgp) - [Edge](https://microsoftedge.microsoft.com/addons/detail/pgp-tools-encrypt-decr/ngdbamkfldpokifphlmbflhoaepkcehf)
 
+      wordOfWarning: >
+        Browser extensions are inherently more risky, given how exposed they are and that updates happen automatically.
+        For long-term storage and important keys, prefer a hardware token or offline desktop app.
+
 
     ##############################
     ###### Metadata Removal ######
