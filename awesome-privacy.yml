@@ -1984,6 +1984,15 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: QuikTools Hub
+          url: https://quiktoolshub.com
+          icon: https://quiktoolshub.com/icon.png
+          description: |
+            Free collection of 41 browser-based tools for calculators, text, images,
+            QR codes, PDFs and more. All processing happens client-side, so nothing
+            is uploaded, and this can be verified in the browser network tab or
+            offline. Ads-supported.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
