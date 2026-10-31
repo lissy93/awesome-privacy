@@ -64,12 +64,12 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Mail Servers](#mail-servers) (3)
 - **Productivity**
 	- [Digital Notes](#digital-notes) (9)
-	- [Calendar](#calendar) (4)
+	- [Calendar](#calendar) (5)
 	- [Scheduling](#scheduling) (2)
 	- [Task Management](#task-management) (3)
 	- [Backup and Sync](#backup-and-sync) (4)
 	- [Cloud Productivity Suites](#cloud-productivity-suites) (4)
-	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (6)
+	- [Encrypted Cloud Storage](#encrypted-cloud-storage) (7)
 	- [Secret Sharing](#secret-sharing) (3)
 	- [File Drop](#file-drop) (1)
 	- [Browser Sync](#browser-sync) (4)
@@ -77,9 +77,10 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Secure Conference Calls](#secure-conference-calls) (2)
 	- [Maps & Navigation](#maps--navigation) (1)
 	- [Accessibility](#accessibility) (1)
+	- [Office Suites](#office-suites) (3)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
-	- [PGP Managers](#pgp-managers) (8)
+	- [PGP Managers](#pgp-managers) (9)
 	- [Metadata Removal](#metadata-removal) (3)
 	- [Data Erasers](#data-erasers) (8)
 - **Operating Systems**
@@ -1087,6 +1088,7 @@ providers that own and run their own infrastructure
 - **[<img src='https://raw.githubusercontent.com/nextcloud/calendar/refs/heads/main/img/favicon.png' width='14' alt='' /> Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar)** - Calendar app for the self-hosted Nextcloud platform. Uses CalDAV for sync across devices. No E2E encryption support. 
 - **[<img src='https://raw.githubusercontent.com/FossifyOrg/Calendar/refs/heads/main/graphics/icon.webp' width='14' alt='' /> Fossify Calendar](https://www.fossify.org/)** - Fossify Calendar from the family of forked FOSS apps from the discontinued SimpleMobileTools. Simple, customizable, includes widgets. Note that CalDAV support is currently limited (see [#921](https://github.com/FossifyOrg/Calendar/issues/921)[…](https://awesome-privacy.xyz/productivity/calendar/fossify-calendar "View full Fossify Calendar report") 
 - **[<img src='https://raw.githubusercontent.com/KashCal/KashCal/main/images/kashcal-app.png' width='14' alt='' /> KashCal](https://kashcal.onekash.org)** - Offline-first Android calendar that syncs with iCloud, CalDAV and device calendars. No account, no telemetry; credentials are stored in the Android Keystore. Events are not end-to-end encrypted, so sy[…](https://awesome-privacy.xyz/productivity/calendar/kashcal "View full KashCal report") 
+- **[<img src='https://codeberg.org/jlmakiola/calendula/media/branch/main/fastlane/metadata/android/en-US/images/icon.png' width='14' alt='' /> Calendula](https://codeberg.org/jlmakiola/calendula)** - A modern Material 3 Expressive calendar for Android. Reads, writes, and reminds — on top of the system calendar, with zero network access. 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -1175,6 +1177,7 @@ It is recommended to encrypt files on your client machine, before syncing to the
 - **[<img src='https://internxt.com/favicon.ico' width='14' alt='' /> Internxt](https://internxt.com/)** - Store your files in total privacy. Internxt Drive is a zero-knowledge cloud storage service based on best-in-class privacy and security. Made in Spain. Open-source mobile and desktop apps. 10GB FREE a[…](https://awesome-privacy.xyz/productivity/encrypted-cloud-storage/internxt "View full Internxt report") 
 - **[<img src='https://icon.horse/icon/filen.io' width='14' alt='' /> FileN](https://filen.io/)** - Zero knowledge end-to-end encrypted affordable cloud storage made in Germany. Open-source mobile and desktop apps. 10GB FREE with paid plans starting at €0.92/month for 100GB. 
 - **[<img src='https://icon.horse/icon/koofr.eu' width='14' alt='' /> Koofr](https://koofr.eu)** - GDPR compliant storage (web/desktop/mobile/WebDAV/RClone) with a sensible privacy policy. Has optional open-source client-side encryption, compatible with RClone. Can connect to other cloud services a[…](https://awesome-privacy.xyz/productivity/encrypted-cloud-storage/koofr "View full Koofr report") 
+- **[<img src='https://drive.proton.me/assets/android-chrome-256x256.png' width='14' alt='' /> Proton Drive](https://proton.me/drive)** - End-to-end encrypted cloud storage from the Proton suite, based in Switzerland. Open source apps for web, desktop and mobile, with file sharing and photo backup. Free plan available. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -1315,6 +1318,21 @@ alternatives keep this processing on your device, so your input never leaves it.
 
 ---
 
+### Office Suites
+
+Mainstream office suites use a lot of telemetry, which analyzes not
+only how you're using the applications, but can also include parts
+of your actual work. A privacy-respecting office suite works offline
+and collects nothing about you.
+
+- **[<img src='https://raw.githubusercontent.com/Euro-Office/desktop-apps/refs/heads/main/win-linux/res/icons/app-icon-eo.svg' width='14' alt='' /> Euro-Office](https://github.com/Euro-Office/DesktopEditors)** - With Euro-Office you can view, edit and work with others on documents, spreadsheets, presentations and PDF files. You can connect to a NextCloud server for real-time collaboration. 
+- **[<img src='https://raw.githubusercontent.com/LibreOffice/core/refs/heads/master/sysui/desktop/icons/soffice.ico' width='14' alt='' /> LibreOffice](https://www.libreoffice.org)** - LibreOffice is a free and open-source office productivity software suite with applications for word processing, spreadsheets, presentations, vector graphics, formulas and database management. 
+- **[<img src='https://www.collaboraonline.com/favicon.ico' width='14' alt='' /> Collabora Office](https://www.collaboraonline.com/collabora-office)** - Brings the online suite to the local desktop. Collabora is based on LibreOffice, but comes with the simpler and more modern web interface of Collabora Online. 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ## Utilities
 
 ### Virtual Machines
@@ -1363,6 +1381,14 @@ Tools for signing, verifying, encrypting and decrypting text and files using [Gn
 - **[<img src='https://www.pgpeverywhere.com/i/favicon/favicon-16x16.png' width='14' alt='' /> PGP Everywhere](https://www.pgpeverywhere.com)** - iOS app for encrypting/ decrypting text. Has native keyboard integration, keychain support and app integrations which makes it quick to use in any app. 
 - **[<img src='https://flowcrypt.com/img/favicons/apple-touch-icon.png?version=69' width='14' alt='' /> FlowCrypt](https://flowcrypt.com)** - Browser extension for using PGP within Gmail, for Chrome and Firefox. Mobile version supported on Android and iOS. 
 - **[<img src='https://icon.horse/icon/www.mailvelope.com' width='14' alt='' /> Mailvelope](https://www.mailvelope.com)** - Mailvelope is an addon for email applications, that makes using PGP very easy for beginners. You can use the hosted version for free, or opt to host your own instance. Works with Gmail, Yahoo, Outlook[…](https://awesome-privacy.xyz/utilities/pgp-managers/mailvelope "View full Mailvelope report") 
+- **[<img src='https://raw.githubusercontent.com/Am-I-Being-Pwned/PGP-Tools/refs/heads/main/apps/pgp/public/icon-128.png' width='14' alt='' /> PGP Tools](https://github.com/Am-I-Being-Pwned/PGP-Tools)** - Encrypt, decrypt, sign and verify OpenPGP messages, plus age encryption. Uses Sequoia-PGP in WASM, keys are encrypted at rest with a password or passkey, and it needs no sensitive permissions, so it c[…](https://awesome-privacy.xyz/utilities/pgp-managers/pgp-tools "View full PGP Tools report") 
+
+<details>
+<summary>⚠️ <b>Word of Warning</b></summary>
+
+> Browser extensions are inherently more risky, given how exposed they are and that updates happen automatically. For long-term storage and important keys, prefer a hardware token or offline desktop app.
+
+</details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -2043,7 +2069,8 @@ crypto currency or cash, since neither can be easily tied back to your identity.
 
 > Spreadsheets remain a popular choice for managing budgets and financial planning.
 > [Collabora](https://nextcloud.com/collaboraonline) or
-> [OnlyOffice](https://nextcloud.com/onlyoffice) (on [NextCloud](https://nextcloud.com)),
+> [Euro-Office](https://nextcloud.com/office) on [NextCloud](https://nextcloud.com),
+> [Euro-Office Desktop Editors](https://github.com/Euro-Office/DesktopEditors),
 > [Libre Office](https://www.libreoffice.org) and [EtherCalc](https://ethercalc.net)
 > are popular open source spread sheet applications. [Mintable](https://github.com/kevinschaich/mintable)
 > allows you to auto-populate your spreadsheets from your financial data,
