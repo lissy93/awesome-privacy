@@ -1856,6 +1856,12 @@ categories:
       intro: >
         A selection of free online tools and utilities, to check, test and protect your security
       services:
+        - name: HandyTK
+          url: https://handytk.com
+          description: |
+            A collection of free, browser-based tools for developers and general productivity tasks. 
+            All file processing (PDF, images, text) happens locally inside your browser, so your files are never uploaded to any server.
+
         - name: Have i been pwned
           url: https://haveibeenpwned.com
           icon: https://i.ibb.co/XxmfTyw/haveibeenpwnd.png
