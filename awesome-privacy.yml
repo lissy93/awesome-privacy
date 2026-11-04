@@ -1856,14 +1856,6 @@ categories:
       intro: >
         A selection of free online tools and utilities, to check, test and protect your security
       services:
-        - name: HandyTK
-          url: https://handytk.com
-          icon: https://handytk.com/favicon.ico
-          openSource: false
-          description: |
-            A collection of free, browser-based tools for developers and general productivity tasks. 
-            All file processing (PDF, images, text) happens locally inside your browser, so your files are never uploaded to any server.
-
         - name: Have i been pwned
           url: https://haveibeenpwned.com
           icon: https://i.ibb.co/XxmfTyw/haveibeenpwnd.png
@@ -1991,6 +1983,14 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
+
+        - name: HandyTK
+          url: https://handytk.com
+          icon: https://handytk.com/favicon.svg
+          openSource: false
+          description: |
+            A collection of free, browser-based tools for developers and general productivity tasks.
+            All file processing (PDF, images, text) happens locally inside your browser, so your files are never uploaded to any server.
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
