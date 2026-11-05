@@ -3606,11 +3606,13 @@ categories:
           require installing, but the benefit is that your files are transferred directly to the recipient, without needing to be
           hosted on an interim server. The host needs to remain connected for the duration of the transfer, but once it is complete,
           the process will be terminated.
+          
       - name: Iriszip
         url: https://iriszip.com
         github: iris-zip/iris
-        description: |
-          An ephemeral, zero-disk file and text transfer tool for browsers. 
+        icon: https://github.githubassets.com/favicons/favicon.svg
+        description: | 
+          An ephemeral, zero-disk file and text transfer tool for browsers.
           Features audited hybrid post-quantum E2EE (SPAKE2 + X25519 + ML-KEM-768) running in WebAssembly with zero accounts or tracking.
     
       notableMentions: |
