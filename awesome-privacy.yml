@@ -3610,9 +3610,8 @@ categories:
         url: https://iriszip.com
         github: iris-zip/iris
         description: |
-          An ephemeral, zero-disk file and text transfer tool that works directly in the browser without accounts or installation.
-          Uses an audited hybrid post-quantum E2EE handshake (SPAKE2 + X25519 + ML-KEM-768) in WebAssembly with ChaCha20-Poly1305 streaming.
-          Transfers run at LAN speed on the same network or stream through a stateless RAM relay with nothing ever stored on disk.
+          An ephemeral, zero-disk file and text transfer tool for browsers. 
+          Features audited hybrid post-quantum E2EE (SPAKE2 + X25519 + ML-KEM-768) running in WebAssembly with zero accounts or tracking.
     
       notableMentions: |
         [Instant.io](https://github.com/webtorrent/instant.io), is another peer-to-peer based solution,
