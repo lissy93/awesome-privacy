@@ -3606,7 +3606,14 @@ categories:
           require installing, but the benefit is that your files are transferred directly to the recipient, without needing to be
           hosted on an interim server. The host needs to remain connected for the duration of the transfer, but once it is complete,
           the process will be terminated.
-
+      - name: Iriszip
+        url: https://iriszip.com
+        github: iris-zip/iris
+        description: |
+          An ephemeral, zero-disk file and text transfer tool that works directly in the browser without accounts or installation.
+          Uses an audited hybrid post-quantum E2EE handshake (SPAKE2 + X25519 + ML-KEM-768) in WebAssembly with ChaCha20-Poly1305 streaming.
+          Transfers run at LAN speed on the same network or stream through a stateless RAM relay with nothing ever stored on disk.
+    
       notableMentions: |
         [Instant.io](https://github.com/webtorrent/instant.io), is another peer-to-peer based solution,
         using [Web Torrent](https://webtorrent.io).
