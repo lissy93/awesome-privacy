@@ -1193,6 +1193,23 @@ categories:
     - name: Virtual Phone Numbers
       alternativeTo: ['google voice', 'grasshopper', 'ringcentral', 'sideline', 'burner']
       services:
+      - name: Silent.link
+        url: https://silent.link/
+        icon: https://silent.link/static/favicon/apple-icon-114x114.png
+        description: |
+          Anonymous eSIM for sending / receiving SMS, incoming calls and 4G / 5G internet
+          + world-wide roaming. No data is required at sign-up. Affordable pricing, with
+          payments and top-ups accepted in BTC. Requires an eSim-compatible device.
+
+      - name: SMSPing
+        url: https://smsping.net/?utm_source=awesome-privacy-lissy93&utm_medium=directory&utm_campaign=backlinks
+        icon: https://smsping.net/apple-touch-icon.png
+        acceptsCrypto: true
+        description: |
+          Online virtual numbers to receive SMS verification codes for 1,300+
+          services in 150+ countries. Pay mainly with USDT (also TRX/ETH/BNB).
+          Minimum top-up $10. Browser, Telegram, and SMS-Activate-compatible API.
+
       - name: SMSPool
         url: https://www.smspool.net
         icon: https://i.ibb.co/2t4MBFj/apple-touch-icon.png
@@ -1203,14 +1220,6 @@ categories:
         iosApp: https://apps.apple.com/app/smspool/id6474617801
         tosdrId: 10033
         acceptsCrypto: true
-      - name: Silent.link
-        url: https://silent.link/
-        icon: https://silent.link/static/favicon/apple-icon-114x114.png
-        description: |
-          Anonymous eSIM for sending / receiving SMS, incoming calls and 4G / 5G internet
-          + world-wide roaming. No data is required at sign-up. Affordable pricing, with
-          payments and top-ups accepted in BTC. Requires an eSim-compatible device.
-
       - name: Crypton.sh
         url: https://crypton.sh/
         icon: https://crypton.sh/assets/shared/icons/favicon-32x32.png
