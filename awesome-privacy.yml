@@ -3454,6 +3454,18 @@ categories:
           you can install items from the Sandstorm App Market with -click,
           similar to NextCloud in terms of flexibility.
 
+      - name: Yuvomi
+        url: https://yuvomi.cloud/
+        icon: https://yuvomi.cloud/apple-touch-icon.png
+        github: ulsklyc/yuvomi
+        openSource: true
+        followWith: Self-hosted, Web/PWA
+        description: >-
+          Self-hosted family planner for tasks, calendars, meals, shopping and budgets.
+          A PWA on your own server, with no telemetry. Requires server upkeep; no
+          end-to-end encryption. Update checks and optional integrations contact
+          external services.
+
 
     ###########################
     ###### Cloud Storage ######
