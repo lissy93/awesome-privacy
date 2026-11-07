@@ -4747,6 +4747,7 @@ categories:
 
       - name: url-sanitize
         url: https://antonio-orionus.github.io/url-sanitize/
+        icon: https://antonio-orionus.github.io/url-sanitize/icon.png
         github: antonio-orionus/url-sanitize
         openSource: true
         followWith: CLI
