@@ -4745,6 +4745,16 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: url-sanitize
+        url: https://antonio-orionus.github.io/url-sanitize/
+        github: antonio-orionus/url-sanitize
+        openSource: true
+        followWith: CLI
+        description: |
+          url-sanitize removes tracking parameters and redirect wrappers from individual URLs or links embedded
+          in text. It runs locally without network requests or telemetry, uses privacy rules from ClearURLs, Brave,
+          and Firefox, and is available as a CLI, libraries, and a browser playground.
+
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
