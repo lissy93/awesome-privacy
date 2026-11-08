@@ -3329,6 +3329,16 @@ categories:
           sharing support via private teams or public links. It can be self-hosted
           or used as a managed service for a small fee.
 
+      - name: MeetScribe
+        url: https://meetscribe.ca
+        icon: https://meetscribe.ca/favicon.ico
+        openSource: false
+        description: |
+          Local, offline meeting library and commitments tracker. Records or
+          imports audio and transcripts, transcribes on-device, and extracts
+          action items and decisions with owners and due dates into a searchable
+          commitments register.
+
     ###########################
     ###### Backup & Sync ######
     ###########################
