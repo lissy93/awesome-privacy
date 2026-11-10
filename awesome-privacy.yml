@@ -1599,6 +1599,19 @@ categories:
           Crowdsourced browser extension that replaces YouTube video titles and
           thumbnails using community-submitted versions to stop clickbait.
           **Download**: [Firefox](https://addons.mozilla.org/en-US/firefox/addon/dearrow/) - [Chrome](https://chromewebstore.google.com/detail/dearrow-better-titles-and/enamippconapkdmgfgjchkhakpfinmaj)
+          
+      - name: PymDrop
+        url: https://github.com/artsntech/pymdrop
+        github: artsntech/pymdrop
+        icon: https://raw.githubusercontent.com/artsntech/pymdrop/main/extension/public/icons/pymdrop-128.png
+        license: MIT
+        openSource: true
+        selfHosted: true
+        description: >-
+          Browser extension and self-hosted Go proxy server that compresses images to
+          WebP in real-time to save bandwidth while blocking trackers and ads.
+          **Download**: [Firefox](https://addons.mozilla.org/addon/pymdrop/) -
+          [Chrome / Edge / Brave](https://github.com/artsntech/pymdrop/releases/tag/v1.0.0)
 
       notableMentions:
       - name: Extension source viewer
