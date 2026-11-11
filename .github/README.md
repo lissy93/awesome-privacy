@@ -78,6 +78,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Maps & Navigation](#maps--navigation) (1)
 	- [Accessibility](#accessibility) (1)
 	- [Office Suites](#office-suites) (3)
+	- [Document Tools](#document-tools) (1)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
 	- [PGP Managers](#pgp-managers) (9)
@@ -1328,6 +1329,17 @@ and collects nothing about you.
 - **[<img src='https://raw.githubusercontent.com/Euro-Office/desktop-apps/refs/heads/main/win-linux/res/icons/app-icon-eo.svg' width='14' alt='' /> Euro-Office](https://github.com/Euro-Office/DesktopEditors)** - With Euro-Office you can view, edit and work with others on documents, spreadsheets, presentations and PDF files. You can connect to a NextCloud server for real-time collaboration. 
 - **[<img src='https://raw.githubusercontent.com/LibreOffice/core/refs/heads/master/sysui/desktop/icons/soffice.ico' width='14' alt='' /> LibreOffice](https://www.libreoffice.org)** - LibreOffice is a free and open-source office productivity software suite with applications for word processing, spreadsheets, presentations, vector graphics, formulas and database management. 
 - **[<img src='https://www.collaboraonline.com/favicon.ico' width='14' alt='' /> Collabora Office](https://www.collaboraonline.com/collabora-office)** - Brings the online suite to the local desktop. Collabora is based on LibreOffice, but comes with the simpler and more modern web interface of Collabora Online. 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Document Tools
+
+These tools can handle the basic operations of their commercial
+equivalents without compromising your privacy.
+
+- **[<img src='https://www.bentopdf.com/images/favicon.svg' width='14' alt='' /> BentoPDF](https://bentopdf.com)** - A self-hosted toolkit for simple and advanced operations to edit, sign and prepare your PDF files from within your browser. All processing happens locally on your device. 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
