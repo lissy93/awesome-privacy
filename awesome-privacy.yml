@@ -1970,6 +1970,13 @@ categories:
           description: |
             Generates temporary disposable email address, to avoid giving your real details.
 
+        - name: TempMail Hub
+          url: https://tempmailhub.net/
+          icon: https://tempmailhub.net/favicon.ico
+          description: |
+            Free disposable email address, no account needed; you choose how long the inbox lives (10 min to 7 days) and
+            can read it via a Telegram bot too. Hosted, closed-source service like other listings in this section.
+
         - name: MXToolBox Mail Headers
           url: https://mxtoolbox.com/Public/Tools/EmailHeaders.aspx
           icon: https://mxtoolbox.com/favicon.ico
