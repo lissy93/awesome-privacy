@@ -3821,6 +3821,26 @@ categories:
           LibreOffice, but comes with the simpler and more modern web interface
           of Collabora Online.
 
+    ############################
+    ###### Document Tools ######
+    ############################
+    - name: Document Tools
+      alternativeTo: ['adobe reader', 'adobe acrobat']
+      intro: |
+        These tools can handle the basic operations of their commercial
+        equivalents without compromising your privacy.
+      services:
+      - name: BentoPDF
+        url: https://bentopdf.com
+        github: alam00000/bentopdf
+        icon: https://www.bentopdf.com/images/favicon.svg
+        openSource: true
+        discordInvite: Bgq3Ay3f2w
+        description: |
+          A self-hosted toolkit for simple and advanced operations to edit, sign
+          and prepare your PDF files from within your browser. All processing
+          happens locally on your device.
+
   - name: Utilities
     sections:
     ##############################
