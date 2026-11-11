@@ -932,6 +932,17 @@ categories:
           They provide good account security and email encryption, with OpenPGP, as well as
           encrypted storage. There is no dedicated app, but it works well with any standard
           mail client with SSL. There's also currently no anonymous payment option.
+      - name: Forward Email
+        url: https://forwardemail.net
+        icon: https://forwardemail.net/img/android-chrome-192x192.png
+        openSource: true
+        github: forwardemail/forwardemail.net
+        securityAudited: true
+        subreddit: forwardemail
+        description: |
+          Open source, self-hostable email provider for custom domains. Paid plans (from $3/month)
+          include individually encrypted IMAP/POP3 mailboxes and OpenPGP support.
+          The free plan is forwarding only, with no mailbox. Audited by Cure53.
       notableMentions:
       - name: HushMail
         url: https://www.hushmail.com
@@ -1093,6 +1104,7 @@ categories:
       - name: Forward Email
         url: https://forwardemail.net
         icon: https://forwardemail.net/img/android-chrome-192x192.png
+        openSource: true
         github: forwardemail/forwardemail.net
         securityAudited: true
         subreddit: forwardemail
