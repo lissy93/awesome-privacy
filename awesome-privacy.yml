@@ -333,6 +333,15 @@ categories:
           Open-source 2FA authenticator for iPhone, iPad, Mac and Apple Watch. Secrets stay
           in the device Keychain, with no account, no analytics and optional iCloud Sync
 
+      - name: 2FA Counter
+        url: https://2facounter.com
+        icon: https://2facounter.com/favicon-96x96.png
+        followWith: Web
+        description: |
+          Free web-based TOTP authenticator. Paste your secret key and get a live
+          2FA code in seconds — generated entirely in the browser, no install,
+          no account, secrets never leave the device.
+
       furtherInfo: >
         Check which websites support multi-factor authentication: [2fa.directory](https://2fa.directory/)
       notableMentions: >
