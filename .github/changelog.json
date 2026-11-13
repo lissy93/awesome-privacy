@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T19:34:10Z",
+  "generatedAt": "2026-11-13T21:47:14Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -140,6 +140,7 @@
     "8c0cdf76b53040df0fe362941ca4a085d346ce8a",
     "8d3c89895f72fc663c6ebd0e68525ef8167b5a02",
     "8ee48cc161dd204f6eea70e8988ad3d4eb17e0c7",
+    "9001acbecc74ecd05880053e791172b4df93a820",
     "906ceba8d144bc074ceab3872424f3dd5d205fa5",
     "90d8ef9b928ed9abb25b3c2480717e6174451488",
     "9138eddcdec8ede666db70bc44d98b33c9f9653e",
@@ -531,9 +532,43 @@
     890,
     891,
     892,
-    894
+    894,
+    896
   ],
   "entries": [
+    {
+      "date": "2026-11-11",
+      "sha": "9001acbecc74ecd05880053e791172b4df93a820",
+      "pr": {
+        "number": 893,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/893",
+        "author": "titanism",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/101466223?v=4"
+      },
+      "changes": {
+        "services": {
+          "added": [
+            {
+              "name": "Forward Email",
+              "category": "Communication",
+              "section": "Encrypted Email"
+            }
+          ],
+          "modified": [
+            {
+              "name": "Forward Email",
+              "category": "Communication",
+              "section": "Mail Forwarding",
+              "fields": [
+                "openSource"
+              ]
+            }
+          ]
+        },
+        "sections": {},
+        "categories": {}
+      }
+    },
     {
       "date": "2026-11-11",
       "sha": "cc617f28622b848aa869fbfcc2ba036de3c62918",
@@ -7772,6 +7807,16 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-11-12",
+      "title": "Add 2FA Counter (web-based TOTP authenticator)",
+      "pr": {
+        "number": 896,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/896",
+        "author": "web3error404",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/352889796?v=4"
+      }
+    },
     {
       "date": "2026-11-11",
       "title": "Adds TempMail Hub to Online Tools",
