@@ -34,7 +34,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Communication**
 	- [Encrypted Messaging](#encrypted-messaging) (4)
 	- [P2P Messaging](#p2p-messaging) (4)
-	- [Encrypted Email](#encrypted-email) (4)
+	- [Encrypted Email](#encrypted-email) (5)
 	- [Email Clients](#email-clients) (6)
 	- [Mail Forwarding](#mail-forwarding) (4)
 	- [Email Security Tools](#email-security-tools) (3)
@@ -78,6 +78,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Maps & Navigation](#maps--navigation) (1)
 	- [Accessibility](#accessibility) (1)
 	- [Office Suites](#office-suites) (3)
+	- [Document Tools](#document-tools) (1)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
 	- [PGP Managers](#pgp-managers) (9)
@@ -332,6 +333,7 @@ Email is not secure - your messages can be easily intercepted and read. Corporat
 - **[<img src='https://tuta.com/resources/favicon/logo-favicon.svg' width='14' alt='' /> Tuta](https://tuta.com)** - Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps and desktop email clients, anonymous signup, and an encrypted calendar. Tuta has a full-feat[…](https://awesome-privacy.xyz/communication/encrypted-email/tuta "View full Tuta report") 
 - **[<img src='https://mailfence.com/c/mailfence/images/favicon/android-chrome-192x192.png' width='14' alt='' /> Mailfence](https://mailfence.com?src=digitald)** - Mailfence supports OpenPGP so that you can manually exchange encryption keys independently from the Mailfence servers, putting you in full control. Mailfence has a simple UI, similar to that of Outloo[…](https://awesome-privacy.xyz/communication/encrypted-email/mailfence "View full Mailfence report") 
 - **[<img src='https://i.ibb.co/zJtHBTZ/mailfence.png' width='14' alt='' /> MailBox.org](https://mailbox.org)** - A Berlin-based, eco-friendly secure mail provider. There is no free plan, the standard service costs €12/year. You can use your own domain, with the option of a [catch-all alias](https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain). They provide good acco[…](https://awesome-privacy.xyz/communication/encrypted-email/mailbox.org "View full MailBox.org report") 
+- **[<img src='https://forwardemail.net/img/android-chrome-192x192.png' width='14' alt='' /> Forward Email](https://forwardemail.net)** - Open source, self-hostable email provider for custom domains. Paid plans (from $3/month) include individually encrypted IMAP/POP3 mailboxes and OpenPGP support. The free plan is forwarding only, with[…](https://awesome-privacy.xyz/communication/encrypted-email/forward-email "View full Forward Email report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
@@ -1328,6 +1330,17 @@ and collects nothing about you.
 - **[<img src='https://raw.githubusercontent.com/Euro-Office/desktop-apps/refs/heads/main/win-linux/res/icons/app-icon-eo.svg' width='14' alt='' /> Euro-Office](https://github.com/Euro-Office/DesktopEditors)** - With Euro-Office you can view, edit and work with others on documents, spreadsheets, presentations and PDF files. You can connect to a NextCloud server for real-time collaboration. 
 - **[<img src='https://raw.githubusercontent.com/LibreOffice/core/refs/heads/master/sysui/desktop/icons/soffice.ico' width='14' alt='' /> LibreOffice](https://www.libreoffice.org)** - LibreOffice is a free and open-source office productivity software suite with applications for word processing, spreadsheets, presentations, vector graphics, formulas and database management. 
 - **[<img src='https://www.collaboraonline.com/favicon.ico' width='14' alt='' /> Collabora Office](https://www.collaboraonline.com/collabora-office)** - Brings the online suite to the local desktop. Collabora is based on LibreOffice, but comes with the simpler and more modern web interface of Collabora Online. 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Document Tools
+
+These tools can handle the basic operations of their commercial
+equivalents without compromising your privacy.
+
+- **[<img src='https://www.bentopdf.com/images/favicon.svg' width='14' alt='' /> BentoPDF](https://bentopdf.com)** - A self-hosted toolkit for simple and advanced operations to edit, sign and prepare your PDF files from within your browser. All processing happens locally on your device. 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
