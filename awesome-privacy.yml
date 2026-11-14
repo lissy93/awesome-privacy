@@ -4966,6 +4966,14 @@ categories:
         followWith: Bitcoin or Ethereum & ERC-20 tokens
         github: digitalbitbox/bitbox-wallet-app
 
+      - name: Gem Wallet
+        url: https://gemwallet.com
+        icon: https://gemwallet.com/images/presskit/gemwallet-icon-1024x1024.png
+        github: gemwalletcom/wallet
+        description: |
+          Open source (GPL-3.0), self-custodial mobile wallet for iOS and Android, with no account and no analytics in the app. Drawbacks: Bitcoin reuses one address per wallet, and balances are fetched via Gem's own API servers.
+        followWith: Multi-chain
+
       notableMentions: |
         [Vultisig](https://vultisig.com/) is a seedless, self-custodial wallet.
         It uses MPC threshold signatures to split your key across several devices you own,
