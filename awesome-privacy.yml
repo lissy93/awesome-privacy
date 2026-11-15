@@ -1837,6 +1837,16 @@ categories:
         description: |
           A radio frequency scanner app for Android with recon and offensive capabilities.
 
+      - name: CleanSlate
+        url: https://cleanslate.devshield.tech/
+        github: devshield-tech/botox-android
+        openSource: true
+        icon: https://raw.githubusercontent.com/devshield-tech/botox-android/main/fastlane/metadata/android/en-US/images/icon.png
+        androidApp: com.destructo.botox
+        description: |
+          Remotely wipe an Android device if it is lost or stolen, before a thief can
+          access your data. Works on de-Googled ROMs with no Google dependencies.
+
       wordOfWarning: |
         Too many installed apps will increase your attack surface - only install applications that you need.
         Be sure to check the permissions, and what data an app has access to prior to installation.
