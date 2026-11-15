@@ -3842,6 +3842,15 @@ categories:
         These tools can handle the basic operations of their commercial
         equivalents without compromising your privacy.
       services:
+      - name: DocuBill
+        url: https://9community.com
+        icon: https://9community.com/favicon.svg
+        description: |
+          A collection of free document generators that run entirely in your
+          browser: invoices, receipts, quotes, estimates, pay stubs, rent
+          receipts and timesheets. Templates come pre-filled with line items
+          for 43 professions and tax presets for 9 countries, and the PDF is
+          created on your own device - no account, nothing uploaded.
       - name: BentoPDF
         url: https://bentopdf.com
         github: alam00000/bentopdf
