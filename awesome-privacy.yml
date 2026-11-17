@@ -5847,3 +5847,14 @@ categories:
         description: An animated sprite editor & pixel art tool for Windows, macOS and Linux.
         github: https://github.com/aseprite/aseprite
         openSource: true
+    - name: PrivateTools
+      url: https://www.privatetools.in
+      icon: https://www.privatetools.in/favicon.ico
+      github: sikandardevbusiness/privatetools
+      openSource: true
+      alternativeTo: ['smallpdf', 'ilovepdf', 'tinypng', 'otter.ai', 'cloudconvert', 'handbrake', 'metadata2go']
+      description: |
+        A suite of 60+ open-source, 100% local browser utilities. A private, 
+        unlimited alternative to Smallpdf, TinyPNG, Otter.ai, and CloudConvert. 
+        Features PDF redaction, local AI background removal, and metadata wiping. 
+        Zero server uploads.
