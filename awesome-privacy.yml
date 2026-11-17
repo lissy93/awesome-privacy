@@ -3853,6 +3853,15 @@ categories:
           and prepare your PDF files from within your browser. All processing
           happens locally on your device.
 
+      - name: NoUploadPDF
+        url: https://nouploadpdf.com
+        icon: https://nouploadpdf.com/brand/icon-512.png
+        openSource: false
+        description: |
+          Free PDF tools to merge, split, compress, convert, edit and sign
+          files in your browser using WebAssembly. Files are processed on
+          your device and never uploaded. No account needed. Closed source.          
+
   - name: Utilities
     sections:
     ##############################
