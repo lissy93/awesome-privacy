@@ -5848,11 +5848,11 @@ categories:
         github: https://github.com/aseprite/aseprite
         openSource: true
         
-   - name: Local Browser Utilities
+    - name: Local Browser Utilities
       alternativeTo: ['smallpdf', 'ilovepdf', 'tinypng', 'otter.ai', 'cloudconvert', 'handbrake', 'metadata2go']
       intro: |
-        A suite of 60+ open-source, 100% local browser utilities. A private, 
-        unlimited alternative to cloud-based tools. All processing happens 
+        A suite of 60+ open-source, 100% local browser utilities. A private,
+        unlimited alternative to cloud-based tools. All processing happens
         client-side with zero server uploads, ensuring complete data privacy.
       services:
       - name: PrivateTools
@@ -5861,7 +5861,7 @@ categories:
         github: sikandardevbusiness/privatetools
         openSource: true
         description: |
-          Suite of 60+ local browser utilities. Features PDF redaction, 
-          background removal, audio transcription, HAR sanitization, VCF to 
-          CSV, SQL on CSV/JSON, and exact-size media compression. Zero server 
+          Suite of 60+ local browser utilities. Features PDF redaction,
+          background removal, audio transcription, HAR sanitization, VCF to
+          CSV, SQL on CSV/JSON, and exact-size media compression. Zero server
           uploads, but requires a modern browser for WebAssembly features.
