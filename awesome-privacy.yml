@@ -3184,6 +3184,16 @@ categories:
           tags, multi-user, OIDC login and a REST API. Docker-based (PHP + SQLite); the
           only outbound call is a daily update check. No mobile apps (PWA), no end-to-end
           encryption.
+      - name: AutoDoc
+        url: https://getautodoc.com
+        github: DuetDisplay/AutoDoc
+        followWith: Windows, Mac OS
+        openSource: true
+        icon: https://raw.githubusercontent.com/DuetDisplay/AutoDoc/main/docs/assets/logo.png
+        description: |
+          Meeting notes app that records your screen and audio and runs transcription
+          and notes on your own computer. Free and open source. Drawbacks: Apple Silicon
+          only on Mac, 16 GB of RAM recommended, and Ask AI needs a GPU.
 
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
