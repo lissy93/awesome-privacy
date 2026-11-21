@@ -5689,6 +5689,16 @@ categories:
         github: darktable-org/darktable
         icon: https://i.ibb.co/09PfHbG/darktable.png
         openSource: true
+      - name: Pixel & Toon Studio
+        followWith: Web, Windows, Mac OS, Linux
+        description: |
+          Open-source, 100% client-side photo editor and privacy studio. 
+          Runs 6 local ONNX models in-browser for stylization, super-resolution, AI face-contour mosaic, and EXIF/GPS stripping with zero uploads.
+        url: https://pixelstudio-g.vercel.app/
+        github: feihanwen/pixel-toon-studio
+        icon: https://raw.githubusercontent.com/feihanwen/pixel-toon-studio/main/desktop/assets/icon.png
+        openSource: true
+
 
     - name: Video Editors
       alternativeTo: ['adobe premiere pro', 'final cut pro', 'davinci resolve', 'imovie', 'sony vegas pro']
