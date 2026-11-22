@@ -3166,6 +3166,7 @@ categories:
         url: https://app.vnote.fun/en_us/
         github: vnotex/vnote
         followWith: Windows, MacOS, Linux
+        
         openSource: true
         description: |
           A free, open-source note-taking application built with Qt, focused on providing a pleasant Markdown
@@ -3185,6 +3186,13 @@ categories:
           only outbound call is a daily update check. No mobile apps (PWA), no end-to-end
           encryption.
 
+    - name: Outsmart Notes
+          url: https://outsmartnotes.com
+                followWith: Web, PWA
+                      openSource: false
+                            description: |
+                                    Fast, private online notepad that stores notes locally, works offline, and offers wiki links and reminders.
+                                    
       notableMentions: |
         If you are already tied into Evernote, One Note etc, then [SafeRoom](https://www.getsaferoom.com)
         is a utility that encrypts your entire notebook, before it is uploaded to the cloud.
