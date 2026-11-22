@@ -730,6 +730,7 @@ provide shared network connections and cache data to speed up common requests.
 
 - **[<img src='https://avatars.githubusercontent.com/u/3006190' width='14' alt='' /> ShadowSocks](https://shadowsocks.org)** - Secure socks5 proxy, designed to protect your Internet traffic. Open source, superfast, cross-platform and easy to deploy, see [GitHub repo](https://github.com/shadowsocks). 
 - **[<img src='https://www.privoxy.org/images/privoxy.png' width='14' alt='' /> Privoxy](https://www.privoxy.org)** - Non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk. 
+- **[<img src='https://ashburnproxies.com/images/ashburnproxies.png' width='14' alt='' />Ashburn Proxies](https://ashburnproxies.com/)** - High-performance residential and ISP proxy provider offering residential, static ISP, dynamic ISP, and shared ISP proxies. Features include IP rotation, sticky sessions, dedicated proxy options, and flexible proxy solutions for web scraping, data collection, and online automation.
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
