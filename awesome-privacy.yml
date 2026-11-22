@@ -2310,6 +2310,15 @@ categories:
           Non-caching web proxy with advanced filtering capabilities for enhancing privacy,
           modifying web page data and HTTP headers, controlling access, and removing ads and
           other obnoxious Internet junk.
+      
+     - name: Ashburn Proxies
+       url: https://ashburnproxies.com/
+       icon: https://ashburnproxies.com/favicon.ico
+       description: |
+         Proxy service provider offering residential, static ISP, dynamic ISP, and shared ISP proxies
+         for web scraping, data collection, website access, and online automation. Offers flexible
+         proxy options, IP rotation, sticky sessions, and dedicated proxy solutions.
+
 
       notableMentions: |
         [V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building
