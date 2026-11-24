@@ -3853,6 +3853,16 @@ categories:
           and prepare your PDF files from within your browser. All processing
           happens locally on your device.
 
+      - name: Offline ID Card Watermark & Redact
+        url: https://mecsocse.github.io/dni-seguro-pdf/
+        github: Mecsocse/dni-seguro-pdf
+        openSource: true
+        description: |
+          Single-file MIT-licensed HTML5 Canvas tool to combine both sides of an
+          ID card or driver's license on A4 in grayscale, stamp a card-fitted diagonal
+          watermark, and irreversibly blackout or pixelate sensitive fields. Runs
+          100% offline in browser memory with zero network requests or dependencies.
+
   - name: Utilities
     sections:
     ##############################
