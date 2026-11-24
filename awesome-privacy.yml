@@ -3852,6 +3852,14 @@ categories:
           A self-hosted toolkit for simple and advanced operations to edit, sign
           and prepare your PDF files from within your browser. All processing
           happens locally on your device.
+      - name: PDF Sovereign
+        url: https://gmitch12967-crypto.github.io/
+        github: gmitch12967-crypto/gmitch12967-crypto.github.io
+        openSource: true
+        description: |
+          Zero-cloud, client-side browser PDF utility to merge, split, watermark,
+          and convert documents locally using WebAssembly. No files or document
+          contents ever leave your device or get sent to remote servers.
 
   - name: Utilities
     sections:
