@@ -5602,6 +5602,15 @@ categories:
         description: |
           Web-based file conversion utility, which runs locally on your device using WebAssembly.
           Supports 250+ formats across images, audio, documents, and video.
+      - name: LocalDrop
+        url: https://localdrop.tools
+        icon: https://localdrop.tools/favicon.svg
+        openSource: false
+        github: baraelyazid-oss/localdrop-privacy-manifest
+        description: |
+          Privacy-first 173-in-1 browser studio for PDFs, AI background and watermark removal,
+          image compression, FFmpeg media conversion, OCR, and EXIF scrubbing. Runs 100% locally
+          in browser RAM via WebAssembly and WebGPU with zero server uploads.
 
   - name: Creativity
     sections:
