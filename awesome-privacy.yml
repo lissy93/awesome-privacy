@@ -3856,6 +3856,7 @@ categories:
       - name: Offline ID Card Watermark & Redact
         url: https://mecsocse.github.io/dni-seguro-pdf/
         github: Mecsocse/dni-seguro-pdf
+        icon: https://getminitools.com/favicon.svg
         openSource: true
         description: |
           Single-file MIT-licensed HTML5 Canvas tool to combine both sides of an
