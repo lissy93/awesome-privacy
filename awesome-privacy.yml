@@ -4019,7 +4019,7 @@ categories:
         followWith: Web
         description: |
           Encrypts, decrypts, signs and verifies PGP text and makes key pairs in the browser.
-          No ads; works offline after the first visit. Builds are signed, but must be checked by hand.
+          No ads; works offline and can be self-hosted. Builds are signed, but must be checked by hand.
           No keyring or file encryption; private keys are safer in GnuPG.
 
       wordOfWarning: >
