@@ -1996,6 +1996,16 @@ categories:
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
 
+        - name: PDFCraft Studio
+          url: https://pdf-craft-vert.vercel.app/
+          github: Vishnu-cod/pdf-craft
+          icon: https://pdf-craft-vert.vercel.app/icon.png
+          description: |
+            Open-source client-side PDF toolkit built with WebAssembly, React, and TypeScript.
+            Compress PDFs strictly under target KB limits, mask Aadhaar/PAN IDs irreversibly,
+            strip hidden XMP metadata, and e-sign documents offline in browser memory with zero
+            server uploads.
+
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
