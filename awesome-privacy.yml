@@ -5689,6 +5689,16 @@ categories:
         github: darktable-org/darktable
         icon: https://i.ibb.co/09PfHbG/darktable.png
         openSource: true
+      - name: Dopic
+        followWith: Web
+        description: |
+          A free, privacy-first browser-based photo studio with 36+ local tools including
+          passport & visa photo maker for 114+ countries, image compressor, WebP/PNG/JPG
+          converter, crop & resize, and EXIF metadata cleaner. Core edits run 100% locally
+          in your browser with no account required.
+        url: https://dopic.app
+        icon: https://dopic.app/icon-192.png
+        openSource: false
 
     - name: Video Editors
       alternativeTo: ['adobe premiere pro', 'final cut pro', 'davinci resolve', 'imovie', 'sony vegas pro']
