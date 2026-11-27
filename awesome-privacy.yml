@@ -1995,6 +1995,11 @@ categories:
           description: |
             A tool from Netcraft, for analysing what any given website is running, where it's located and information about its
             host, registrar, IP and SSL certificates.
+        - name: FreeAppsHub
+          url: https://free-apps-hub.pages.dev/
+          icon: https://free-apps-hub.pages.dev/assets/icon-512.png
+          description: |
+            Free in-browser tools (PDF, images, QR, calculators) that run fully client-side — files never leave your browser, no signup, no tracking.          
 
       wordOfWarning: >
         Browsers are inherently insecure, be careful when uploading, or entering personal details.
