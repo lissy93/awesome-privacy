@@ -4777,6 +4777,17 @@ categories:
           with your name, email and commit metadata stripped, optionally over Tor. Anonymity
           isn't perfect, and the hosted service has had abuse-related downtime.
 
+      - name: VibeShield
+        url: https://shipbastion.com/
+        github: zColdWater/vibeshield-cli
+        icon: https://shipbastion.com/favicon.svg
+        openSource: true
+        description: |
+          Read-only, zero-signup pre-launch web security auditor and MIT CLI for
+          checking leaked client JS secrets, Mozilla Observatory security headers,
+          TLS 1.3, exposed .env/.git files, and Supabase/Firebase read permissions.
+          Includes 100% browser-side HTTP Security Headers, Supabase RLS SQL, and
+          Next.js Nonce CSP generators that keep all configuration inputs local.
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
