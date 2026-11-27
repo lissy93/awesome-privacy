@@ -4783,11 +4783,9 @@ categories:
         icon: https://shipbastion.com/favicon.svg
         openSource: true
         description: |
-          Read-only, zero-signup pre-launch web security auditor and MIT CLI for
-          checking leaked client JS secrets, Mozilla Observatory security headers,
-          TLS 1.3, exposed .env/.git files, and Supabase/Firebase read permissions.
-          Includes 100% browser-side HTTP Security Headers, Supabase RLS SQL, and
-          Next.js Nonce CSP generators that keep all configuration inputs local.
+          Read-only, zero-signup web security auditor and MIT CLI for checking
+          leaked client JS secrets, HTTP security headers, TLS 1.3, and exposed
+          .env/.git files, plus local browser-side CSP, RLS, and header generators.
   - name: Smart Home & IoT
     sections:
     - name: Voice Assistants
