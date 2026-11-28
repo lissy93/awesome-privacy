@@ -3852,6 +3852,14 @@ categories:
           A self-hosted toolkit for simple and advanced operations to edit, sign
           and prepare your PDF files from within your browser. All processing
           happens locally on your device.
+      - name: Liora PDF Tools
+        url: https://lioratools.com
+        icon: https://www.lioratools.com/apple-touch-icon.png
+        openSource: false
+        description: |
+          Client-side browser PDF toolkit to merge, compress, and convert JPG or Word
+          files locally in browser RAM without server uploads or accounts. Note: source
+          code is closed-source.
 
   - name: Utilities
     sections:
